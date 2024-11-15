@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5384079717170841905}
   - component: {fileID: 6543622589585941831}
   - component: {fileID: 6264558711646135835}
+  - component: {fileID: 480854549840784804}
   m_Layer: 0
   m_Name: TempCharacter
   m_TagString: Untagged
@@ -59,7 +60,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4b8ee65c2b7867e43ba235e501eb103d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,7 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: -4840457650542365514, guid: a626d7f399b038a42aac66f897a875e6, type: 3}
-  moveSpeed: 4
+  moveSpeed: 5
 --- !u!114 &5384079717170841905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,9 +220,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b093a967a8053de4fb665d2ce302a006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _restRate: 0
-  _healthIncreaseRate: 0
-  _movementSpeed: 0
+  _restRate: 5
+  _healthIncreaseRate: 0.01
+  _movementSpeed: 1
 --- !u!114 &6543622589585941831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,8 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 784628d4173b31f4a80306eebd09e3b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _restDropRate: 0
-  _movementSpeed: 0
+  _restDropRate: 2
+  _movementSpeed: 5
 --- !u!114 &6264558711646135835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,3 +250,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 0b065e9394ab56f4bbbaeebb11a5c172, type: 2}
+  vp: {fileID: 11400000, guid: cc3f35b2b62f0824daa0ad919e87bb82, type: 2}
+--- !u!114 &480854549840784804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4464643378385167030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5e9bd9523e2e745ab0e9b92fe07bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: {fileID: 1687924884753130201, guid: a626d7f399b038a42aac66f897a875e6, type: 3}
+  attack: {fileID: 2408252096428808562, guid: a626d7f399b038a42aac66f897a875e6, type: 3}
+  switchRestState: {fileID: -2266566014761434612, guid: a626d7f399b038a42aac66f897a875e6, type: 3}
