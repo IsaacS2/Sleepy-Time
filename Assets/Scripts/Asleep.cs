@@ -7,13 +7,16 @@ public class Asleep : MonoBehaviour
     [SerializeField] private float _restRate, _healthIncreaseRate, _movementSpeed;
 
     private PlayerStats _player;
+    private Movement movementScript;
 
-    void Start()
+    private void Start()
     {
         _player = GetComponent<PlayerStats>();
+        movementScript = GetComponent<Movement>();
+    }
 
-        Movement movementScript = GetComponent<Movement>();
-
+    void OnEnable()
+    {
         if (movementScript)
         {
             movementScript.ChangeSpeed(_movementSpeed);

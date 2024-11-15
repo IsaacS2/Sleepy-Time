@@ -30,6 +30,10 @@ public class GameplayInputManager : MonoBehaviour
 
     private void Start()
     {
+        _asleep = GetComponent<Asleep>();
+        _awake = GetComponent<Awake>();
+        _playerStats = GetComponent<PlayerStats>();
+
         _awake.enabled = true;
         _asleep.enabled = false;
     }
@@ -59,6 +63,15 @@ public class GameplayInputManager : MonoBehaviour
         {
             _asleep.enabled = !_asleep.enabled;
             _awake.enabled = !_awake.enabled;
+        }
+
+        if (_asleep.enabled)
+        {
+            GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+        if (_awake.enabled)
+        {
+            GetComponent<SpriteRenderer>().color = Color.green;
         }
     }
 }
