@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,8 @@ public class GameplayInputManager : MonoBehaviour
     private Asleep _asleep;
     private Awake _awake;
     private PlayerStats _playerStats;
+
+    public static Action OnAttack;
 
     private void OnEnable()
     {
@@ -54,7 +57,7 @@ public class GameplayInputManager : MonoBehaviour
 
     private void Attack(InputAction.CallbackContext obj)
     {
-        if (_awake.enabled) { Debug.Log("Attack"); }
+        if (_awake.enabled) { OnAttack(); }
     }
 
     private void RestOrSleep(InputAction.CallbackContext obj)

@@ -1,26 +1,32 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Awake : MonoBehaviour
 {
     [SerializeField] private float _restDropRate, _movementSpeed;
 
     private PlayerStats _player;
-    private Movement movementScript;
+    private Movement _movementScript;
+
+    public static Action<bool> OnAwake;
 
     private void Start()
     {
         _player = GetComponent<PlayerStats>();
-        movementScript = GetComponent<Movement>();
+        _movementScript = GetComponent<Movement>();
     }
 
     void OnEnable()
     {
-        if (movementScript)
+        if (_movementScript)
         {
-            movementScript.ChangeSpeed(_movementSpeed);
+            _movementScript.ChangeSpeed(_movementSpeed);
         }
+
+        OnAwake(true);
     }
 
     void Update()

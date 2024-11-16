@@ -1,26 +1,31 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Asleep : MonoBehaviour
 {
     [SerializeField] private float _restRate, _healthIncreaseRate, _movementSpeed;
 
     private PlayerStats _player;
-    private Movement movementScript;
+    private Movement _movementScript;
+    public static Action<bool> OnAsleep;
 
     private void Start()
     {
         _player = GetComponent<PlayerStats>();
-        movementScript = GetComponent<Movement>();
+        _movementScript = GetComponent<Movement>();
     }
 
     void OnEnable()
     {
-        if (movementScript)
+        if (_movementScript)
         {
-            movementScript.ChangeSpeed(_movementSpeed);
+            _movementScript.ChangeSpeed(_movementSpeed);
         }
+
+        OnAsleep(false);
     }
 
     void Update()
