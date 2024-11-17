@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 7b8dbbb29337174490f7828906f58f2f
     GuidInternal: 
-    m_lastTime: -8584697958647743781
+    m_lastTime: -8584697818577773608
     List:
     - name: AMB
       guid: 6bdae8a09843fd4899c87a39e2a2d06a
@@ -122,8 +122,25 @@ MonoBehaviour:
     ParentPath: Events/AMB
     guid: ca9055d0ea1b23499130fa3737a8b12c
     GuidInternal: 
-    m_lastTime: -8584697958647694361
+    m_lastTime: -8584697818945610848
     List:
+    - name: Play_AMB
+      guid: be9627fabf4ae342b667c624cc2f6c30
+      id: 2959533290
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB
+        ObjectType: 12
+        guid: ca9055d0ea1b23499130fa3737a8b12c
+      - ElementName: Play_AMB
+        ObjectType: 3
+        guid: be9627fabf4ae342b667c624cc2f6c30
+      Path: Events/AMB/Play_AMB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_AMB_Sleep_Test
       guid: 3a83e94827fa144baf611d163441b4eb
       id: 768061573
@@ -141,6 +158,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 28.8
       minDuration: 28.8
+    - name: Play_Sleep_AMB
+      guid: 1fa2dc02d4130d48a0583731fd6935dd
+      id: 1662129422
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB
+        ObjectType: 12
+        guid: ca9055d0ea1b23499130fa3737a8b12c
+      - ElementName: Play_Sleep_AMB
+        ObjectType: 3
+        guid: 1fa2dc02d4130d48a0583731fd6935dd
+      Path: Events/AMB/Play_Sleep_AMB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TC_Pad
+      guid: 64ada6b23f646e48b7ac2a9c55473fbf
+      id: 4065082119
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB
+        ObjectType: 12
+        guid: ca9055d0ea1b23499130fa3737a8b12c
+      - ElementName: Play_TC_Pad
+        ObjectType: 3
+        guid: 64ada6b23f646e48b7ac2a9c55473fbf
+      Path: Events/AMB/Play_TC_Pad
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -152,7 +203,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584697958647794653
+    m_lastTime: -8584697828072134802
     List: []
   - PhysicalPath: Events/MUS.wwu
     PathAndIcons:
@@ -192,8 +243,22 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 17c0e76606f39d43b310b2b3ce61ddf2
     GuidInternal: 
-    m_lastTime: -8584697983758150521
-    List: []
+    m_lastTime: -8584697842453332744
+    List:
+    - name: Drowsiness
+      guid: 595ca2feedb8b645836fc03164666517
+      id: 2455975320
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 17c0e76606f39d43b310b2b3ce61ddf2
+      - ElementName: Drowsiness
+        ObjectType: 13
+        guid: 595ca2feedb8b645836fc03164666517
+      Path: Game Parameters/Default Work Unit/Drowsiness
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -237,8 +302,8 @@ MonoBehaviour:
     m_lastTime: -8584697983758050912
     List: []
   ExpandedFileSystemItemIds: 03000000060000000b0000000c0000000d000000
-  ExpandedWaapiItemIds: 0200000003000000060000000b0000000c0000000d000000
+  ExpandedWaapiItemIds: 0300000006000000070000000b0000000c0000000d0000001b0000001c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

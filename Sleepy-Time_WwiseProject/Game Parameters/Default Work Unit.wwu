@@ -3,7 +3,12 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}"/>
+				<GameParameter Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

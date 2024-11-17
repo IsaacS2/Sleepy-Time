@@ -160,16 +160,16 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>92.0675576923077</RightEdgePos>
+												<RightEdgePos>0.920675576923077</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="AMB_Sleep_Low_Static_Glitch" ID="{BA6CB1EA-72A0-47D5-8719-E41E3B1C794B}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>11.6348653846154</LeftEdgePos>
+												<LeftEdgePos>0.116348653846154</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -254,16 +254,16 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>84.8560192307692</RightEdgePos>
+												<RightEdgePos>0.848560192307692</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="AMB_Sleep_Distant_Clangs" ID="{D11845AF-C38E-4256-B559-92ACE8CD556F}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>13.0771730769231</LeftEdgePos>
+												<LeftEdgePos>0.130771730769231</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -336,12 +336,12 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>1260</Value>
+												<Value>100</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -402,8 +402,8 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>-1200</YPos>
+																				<XPos>1</XPos>
+																				<YPos>-100</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -422,25 +422,25 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>44.4714038461538</RightEdgePos>
+												<RightEdgePos>0.444714038461538</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="AMB_Island_Low_Cries" ID="{65816D4A-34A4-4708-A2E8-FA2B648D5DFC}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>8.02909615384616</LeftEdgePos>
+												<LeftEdgePos>0.0802909615384616</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>90.7694807692308</RightEdgePos>
+												<RightEdgePos>0.907694807692308</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="AMB_Sleep_Distant_Jungle" ID="{34D4329C-B888-4A9E-917D-B7DDFB5CA7DE}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>53.9426826923077</LeftEdgePos>
+												<LeftEdgePos>0.539426826923077</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -504,8 +504,8 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>-1200</YPos>
+																				<XPos>1</XPos>
+																				<YPos>-303</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -564,16 +564,16 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>85.8175576923077</RightEdgePos>
+												<RightEdgePos>0.858175576923077</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="AMB_Sleep_TC_Sub" ID="{26489DDC-DDC5-4971-80DB-EB673723ACA1}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>10.1925576923077</LeftEdgePos>
+												<LeftEdgePos>0.101925576923077</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -658,16 +658,16 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>85.0964038461538</RightEdgePos>
+												<RightEdgePos>0.850964038461538</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="AMB_Sleep_Distant_Skittering" ID="{6B6C10E1-CE70-404B-9F98-CF67BAD16D64}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>14.5194807692308</LeftEdgePos>
+												<LeftEdgePos>0.145194807692308</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -757,16 +757,16 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>93.0290961538462</RightEdgePos>
+												<RightEdgePos>0.930290961538462</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="AMB_Sleep_Zebra_Pad" ID="{4172C03F-1737-443F-9A2C-17205357B4DE}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>13.0771730769231</LeftEdgePos>
+												<LeftEdgePos>0.130771730769231</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>

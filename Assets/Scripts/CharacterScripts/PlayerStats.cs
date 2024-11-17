@@ -38,13 +38,15 @@ public class PlayerStats : CharacterStats
         Debug.Log("Health: " + _health);
     }
 
-    public void IncreaseRestStat(float increaseAmount) 
+    public void IncreaseRestStat(float increaseAmount)
     {
         _restStat = Mathf.Clamp(_restStat + increaseAmount, 0, _restMaxStat);
 
         if (_vignette)
         {
             _vignette.intensity.value = 1 - (_restStat / _restMaxStat);
+            // trying to implement the rtpc - tj
+            AkSoundEngine.SetRTPCValue("Drowsiness", _vignette.intensity.value);
         }
     }
 
