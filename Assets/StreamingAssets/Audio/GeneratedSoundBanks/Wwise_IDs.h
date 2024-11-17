@@ -13,8 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB = 2959533290U;
         static const AkUniqueID PLAY_AMB_SLEEP_TEST = 768061573U;
+        static const AkUniqueID PLAY_SLEEP_AMB = 1662129422U;
+        static const AkUniqueID PLAY_TC_PAD = 4065082119U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID DROWSINESS = 2455975320U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

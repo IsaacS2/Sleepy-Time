@@ -5,8 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="AMB" ID="{A0E8DA6B-4398-48FD-99C8-7A39E2A2D06A}">
 					<ObjectInclusionList>
-						<ObjectRef Name="AMB" ID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" WorkUnitID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB" ID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}" WorkUnitID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB" ID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{1964E9AC-8E66-B01E-91A4-AE0839EAC3E9}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{9177DFB4-C2DF-E72C-D3FD-8D5AD4C5A071}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 		</SoundBank>
@@ -17,24 +17,112 @@
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{757297B9-16CD-9CCE-3EB3-549C2FA268A9}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{D179D451-2863-9BD1-7BBD-874022216377}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
+				<File Id="81725727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Island_Wind.wav</ShortName>
+					<CachePath>SFX/AMB_Island_Wind_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="128107809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Sleep_Distant_Jungle.wav</ShortName>
+					<CachePath>SFX/AMB_Sleep_Distant_Jungle_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="292223646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Sleep_Zebra_Pad.wav</ShortName>
+					<CachePath>SFX/AMB_Sleep_Zebra_Pad_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="305521094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Island_TC_Glass_Pad.wav</ShortName>
+					<CachePath>SFX/AMB_Island_TC_Glass_Pad_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="321254246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Sleep_Distant_Clangs.wav</ShortName>
+					<CachePath>SFX/AMB_Sleep_Distant_Clangs_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="367454663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Island_High_Cries.wav</ShortName>
+					<CachePath>SFX/AMB_Island_High_Cries_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="371143502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Sleep_Distant_Skittering.wav</ShortName>
+					<CachePath>SFX/AMB_Sleep_Distant_Skittering_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="386134812" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Island_Low_Cries.wav</ShortName>
+					<CachePath>SFX/AMB_Island_Low_Cries_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="389628936" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Sleep_Low_Static_Glitch.wav</ShortName>
+					<CachePath>SFX/AMB_Sleep_Low_Static_Glitch_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="428379815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Island_Water_Layer.wav</ShortName>
+					<CachePath>SFX/AMB_Island_Water_Layer_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="562086378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Island_Insects.wav</ShortName>
+					<CachePath>SFX/AMB_Island_Insects_3B7822A8.wem</CachePath>
+				</File>
 				<File Id="636364065" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_AMB_Sleep_Test.wav</ShortName>
-					<CachePath>SFX/AMB_AMB_Sleep_Test_818F3B66.wem</CachePath>
+					<CachePath>SFX/AMB_AMB_Sleep_Test_B032A71E.wem</CachePath>
+				</File>
+				<File Id="817228792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Sleep_TC_Sub.wav</ShortName>
+					<CachePath>SFX/AMB_Sleep_TC_Sub_3B7822A8.wem</CachePath>
+				</File>
+				<File Id="1032124457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Island_Zebra_Pad_Layer.wav</ShortName>
+					<CachePath>SFX/AMB_Island_Zebra_Pad_Layer_3B7822A8.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2959533290" Name="Play_AMB" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="81725727"/>
+						<MediaRef Id="128107809"/>
+						<MediaRef Id="292223646"/>
+						<MediaRef Id="305521094"/>
+						<MediaRef Id="321254246"/>
+						<MediaRef Id="367454663"/>
+						<MediaRef Id="371143502"/>
+						<MediaRef Id="386134812"/>
+						<MediaRef Id="389628936"/>
+						<MediaRef Id="428379815"/>
+						<MediaRef Id="562086378"/>
+						<MediaRef Id="817228792"/>
+						<MediaRef Id="1032124457"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="768061573" Name="Play_AMB_Sleep_Test" DurationType="OneShot" DurationMin="28.8" DurationMax="28.8">
 					<MediaRefs>
 						<MediaRef Id="636364065"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1662129422" Name="Play_Sleep_AMB" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="128107809"/>
+						<MediaRef Id="292223646"/>
+						<MediaRef Id="321254246"/>
+						<MediaRef Id="371143502"/>
+						<MediaRef Id="389628936"/>
+						<MediaRef Id="817228792"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4065082119" Name="Play_TC_Pad" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="305521094"/>
+						<MediaRef Id="817228792"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="2455975320" Name="Drowsiness"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A16EB107-DB62-D765-32FA-522C2DAF5DA5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -46,7 +134,10 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2455975320" Name="Drowsiness"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F41C176A-8F2C-E865-16F5-3419A1A505D9}</FileHash>
+	<FileHash>{93F95DAA-57ED-F54B-69D4-F29046BB6CDA}</FileHash>
 </SoundBanksInfo>

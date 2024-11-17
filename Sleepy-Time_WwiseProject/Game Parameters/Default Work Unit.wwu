@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
