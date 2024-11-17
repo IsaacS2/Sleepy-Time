@@ -25,7 +25,7 @@ public class CharacterStats : MonoBehaviour
         _sprRend = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (_invincibilityTimer < _maxInvincibilityTime)
         {
@@ -51,8 +51,14 @@ public class CharacterStats : MonoBehaviour
         if (!_invincible)
         {
             _health -= damage;
-            _invincibilityTimer = 0;
-            _invincible = true;
+
+            if (damage > 0)
+            {
+                _invincibilityTimer = 0;
+                _invincible = true;
+            }
+            
+            Debug.Log("Health: " + _health);
         }
 
         if (_health <= 0) _dead = true;
@@ -60,17 +66,22 @@ public class CharacterStats : MonoBehaviour
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        Weapon weapon = collision.GetComponent<Weapon>();
+        Weapon weapon = collision.gameObject.GetComponent<Weapon>();
 
         if (weapon)
         {
             CalculateDamage(weapon.GetDamage());
-            Debug.Log("Health: " + _health);
         }
     }
 
     public bool IsDead()
     {
         return _dead;
+    }
+
+
+    public float GetStrength()
+    {
+        return _strength;
     }
 }

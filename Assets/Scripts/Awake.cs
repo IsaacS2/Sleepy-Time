@@ -16,11 +16,12 @@ public class Awake : MonoBehaviour
     private void Start()
     {
         _player = GetComponent<PlayerStats>();
-        _movementScript = GetComponent<Movement>();
     }
 
     void OnEnable()
     {
+        if (_movementScript == null) _movementScript = GetComponent<Movement>();
+
         if (_movementScript)
         {
             _movementScript.ChangeSpeed(_movementSpeed);

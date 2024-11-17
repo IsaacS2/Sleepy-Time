@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FirstEnemyCharacter
   m_EditorClassIdentifier: 
   invincible: 0
-  strength: 0
+  strength: 10
   health: 50
