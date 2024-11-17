@@ -19,6 +19,22 @@ namespace AK
         static const AkUniqueID PLAY_TC_PAD = 4065082119U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace SLEEPING
+        {
+            static const AkUniqueID GROUP = 1313188810U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ASLEEP = 3778954319U;
+                static const AkUniqueID AWAKE = 1151176110U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace SLEEPING
+
+    } // namespace STATES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DROWSINESS = 2455975320U;

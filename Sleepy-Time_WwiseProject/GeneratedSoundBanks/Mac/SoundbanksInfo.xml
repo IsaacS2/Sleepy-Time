@@ -17,7 +17,7 @@
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AC5D00FF-0327-0442-D9EB-9734B88ADE10}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AD7A5AC5-EE51-C792-9958-D5CD105374A3}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -81,7 +81,6 @@
 			<Events>
 				<Event Id="2959533290" Name="Play_AMB" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="81725727"/>
 						<MediaRef Id="128107809"/>
 						<MediaRef Id="292223646"/>
 						<MediaRef Id="305521094"/>
@@ -122,7 +121,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{16C8FBA4-9FBE-DD86-E75E-D09B2B558A92}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{8F7C0686-0627-D606-766F-CFB488D81FBA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -137,7 +136,16 @@
 			<GameParameters>
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1313188810" Name="Sleeping">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1151176110" Name="Awake"/>
+						<State Id="3778954319" Name="Asleep"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0EDD6016-96A2-9B9E-E3DF-979D0B60917E}</FileHash>
+	<FileHash>{F9474979-4501-236E-9B61-B6997BBE856B}</FileHash>
 </SoundBanksInfo>
