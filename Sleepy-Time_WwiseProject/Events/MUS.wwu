@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA1AF628-BD0F-40DB-BF95-7B3D949291AD}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="MUS" ID="{EA1AF628-BD0F-40DB-BF95-7B3D949291AD}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>
