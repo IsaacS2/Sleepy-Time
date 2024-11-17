@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7570ecabfad0849b88f0ccdebc080e4a, type: 3}
+  m_Name: F3A8F66A-00E4-4E15-B87E-4CD560E01394
+  m_EditorClassIdentifier: 
+  objectName: Sleeping
+  id: 1313188810
+  guid: F3A8F66A-00E4-4E15-B87E-4CD560E01394

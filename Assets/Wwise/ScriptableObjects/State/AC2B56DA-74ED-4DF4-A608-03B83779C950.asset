@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f6552a4a1c141788657e3ef27b9c47, type: 3}
+  m_Name: AC2B56DA-74ED-4DF4-A608-03B83779C950
+  m_EditorClassIdentifier: 
+  objectName: Asleep
+  id: 3778954319
+  guid: AC2B56DA-74ED-4DF4-A608-03B83779C950
+  WwiseStateGroupReference: {fileID: 11400000, guid: c8909e065366c4928bcdbb25475c1c60, type: 2}
