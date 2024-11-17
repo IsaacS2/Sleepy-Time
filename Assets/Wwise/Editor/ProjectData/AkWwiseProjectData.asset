@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 7b8dbbb29337174490f7828906f58f2f
     GuidInternal: 
-    m_lastTime: -8584697818577773608
+    m_lastTime: -8584697464420213596
     List:
     - name: AMB
       guid: 6bdae8a09843fd4899c87a39e2a2d06a
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events/AMB
     guid: ca9055d0ea1b23499130fa3737a8b12c
     GuidInternal: 
-    m_lastTime: -8584697818945610848
+    m_lastTime: -8584697464436489613
     List:
     - name: Play_AMB
       guid: be9627fabf4ae342b667c624cc2f6c30
@@ -243,7 +243,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 17c0e76606f39d43b310b2b3ce61ddf2
     GuidInternal: 
-    m_lastTime: -8584697790003546942
+    m_lastTime: -8584697464436484330
     List:
     - name: Drowsiness
       guid: 595ca2feedb8b645836fc03164666517
@@ -271,8 +271,74 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 09d8f54a9e1ec24d963432cbf72feb44
     GuidInternal: 
-    m_lastTime: -8584697983758062327
-    List: []
+    m_lastTime: -8584697464420208320
+    List:
+    - name: Sleeping
+      guid: 6af6a8f3e400154eb87e4cd560e01394
+      id: 1313188810
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 09d8f54a9e1ec24d963432cbf72feb44
+      - ElementName: Sleeping
+        ObjectType: 9
+        guid: 6af6a8f3e400154eb87e4cd560e01394
+      Path: States/Default Work Unit/Sleeping
+      values:
+      - name: Asleep
+        guid: da562baced74f44da60803b83779c950
+        id: 3778954319
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09d8f54a9e1ec24d963432cbf72feb44
+        - ElementName: Sleeping
+          ObjectType: 9
+          guid: 6af6a8f3e400154eb87e4cd560e01394
+        - ElementName: Asleep
+          ObjectType: 8
+          guid: da562baced74f44da60803b83779c950
+      - name: Awake
+        guid: 57120438a4ce5d4ca41e1f138b979433
+        id: 1151176110
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09d8f54a9e1ec24d963432cbf72feb44
+        - ElementName: Sleeping
+          ObjectType: 9
+          guid: 6af6a8f3e400154eb87e4cd560e01394
+        - ElementName: Awake
+          ObjectType: 8
+          guid: 57120438a4ce5d4ca41e1f138b979433
+      - name: None
+        guid: dcfea4d9e83f494190465858a9d4ccb5
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09d8f54a9e1ec24d963432cbf72feb44
+        - ElementName: Sleeping
+          ObjectType: 9
+          guid: 6af6a8f3e400154eb87e4cd560e01394
+        - ElementName: None
+          ObjectType: 8
+          guid: dcfea4d9e83f494190465858a9d4ccb5
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
