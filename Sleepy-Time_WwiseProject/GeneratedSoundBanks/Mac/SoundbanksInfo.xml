@@ -17,7 +17,7 @@
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{000F69C0-E6D9-C3DD-FEBF-A69FA0386A42}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{757297B9-16CD-9CCE-3EB3-549C2FA268A9}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -48,5 +48,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F7F20B46-C682-19DF-F4AE-5AB6E79D92F8}</FileHash>
+	<FileHash>{3AF88CDA-9D16-7885-BE9F-CBE94155EB66}</FileHash>
 </SoundBanksInfo>

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="AMB" ID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}" PersistMode="Standalone"/>
+		<WorkUnit Name="AMB" ID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_AMB_Sleep_Test" ID="{48E9833A-FA27-4B14-AF61-1D163441B4EB}">
+					<ChildrenList>
+						<Action Name="" ID="{1C98354E-AA92-4627-A6DC-CBC71D37641B}" ShortID="129925961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Sleep_Test" ID="{D1CF1456-5B5F-49BB-A98D-B9FFF39B678E}" WorkUnitID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

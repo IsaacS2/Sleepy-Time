@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	768061573	Play_AMB_Sleep_Test			\Default Work Unit\Play_AMB_Sleep_Test	
+	768061573	Play_AMB_Sleep_Test			\AMB\Play_AMB_Sleep_Test	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	636364065	AMB_Sleep_Test	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_AMB_Sleep_Test_818F3B66.wem		\Actor-Mixer Hierarchy\AMB\AMB_Sleep_Test		5529696

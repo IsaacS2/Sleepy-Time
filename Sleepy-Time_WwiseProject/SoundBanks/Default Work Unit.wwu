@@ -6,12 +6,14 @@
 				<SoundBank Name="AMB" ID="{A0E8DA6B-4398-48FD-99C8-7A39E2A2D06A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="AMB" ID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" WorkUnitID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB" ID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}" WorkUnitID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{8B113978-9033-45D2-ADE9-FFDA14D367F8}">
 					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{557E6DFF-EFF3-43C1-9C41-7060AA9E0D80}" WorkUnitID="{557E6DFF-EFF3-43C1-9C41-7060AA9E0D80}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX" ID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -19,6 +21,7 @@
 				</SoundBank>
 				<SoundBank Name="MUS" ID="{E89EEDC2-5AE0-4EEC-A104-9A1A11FFAA4D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="MUS" ID="{EA1AF628-BD0F-40DB-BF95-7B3D949291AD}" WorkUnitID="{EA1AF628-BD0F-40DB-BF95-7B3D949291AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
