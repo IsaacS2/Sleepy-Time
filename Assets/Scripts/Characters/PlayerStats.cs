@@ -19,6 +19,7 @@ public class PlayerStats : CharacterStats
     public static event Action<PlayerStats> OnLevelStart = (_playerStats) => { };
     public static event Action<Vector3> OnCheckpointContact = (_checkPointPos) => { };
     public static event Action<bool> OnDeath = (_deathBool) => { };
+    public static event Action OnEntityDeath = () => { };
 
     private void OnEnable()
     {
@@ -66,6 +67,14 @@ public class PlayerStats : CharacterStats
         Checkpoint checkpoint = collision.gameObject.GetComponent<Checkpoint>();
 
         if (checkpoint) OnCheckpointContact(collision.transform.position);
+
+        Entity entity = collision.gameObject.GetComponent<Entity>();
+
+        if (entity) 
+        {
+            OnEntityDeath();
+            CalculateDamage(_maxHealth * 2);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
