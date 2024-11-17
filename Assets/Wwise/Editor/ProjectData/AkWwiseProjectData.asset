@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 7b8dbbb29337174490f7828906f58f2f
     GuidInternal: 
-    m_lastTime: -8584697967721464426
+    m_lastTime: -8584697958647743781
     List:
     - name: AMB
       guid: 6bdae8a09843fd4899c87a39e2a2d06a
@@ -122,8 +122,25 @@ MonoBehaviour:
     ParentPath: Events/AMB
     guid: ca9055d0ea1b23499130fa3737a8b12c
     GuidInternal: 
-    m_lastTime: -8584697961929078307
-    List: []
+    m_lastTime: -8584697958647694361
+    List:
+    - name: Play_AMB_Sleep_Test
+      guid: 3a83e94827fa144baf611d163441b4eb
+      id: 768061573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB
+        ObjectType: 12
+        guid: ca9055d0ea1b23499130fa3737a8b12c
+      - ElementName: Play_AMB_Sleep_Test
+        ObjectType: 3
+        guid: 3a83e94827fa144baf611d163441b4eb
+      Path: Events/AMB/Play_AMB_Sleep_Test
+      maxAttenuation: 0
+      maxDuration: 28.8
+      minDuration: 28.8
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -135,25 +152,8 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584697967721517591
-    List:
-    - name: Play_AMB_Sleep_Test
-      guid: 3a83e94827fa144baf611d163441b4eb
-      id: 768061573
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 3cad9d4fa80834498a9d4e786e3b01ac
-      - ElementName: Play_AMB_Sleep_Test
-        ObjectType: 3
-        guid: 3a83e94827fa144baf611d163441b4eb
-      Path: Events/Default Work Unit/Play_AMB_Sleep_Test
-      maxAttenuation: 0
-      maxDuration: 28.8
-      minDuration: 28.8
+    m_lastTime: -8584697958647794653
+    List: []
   - PhysicalPath: Events/MUS.wwu
     PathAndIcons:
     - ElementName: Events
@@ -237,7 +237,7 @@ MonoBehaviour:
     m_lastTime: -8584697983758050912
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000b0000000c000000
+  ExpandedWaapiItemIds: 0200000003000000060000000b0000000c0000000d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
