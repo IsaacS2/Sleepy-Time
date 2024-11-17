@@ -70,7 +70,7 @@ public class PlayerStats : CharacterStats
 
         Entity entity = collision.gameObject.GetComponent<Entity>();
 
-        if (entity) 
+        if (entity)
         {
             OnEntityDeath();
             CalculateDamage(_maxHealth * 2);

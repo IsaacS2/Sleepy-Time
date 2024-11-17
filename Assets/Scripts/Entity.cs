@@ -10,17 +10,22 @@ public class Entity : MonoBehaviour
     private Transform _playerTransform;
     private Vector3 _vectorFromPlayer, _startDistance;
     private float _timePast;
+    private bool _stop = true;
 
     private void OnEnable()
     {
         PlayerStats.OnLevelStart += GetPlayer;
         PlayerStats.OnEntityDeath += JumpScare;
+        Asleep.OnAsleep += SetStop;
+        Awake.OnAwake += SetStop;
     }
 
     private void OnDisable()
     {
         PlayerStats.OnLevelStart -= GetPlayer;
         PlayerStats.OnEntityDeath -= JumpScare;
+        Asleep.OnAsleep -= SetStop;
+        Awake.OnAwake -= SetStop;
     }
 
     private void Start()
@@ -30,7 +35,9 @@ public class Entity : MonoBehaviour
 
     private void Update()
     {
-        _timePast += Time.deltaTime;
+        if (!_stop) {
+            _timePast += Time.deltaTime;
+        }
 
         transform.position = Vector3.Lerp(_playerTransform.position - _vectorFromPlayer, _playerTransform.position, _timePast / _maxArrivalTime);
     }
@@ -46,5 +53,10 @@ public class Entity : MonoBehaviour
     public void JumpScare()
     {
         Debug.Log("Jumpscare");
+    }
+
+    public void SetStop(bool _stopEntity)
+    {
+        _stop = _stopEntity;
     }
 }
