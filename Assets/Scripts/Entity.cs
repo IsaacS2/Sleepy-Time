@@ -36,6 +36,9 @@ public class Entity : MonoBehaviour
     private void Update()
     {
         if (!_stop) {
+            //
+            // Entity moving
+            //
             _timePast += Time.deltaTime;
         }
 
@@ -52,11 +55,20 @@ public class Entity : MonoBehaviour
 
     public void JumpScare()
     {
+        //
+        // Entity attacks player
+        //
+
+        // TODO: Add 'entity killing the player' sound effect
+
         Debug.Log("Jumpscare");
     }
 
     public void SetStop(bool _stopEntity)
     {
+        //
+        // Entity stops or stars moving towards player, depending on the boolean value
+        //
         _stop = _stopEntity;
     }
 }

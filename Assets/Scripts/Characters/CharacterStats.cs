@@ -28,6 +28,9 @@ public class CharacterStats : MonoBehaviour
 
     protected virtual void Update()
     {
+        //
+        // Character is still fickering after being hit and taking damage
+        //
         if (_invincibilityTimer < _maxInvincibilityTime)
         {
             _flickerTimer += _invincibilityTimer += Time.deltaTime;
@@ -53,8 +56,14 @@ public class CharacterStats : MonoBehaviour
         {
             _health = Mathf.Min(_health - damage, _maxHealth);
 
+            //
+            // Character is losing health
+            //
             if (damage > 0)
             {
+                //
+                // Give character invincibility frames
+                //
                 _invincibilityTimer = 0;
                 _invincible = true;
             }
@@ -62,6 +71,9 @@ public class CharacterStats : MonoBehaviour
             Debug.Log("Health: " + _health);
         }
 
+        //
+        // Character is dying
+        //
         if (_health <= 0) _dead = true;
     }
 
@@ -69,8 +81,13 @@ public class CharacterStats : MonoBehaviour
     {
         Weapon weapon = collision.gameObject.GetComponent<Weapon>();
 
+        //
+        // Character is hurt, with damage based on the weapon's strength
+        //
         if (weapon)
         {
+            // TODO: Add blunt-weapon impact sound-effect
+
             CalculateDamage(weapon.GetDamage());
         }
     }

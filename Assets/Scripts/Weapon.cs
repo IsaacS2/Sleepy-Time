@@ -46,10 +46,16 @@ public class Weapon : MonoBehaviour
 
     private void Update()
     {
+        //
+        // Weapon has just been used and attacking endlag is in-place
+        //
         if (_attackTimer < _maxAttackTime)
         {
             _attackTimer += Time.deltaTime;
 
+            //
+            // Attack endlag is finished
+            //
             if (_attackTimer >= _maxAttackTime)
             {
                 _col.enabled = false;
@@ -66,6 +72,9 @@ public class Weapon : MonoBehaviour
 
             if (_weaponDirection != Vector2.zero)
             {
+                //
+                // Moving weapon
+                //
                 transform.up = _weaponDirection;
                 _weapon.MovePosition(_weaponDirection * _distanceToPlayer + _wielder.position);
             }
@@ -74,15 +83,26 @@ public class Weapon : MonoBehaviour
 
     public void ActivateWeapon(bool _active)
     {
+        //
+        // Sets the weapon's visibility based on boolean value _active; used for awake/asleep state-switching
+        //
         if (_spr) _spr.enabled = _active;
     }
 
     public void Attack()
     {
+        //
+        // Attack initiated
+        //
         if (_originalSprite && _spr.enabled && _col && !_col.enabled)
         {
+            //
+            // Attack is now-effect
+            //
             _col.enabled = true;
             _attackTimer = 0;
+
+            // TODO: Add swinging weapon sound-effect
 
             if (_attackSprite) _spr.sprite = _attackSprite;
         }

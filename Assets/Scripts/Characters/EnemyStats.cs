@@ -38,6 +38,10 @@ public class EnemyStats : CharacterStats
 
             if (distance >= _minDistanceToPlayer)
             {
+                //
+                // Regular enemy is moving towards player
+                //
+
                 Vector3 targetDirection = (_player.position - _rb.transform.position).normalized;
 
                 _rb.velocity = targetDirection * _movementSpeed * Time.fixedDeltaTime;
@@ -47,21 +51,37 @@ public class EnemyStats : CharacterStats
 
     public override void CalculateDamage(float damage)
     {
+        // TODO: Add enemy grunting/hurt sound effect
+
         base.CalculateDamage(damage);
 
-        if (_dead) Destroy(gameObject);
+        if (_dead)
+        {
+            // TODO: add enemy dying sound effect
+            Destroy(gameObject);
+        }
     }
 
     public void SetTarget(PlayerStats playerStats)
     {
+        //
+        // Regular enemy is saving player's transform for following
+        //
         GameObject _playerObj = playerStats.gameObject;
 
         if (_playerObj.GetComponent<Rigidbody2D>()) { _player = _playerObj.GetComponent<Rigidbody2D>().transform; }
         else _player = _playerObj.transform;
+
+        // TODO: Start playing enemy walking sound-effect
     }
 
     public void ReleaseTarget()
     {
+        //
+        // Regular enemy is releasing player's transform to stop following
+        //
         _player = null;
+
+        // TODO: Stop playing enemy walking sound-effect
     }
 }

@@ -21,6 +21,9 @@ public class Asleep : MonoBehaviour
 
     void OnEnable()
     {
+        // TODO: Add bell chimes for player as they're starting to sleep
+        // TODO: Start snoring sound-effect
+
         // Set state to asleep
         AkSoundEngine.SetState("Sleeping", "Asleep");
         // End - TJ
@@ -35,6 +38,11 @@ public class Asleep : MonoBehaviour
         }
 
         OnAsleep(false);
+    }
+
+    private void OnDisable()
+    {
+        // TODO: Stop snoring sound-effect (may not be necessary if it's done automatically)
     }
 
     void Update()

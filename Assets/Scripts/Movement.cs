@@ -24,6 +24,18 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //
+        // Player is moving if moveDirection is not Vector2.zero
+        //
+        if (moveDirection != Vector2.zero)
+        {
+            // TODO: start player-walking sound effect here if it isn't already playing
+        }
+        else
+        {
+            // TODO: stop player-walking sound effect here
+        }
+
         _rb.velocity = moveDirection * moveSpeed;
     }
 

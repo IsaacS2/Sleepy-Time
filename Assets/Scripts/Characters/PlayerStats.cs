@@ -41,12 +41,21 @@ public class PlayerStats : CharacterStats
     {
         base.Update();
 
+        //
+        // player stops flickering after being hit
+        //
         if (_sprRend && _sprRend.color == Color.red && !_invincible) _sprRend.color = Color.white;
 
+        //
+        // player is dying (death animations may be played in the meantime)
+        //
         if (_deathTimer < _maxDeathTime)
         {
             _deathTimer += Time.deltaTime;
 
+            //
+            // player has died and the scene will now reload
+            //
             if (_deathTimer >= _maxDeathTime)
             {
                 OnDeath(true);
@@ -59,17 +68,31 @@ public class PlayerStats : CharacterStats
     {
         base.CalculateDamage(damage);
 
-        if (_dead && _deathTimer >= _maxDeathTime) _deathTimer = 0;
+        //
+        // start the countdown for resetting the scene after the player's death
+        //
+        if (_dead && _deathTimer >= _maxDeathTime)
+        {
+            // TODO: Add player dying sound effect
+            
+            _deathTimer = 0;
+        }
     }
 
     protected override void OnTriggerEnter2D(Collider2D collision)
     {
         Checkpoint checkpoint = collision.gameObject.GetComponent<Checkpoint>();
 
+        //
+        // activate this checkpoint (save its position for later respawning
+        //
         if (checkpoint) OnCheckpointContact(collision.transform.position);
 
         Entity entity = collision.gameObject.GetComponent<Entity>();
 
+        //
+        // player will be killed by the entity
+        //
         if (entity)
         {
             OnEntityDeath();
@@ -81,8 +104,13 @@ public class PlayerStats : CharacterStats
     {
         EnemyStats enemy = collision.gameObject.GetComponent<EnemyStats>();
 
+        //
+        // player will take damage from the regular enemy
+        //
         if (enemy)
         {
+            // TODO: Add player's grunting/hurt sound effect
+
             CalculateDamage(enemy.GetStrength());
             if (_sprRend) _sprRend.color = Color.red;
         }
@@ -94,6 +122,9 @@ public class PlayerStats : CharacterStats
 
         if (_vignette)
         {
+            //
+            // reduce/increase vignette value based on player's drowiness
+            //
             _vignette.intensity.value = 1 - (_restStat / _restMaxStat);
 
             // 'Drowsiness' RTPC
@@ -106,6 +137,9 @@ public class PlayerStats : CharacterStats
     {
         Rigidbody2D _rb = GetComponent<Rigidbody2D>();
 
+        //
+        // move the player if directional keys or WASD keys are being pushed down
+        //
         if (_rb) _rb.MovePosition(_newPos);
         else transform.position = _newPos;
     }
