@@ -16,45 +16,80 @@
 				</Event>
 				<Event Name="Play_AMB" ID="{FA2796BE-4ABF-42E3-B667-C624CC2F6C30}">
 					<ChildrenList>
-						<Action Name="" ID="{0715D6CE-5D2B-419D-9F53-AE36DE76E96D}" ShortID="845160844">
+						<Action Name="" ID="{805F6330-EC45-4080-A442-3A6DC7666D95}" ShortID="593195118">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Critters" ID="{8EDA4ACD-A78A-408F-AC33-B19650ED9F98}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+									<ObjectRef Name="AMB_Sleep_Distant_Clangs" ID="{D11845AF-C38E-4256-B559-92ACE8CD556F}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{83C33D51-C16A-451E-8B52-65AF54FC5117}" ShortID="367764233">
+						<Action Name="" ID="{D99B44F5-336F-4E50-BA83-9D3DB3BA660D}" ShortID="34991010">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Jungle" ID="{F9AA0D84-0970-42AF-AA1C-A6F2BC7A9A51}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+									<ObjectRef Name="AMB_Sleep_Distant_Jungle" ID="{34D4329C-B888-4A9E-917D-B7DDFB5CA7DE}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{2D01D4B3-1EC7-495D-850D-D47B4EF4EF3D}" ShortID="537796792">
+						<Action Name="" ID="{C496BE2C-76D7-4D4E-9A4D-6B3EB0895127}" ShortID="266817883">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_TC_Pad" ID="{7817D587-04FD-4EF9-A5F7-745FB55E77E1}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+									<ObjectRef Name="AMB_Sleep_Distant_Skittering" ID="{6B6C10E1-CE70-404B-9F98-CF67BAD16D64}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{7BCCDD47-57DA-419A-B2E0-36BB5B3B8FEF}" ShortID="460484546">
+						<Action Name="" ID="{05FB9DFB-07C7-49A8-BEE2-B42327C0186F}" ShortID="199950864">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Water" ID="{B5266AD8-59DC-4AE7-9D48-ADAC629B65E9}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+									<ObjectRef Name="AMB_Sleep_Low_Static_Glitch" ID="{FE74604E-8247-4EA4-B544-3A468DF90488}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{BF9BF628-460A-4E77-A1C5-4253AFFFBC01}" ShortID="837477316">
+						<Action Name="" ID="{E252CE87-3221-4094-994E-E7322C561D5D}" ShortID="232067100">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Wind" ID="{83C3A03B-7B26-440C-A4BD-338E1DA2223C}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+									<ObjectRef Name="AMB_Sleep_TC_Sub" ID="{0A4D100B-C684-4C2D-B7C8-99C47BD467C1}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{3696CE55-7706-4702-AB47-B88CA786F0F8}" ShortID="847659027">
+						<Action Name="" ID="{5201F802-A904-4212-B1C4-F5CA5FB6F52A}" ShortID="243925953">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Zebra_Pad" ID="{9F8DC4D5-425B-4521-95A2-09A05F7D4EAD}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+									<ObjectRef Name="AMB_Sleep_Zebra_Pad" ID="{4172C03F-1737-443F-9A2C-17205357B4DE}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B8A6C77B-87F5-4CE9-BC2B-49357899F22E}" ShortID="56459205">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Awake_TC_Pad" ID="{7817D587-04FD-4EF9-A5F7-745FB55E77E1}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9CF83B4B-2F71-4EDB-8F69-1731ABB75CC9}" ShortID="687677726">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Awake_Jungle" ID="{F9AA0D84-0970-42AF-AA1C-A6F2BC7A9A51}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{430BA93C-4532-437F-81E7-D9A2FA076C82}" ShortID="796932940">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Awake_Insects" ID="{D810314C-711A-4346-85A4-B74FF5908950}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AB7C141A-5944-4AE8-A7B0-D92A72AB3A3B}" ShortID="323711554">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Awake_Water_Layer" ID="{CBD3B2D9-C196-4E05-95DE-F51353230911}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FE389F97-26E1-42B5-BD87-4CF8EFD7C01A}" ShortID="737357509">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Awake_Zebra_Pad_Layer" ID="{802C7CF0-25C3-4AD2-8794-98E500EA1A4C}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -111,7 +146,7 @@
 						<Action Name="" ID="{F54D5BF4-6BC8-4CCD-9053-2FECD25A68A2}" ShortID="182559270">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_TC_Pad" ID="{7817D587-04FD-4EF9-A5F7-745FB55E77E1}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+									<ObjectRef Name="AMB_Awake_TC_Pad" ID="{7817D587-04FD-4EF9-A5F7-745FB55E77E1}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

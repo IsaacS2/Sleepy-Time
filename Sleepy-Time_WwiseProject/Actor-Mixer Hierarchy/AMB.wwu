@@ -78,17 +78,1184 @@
 								<ActiveSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<BlendContainer Name="AMB_Wind" ID="{83C3A03B-7B26-440C-A4BD-338E1DA2223C}" ShortID="219440685">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="Awake" ID="{29D1B9B5-51DA-4645-8458-BC0157F6E5F1}" ShortID="993434775">
 							<ChildrenList>
-								<Sound Name="AMB_Island_Wind" ID="{A0214FDC-357D-4C62-94A0-B8AB71A382A2}" ShortID="359300949">
+								<Sound Name="AMB_Awake_Insects" ID="{D810314C-711A-4346-85A4-B74FF5908950}" ShortID="441646273">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{2FCCC2CF-C830-46A4-8515-83E2681DF6F5}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{BB668E74-59DE-4270-8BA7-68D9EDF92529}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{25CA037A-00E1-4D35-AA40-B4E3433AAF1E}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Island_Insects" ID="{C83D2163-B6CD-4B11-BDDD-4C254A1738BB}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Island_Insects.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="562086378"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{5152C748-1A1B-44CE-BD20-49DC01E5B587}" ShortID="522812480"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{EDA8EF93-2D78-4146-B83A-3B5789525D1B}" ShortID="293622100">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{8C6C1298-2982-4268-BE78-03D035E1C8EF}" ShortID="687036672">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{8ED06884-55CC-4A63-8D1E-857F416254A1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-928</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{52A3FD12-16B0-4CDD-B233-A0150A00524A}" ShortID="75986209">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{6CBC1ABA-B9DE-4B0F-B17F-645C49104D21}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-26</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Island_Insects" ID="{C83D2163-B6CD-4B11-BDDD-4C254A1738BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="AMB_Awake_Jungle" ID="{F9AA0D84-0970-42AF-AA1C-A6F2BC7A9A51}" ShortID="546572110">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{F51B9BC4-C888-40E4-867D-700EEB00B02B}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{B661031E-ECA2-4FCD-9C8F-2B010368A5D6}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{0AB8872B-6378-479C-86C3-3B5F35FF56D6}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Island_High_Cries" ID="{F3A6CDF5-3B2F-46A8-94E0-D31F9F0CCF33}" ShortID="963044883">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Island_High_Cries" ID="{F081EB25-6A3F-4CE1-B8BB-7096E8E91497}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Island_High_Cries.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="367454663"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Island_High_Cries" ID="{F081EB25-6A3F-4CE1-B8BB-7096E8E91497}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Island_Low_Cries" ID="{65816D4A-34A4-4708-A2E8-FA2B648D5DFC}" ShortID="226940113">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Island_Low_Cries" ID="{562E7E21-51E5-4E45-8C2E-5E52D5704AFD}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Island_Low_Cries.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="386134812"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Island_Low_Cries" ID="{562E7E21-51E5-4E45-8C2E-5E52D5704AFD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{713E7D6C-1C97-470B-94BB-2BED86942506}" ShortID="438205017"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{939A43B3-8508-4B19-96B7-F3BA8034D298}" ShortID="1026930178">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<BlendTrackList>
+										<BlendTrack Name="Drowsiness" ID="{D9C82328-73D0-46A3-A25C-B80DB1F405FE}" ShortID="21927646">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{4CBE7880-CED2-4E48-9FBA-5EDD843D98AA}" ShortID="614531405">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Pitch"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{6D089195-195E-4C2E-AB68-EE89F0F1D64A}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-400</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_Island_High_Cries" ID="{F3A6CDF5-3B2F-46A8-94E0-D31F9F0CCF33}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0.938689942075996</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_Island_Low_Cries" ID="{65816D4A-34A4-4708-A2E8-FA2B648D5DFC}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0.0802909615384616</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="AMB_Awake_TC_Pad" ID="{7817D587-04FD-4EF9-A5F7-745FB55E77E1}" ShortID="831323713">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{3055AF00-7001-433D-8836-AD396FED7269}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{2B7AA456-2E95-45FA-B7AB-851A900DA4B0}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{AFC27E7A-07EA-4A46-8D62-A5A7C21F6B88}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Island_TC_Glass_Pad" ID="{D9C27774-972D-47D9-9276-60B8E195849E}" ShortID="1048531672">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Island_TC_Glass_Pad" ID="{325A5FAA-4A0E-4F9B-B99B-AD86E788C8AC}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Island_TC_Glass_Pad.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="305521094"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{C0F36ACE-2C1B-4FC2-B7D8-A3C0C3800624}" ShortID="180870772">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Pitch"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{664A2D93-8AEE-444E-917A-41579A2F14A9}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-303</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Island_TC_Glass_Pad" ID="{325A5FAA-4A0E-4F9B-B99B-AD86E788C8AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Sleep_TC_Sub" ID="{26489DDC-DDC5-4971-80DB-EB673723ACA1}" ShortID="979163653">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Sleep_TC_Sub" ID="{70F15224-0213-440D-91DF-48A6F5C09DE1}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Sleep_TC_Sub.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="817228792"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Sleep_TC_Sub" ID="{70F15224-0213-440D-91DF-48A6F5C09DE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{0D1B0F69-789A-4823-80D6-EA442A146221}" ShortID="780773252"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{83E87241-9690-412D-9E0E-BA6008A694DE}" ShortID="239270866">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<BlendTrackList>
+										<BlendTrack Name="Drowsiness" ID="{D48F1D59-DAC7-418B-B278-35F579721166}" ShortID="568683635">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_Island_TC_Glass_Pad" ID="{D9C27774-972D-47D9-9276-60B8E195849E}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0.988296058850788</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_Sleep_TC_Sub" ID="{26489DDC-DDC5-4971-80DB-EB673723ACA1}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0.101925576923077</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<Sound Name="AMB_Awake_Water_Layer" ID="{CBD3B2D9-C196-4E05-95DE-F51353230911}" ShortID="631782245">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{774FE571-8A48-4968-850A-3ED22D701706}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{605CD829-0EB0-429A-A05A-9B2EA6B933FC}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{FF16D3DB-9C70-4ED8-963E-2AB7AAB6F5B3}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Island_Water_Layer" ID="{D8598932-524E-4F7C-8CFE-32AE260C4AA0}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Island_Water_Layer.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428379815"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{AC6A2706-5656-4E0D-BFE1-5E2EB85B0227}" ShortID="152605495"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{61EBBBAD-2607-4CB4-AE45-1970A1CF7B2C}" ShortID="376462668">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{DD0CAE94-9B28-4BAE-B18F-E78784980085}" ShortID="958371223">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{B4FE9A4F-B2FE-4626-80A2-26D5D698ED39}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0.02628</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-2.47257</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{80223F85-0A07-440E-A264-F78CF9565319}" ShortID="654985317">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{CDD4E99E-8C3F-4365-89B9-BE6544A29787}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>39</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Island_Water_Layer" ID="{D8598932-524E-4F7C-8CFE-32AE260C4AA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Awake_Zebra_Pad_Layer" ID="{802C7CF0-25C3-4AD2-8794-98E500EA1A4C}" ShortID="463240640">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>700</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{893150FF-EE63-4C11-AAB2-D0089B8C44A3}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{AF9E5405-E2FF-47DD-9896-EB076A374052}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{0A4FD84E-D696-4504-A7BF-1C1C4A5418B7}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Island_Zebra_Pad_Layer" ID="{73966F45-3A12-4D02-B6FD-6537F36BE601}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Island_Zebra_Pad_Layer.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032124457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{41CCC578-9587-4223-8932-937A7E8EC17F}" ShortID="191558047"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{3F05E303-6FEE-47CB-A50C-4ED1F4BBC4EE}" ShortID="893283765">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{B25EFC37-3D49-439F-8530-32BE0384A6CF}" ShortID="575449693">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{C54F9AD0-F303-437A-850E-E29C8BABE749}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-12.55467</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-1.60991</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{1F55BA7B-9A16-4799-9655-AF1C4D59AC76}" ShortID="269112083">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{DDA6B67D-7539-4EAB-A928-4A5F216F765A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-700</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Island_Zebra_Pad_Layer" ID="{73966F45-3A12-4D02-B6FD-6537F36BE601}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="AMB_Awake_Wind" ID="{83C3A03B-7B26-440C-A4BD-338E1DA2223C}" ShortID="219440685">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{3E0511A1-EE1B-4385-94BF-76F19E4AA912}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{C582BE82-A555-4635-8612-50E1C4659469}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{E8A15818-8AE3-4EE6-A261-68EC4E38C87D}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Island_Wind" ID="{A0214FDC-357D-4C62-94A0-B8AB71A382A2}" ShortID="359300949">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Island_Wind" ID="{8A97B5A8-AA6C-4742-B1B8-5F603C208FF6}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Island_Wind.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="81725727"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+														<CustomState Name="" ID="{26FE96FC-AF24-40BB-AEB5-D20C5A3AAC83}" ShortID="332464454"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+														<CustomState Name="" ID="{A9156C34-C92A-4C25-BFCA-18824AB88AD3}" ShortID="687918332">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Island_Wind" ID="{8A97B5A8-AA6C-4742-B1B8-5F603C208FF6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Sleep_Low_Static_Glitch" ID="{BA6CB1EA-72A0-47D5-8719-E41E3B1C794B}" ShortID="922238741">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Sleep_Low_Static_Glitch" ID="{6E080FF6-FE96-4665-9924-B3BEB88FD05F}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Sleep_Low_Static_Glitch.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="389628936"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+														<CustomState Name="" ID="{026137FC-D313-45D5-AA78-ABE361FFA63E}" ShortID="77342940"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+														<CustomState Name="" ID="{25D49C7E-27AE-4893-BC10-1674F9B37348}" ShortID="186470207">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Sleep_Low_Static_Glitch" ID="{6E080FF6-FE96-4665-9924-B3BEB88FD05F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Drowsiness" ID="{16362E78-DE21-4EB4-A7DB-03B864781754}" ShortID="833919925">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_Island_Wind" ID="{A0214FDC-357D-4C62-94A0-B8AB71A382A2}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0.920675576923077</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="AMB_Sleep_Low_Static_Glitch" ID="{BA6CB1EA-72A0-47D5-8719-E41E3B1C794B}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0.116348653846154</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Asleep" ID="{E1080850-354B-49B3-BA52-797171E610F9}" ShortID="505525519">
+							<ChildrenList>
+								<Sound Name="AMB_Sleep_Distant_Skittering" ID="{6B6C10E1-CE70-404B-9F98-CF67BAD16D64}" ShortID="510466070">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{F9B7069D-6CA8-4AF1-BCF5-9C788E7D3A23}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{44249C85-8E88-441C-A9C7-B1C5F54AFE73}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{6D369A9C-0AE7-4278-9877-04CADF01CDBA}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Sleep_Distant_Skittering" ID="{470C58A5-F62C-4B2A-8D0F-B0799FA422E6}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Sleep_Distant_Skittering.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="371143502"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{26BCE778-5F8D-4E2E-A210-91181FB81575}" ShortID="406506192">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{1190FA1D-FA67-4480-A083-BFA243E5440F}" ShortID="363659"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Sleep_Distant_Skittering" ID="{470C58A5-F62C-4B2A-8D0F-B0799FA422E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Sleep_TC_Sub" ID="{0A4D100B-C684-4C2D-B7C8-99C47BD467C1}" ShortID="113121159">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
@@ -101,19 +1268,218 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="AMB_Island_Wind" ID="{8A97B5A8-AA6C-4742-B1B8-5F603C208FF6}">
+										<AudioFileSource Name="AMB_Sleep_TC_Sub" ID="{10BBF9D3-63B7-48F5-93C4-7B925B1FAEA7}">
 											<Language>SFX</Language>
-											<AudioFile>AMB_Island_Wind.wav</AudioFile>
+											<AudioFile>AMB_Sleep_TC_Sub.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="81725727"/>
+												<MediaID ID="817228792"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{AE0753D5-92B4-4C7F-89BD-BBF17DCBF2FA}" ShortID="192004992">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{F963AC6D-6C67-410B-9E6A-07948A185A0A}" ShortID="834826143"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="AMB_Island_Wind" ID="{8A97B5A8-AA6C-4742-B1B8-5F603C208FF6}" Platform="Linked"/>
+										<ActiveSource Name="AMB_Sleep_TC_Sub" ID="{10BBF9D3-63B7-48F5-93C4-7B925B1FAEA7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="AMB_Sleep_Low_Static_Glitch" ID="{BA6CB1EA-72A0-47D5-8719-E41E3B1C794B}" ShortID="922238741">
+								<Sound Name="AMB_Sleep_Distant_Clangs" ID="{D11845AF-C38E-4256-B559-92ACE8CD556F}" ShortID="532670803">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{872677AA-6B6B-4327-80F7-53450B73D95E}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{B3AC342E-08E4-477D-BB0C-5BA1709FD4AA}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{859F0D1E-BD03-4535-BDF5-037AED0ED0EF}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Sleep_Distant_Clangs" ID="{0A88EB64-24A7-4E2C-B95C-338FE2DBF566}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Sleep_Distant_Clangs.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="321254246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{1EAEA1CF-C6C0-4BAB-90E9-600639BC5CE6}" ShortID="718796756">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{72DC3331-3A24-486C-AB25-623E46A48A91}" ShortID="202123647"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Sleep_Distant_Clangs" ID="{0A88EB64-24A7-4E2C-B95C-338FE2DBF566}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Sleep_Zebra_Pad" ID="{4172C03F-1737-443F-9A2C-17205357B4DE}" ShortID="381150434">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{69BC3199-4AF3-4939-94D5-AB9986F5F585}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{778E369D-3EC5-49DE-9A98-653D01252A6E}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{AC123866-8055-469F-99E5-CB882981815D}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Sleep_Zebra_Pad" ID="{2DEF8323-44D0-4394-BE39-B4C21300640C}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Sleep_Zebra_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="292223646"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{8ED9B586-7967-4651-A080-F474BC2AE940}" ShortID="448623486">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{DF59C051-552E-4AE1-B27B-2E102F310A18}" ShortID="266383417"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Sleep_Zebra_Pad" ID="{2DEF8323-44D0-4394-BE39-B4C21300640C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Sleep_Low_Static_Glitch" ID="{FE74604E-8247-4EA4-B544-3A468DF90488}" ShortID="228697219">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
@@ -131,7 +1497,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="AMB_Sleep_Low_Static_Glitch" ID="{6E080FF6-FE96-4665-9924-B3BEB88FD05F}">
+										<AudioFileSource Name="AMB_Sleep_Low_Static_Glitch" ID="{D50639A6-A31E-49AD-9227-53DBEFC88C0B}">
 											<Language>SFX</Language>
 											<AudioFile>AMB_Sleep_Low_Static_Glitch.wav</AudioFile>
 											<MediaIDList>
@@ -139,196 +1505,29 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{67DCFCD4-8F86-4FF8-95D8-3AB90746647D}" ShortID="201999632">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{BA9DCCE9-9143-46F6-A42D-846DA0362847}" ShortID="627068937"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="AMB_Sleep_Low_Static_Glitch" ID="{6E080FF6-FE96-4665-9924-B3BEB88FD05F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="Drowsiness" ID="{16362E78-DE21-4EB4-A7DB-03B864781754}" ShortID="833919925">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Island_Wind" ID="{A0214FDC-357D-4C62-94A0-B8AB71A382A2}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.920675576923077</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Sleep_Low_Static_Glitch" ID="{BA6CB1EA-72A0-47D5-8719-E41E3B1C794B}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.116348653846154</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
-						<BlendContainer Name="AMB_Water" ID="{B5266AD8-59DC-4AE7-9D48-ADAC629B65E9}" ShortID="671711963">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="AMB_Island_Water_Layer" ID="{CBD3B2D9-C196-4E05-95DE-F51353230911}" ShortID="631782245">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Island_Water_Layer" ID="{D8598932-524E-4F7C-8CFE-32AE260C4AA0}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Island_Water_Layer.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="428379815"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Island_Water_Layer" ID="{D8598932-524E-4F7C-8CFE-32AE260C4AA0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AMB_Sleep_Distant_Clangs" ID="{D11845AF-C38E-4256-B559-92ACE8CD556F}" ShortID="532670803">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Sleep_Distant_Clangs" ID="{0A88EB64-24A7-4E2C-B95C-338FE2DBF566}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Sleep_Distant_Clangs.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="321254246"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Sleep_Distant_Clangs" ID="{0A88EB64-24A7-4E2C-B95C-338FE2DBF566}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="Drowsiness" ID="{28264B6A-900D-4165-AE4E-D67C88722FEF}" ShortID="230231339">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Island_Water_Layer" ID="{CBD3B2D9-C196-4E05-95DE-F51353230911}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.848560192307692</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Sleep_Distant_Clangs" ID="{D11845AF-C38E-4256-B559-92ACE8CD556F}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.130771730769231</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
-						<BlendContainer Name="AMB_Jungle" ID="{F9AA0D84-0970-42AF-AA1C-A6F2BC7A9A51}" ShortID="546572110">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="AMB_Island_High_Cries" ID="{F3A6CDF5-3B2F-46A8-94E0-D31F9F0CCF33}" ShortID="963044883">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Island_High_Cries" ID="{F081EB25-6A3F-4CE1-B8BB-7096E8E91497}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Island_High_Cries.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="367454663"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Island_High_Cries" ID="{F081EB25-6A3F-4CE1-B8BB-7096E8E91497}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AMB_Island_Low_Cries" ID="{65816D4A-34A4-4708-A2E8-FA2B648D5DFC}" ShortID="226940113">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Island_Low_Cries" ID="{562E7E21-51E5-4E45-8C2E-5E52D5704AFD}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Island_Low_Cries.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="386134812"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Island_Low_Cries" ID="{562E7E21-51E5-4E45-8C2E-5E52D5704AFD}" Platform="Linked"/>
+										<ActiveSource Name="AMB_Sleep_Low_Static_Glitch" ID="{D50639A6-A31E-49AD-9227-53DBEFC88C0B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="AMB_Sleep_Distant_Jungle" ID="{34D4329C-B888-4A9E-917D-B7DDFB5CA7DE}" ShortID="874476822">
@@ -347,7 +1546,50 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{2AD02C32-0DF8-4B8C-864A-939ABF2525F9}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{699EB5FC-C19A-4F6B-A866-09C448372903}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{62B84A1E-AB39-47C0-85F5-D934EDC3EFC3}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
@@ -362,418 +1604,33 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{89CBA2C0-E90E-4353-AD9E-1D3E101AD418}" ShortID="435206260">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{2E6B083F-4FEA-4CCC-B4A6-F627BB334B07}" ShortID="345969319"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="AMB_Sleep_Distant_Jungle" ID="{4C42DB22-A326-4D11-9219-6F6C3E111F15}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="Drowsiness" ID="{D9C82328-73D0-46A3-A25C-B80DB1F405FE}" ShortID="21927646">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-										</Reference>
-									</ReferenceList>
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{4CBE7880-CED2-4E48-9FBA-5EDD843D98AA}" ShortID="614531405">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Pitch"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{6D089195-195E-4C2E-AB68-EE89F0F1D64A}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="65537"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>1</XPos>
-																				<YPos>-100</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Island_High_Cries" ID="{F3A6CDF5-3B2F-46A8-94E0-D31F9F0CCF33}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.444714038461538</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Island_Low_Cries" ID="{65816D4A-34A4-4708-A2E8-FA2B648D5DFC}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.0802909615384616</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.907694807692308</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Sleep_Distant_Jungle" ID="{34D4329C-B888-4A9E-917D-B7DDFB5CA7DE}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.539426826923077</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
-						<BlendContainer Name="AMB_TC_Pad" ID="{7817D587-04FD-4EF9-A5F7-745FB55E77E1}" ShortID="831323713">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="AMB_Island_TC_Glass_Pad" ID="{D9C27774-972D-47D9-9276-60B8E195849E}" ShortID="1048531672">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Island_TC_Glass_Pad" ID="{325A5FAA-4A0E-4F9B-B99B-AD86E788C8AC}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Island_TC_Glass_Pad.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="305521094"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{C0F36ACE-2C1B-4FC2-B7D8-A3C0C3800624}" ShortID="180870772">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Pitch"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{664A2D93-8AEE-444E-917A-41579A2F14A9}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="65537"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>1</XPos>
-																				<YPos>-303</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Island_TC_Glass_Pad" ID="{325A5FAA-4A0E-4F9B-B99B-AD86E788C8AC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AMB_Sleep_TC_Sub" ID="{26489DDC-DDC5-4971-80DB-EB673723ACA1}" ShortID="979163653">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Sleep_TC_Sub" ID="{70F15224-0213-440D-91DF-48A6F5C09DE1}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Sleep_TC_Sub.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="817228792"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Sleep_TC_Sub" ID="{70F15224-0213-440D-91DF-48A6F5C09DE1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="Drowsiness" ID="{D48F1D59-DAC7-418B-B278-35F579721166}" ShortID="568683635">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Island_TC_Glass_Pad" ID="{D9C27774-972D-47D9-9276-60B8E195849E}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.858175576923077</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Sleep_TC_Sub" ID="{26489DDC-DDC5-4971-80DB-EB673723ACA1}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.101925576923077</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
-						<BlendContainer Name="AMB_Critters" ID="{8EDA4ACD-A78A-408F-AC33-B19650ED9F98}" ShortID="734227527">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="AMB_Island_Insects" ID="{D810314C-711A-4346-85A4-B74FF5908950}" ShortID="441646273">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Island_Insects" ID="{C83D2163-B6CD-4B11-BDDD-4C254A1738BB}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Island_Insects.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="562086378"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Island_Insects" ID="{C83D2163-B6CD-4B11-BDDD-4C254A1738BB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AMB_Sleep_Distant_Skittering" ID="{6B6C10E1-CE70-404B-9F98-CF67BAD16D64}" ShortID="510466070">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Sleep_Distant_Skittering" ID="{470C58A5-F62C-4B2A-8D0F-B0799FA422E6}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Sleep_Distant_Skittering.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="371143502"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Sleep_Distant_Skittering" ID="{470C58A5-F62C-4B2A-8D0F-B0799FA422E6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="Drowsiness" ID="{FDBB5659-784D-4469-8EA1-C7028AF0EF0B}" ShortID="434556550">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Island_Insects" ID="{D810314C-711A-4346-85A4-B74FF5908950}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.850964038461538</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Sleep_Distant_Skittering" ID="{6B6C10E1-CE70-404B-9F98-CF67BAD16D64}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.145194807692308</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
-						<BlendContainer Name="AMB_Zebra_Pad" ID="{9F8DC4D5-425B-4521-95A2-09A05F7D4EAD}" ShortID="410937160">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="AMB_Island_Zebra_Pad_Layer" ID="{802C7CF0-25C3-4AD2-8794-98E500EA1A4C}" ShortID="463240640">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Island_Zebra_Pad_Layer" ID="{73966F45-3A12-4D02-B6FD-6537F36BE601}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Island_Zebra_Pad_Layer.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1032124457"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Island_Zebra_Pad_Layer" ID="{73966F45-3A12-4D02-B6FD-6537F36BE601}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AMB_Sleep_Zebra_Pad" ID="{4172C03F-1737-443F-9A2C-17205357B4DE}" ShortID="381150434">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Sleep_Zebra_Pad" ID="{2DEF8323-44D0-4394-BE39-B4C21300640C}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Sleep_Zebra_Pad.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="292223646"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Sleep_Zebra_Pad" ID="{2DEF8323-44D0-4394-BE39-B4C21300640C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="Drowsiness" ID="{F9C376EC-2180-4CDE-BFC7-0CFA10A8CEE8}" ShortID="229401594">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Drowsiness" ID="{FEA25C59-B8ED-45B6-836F-C03164666517}" WorkUnitID="{66E7C017-F306-439D-B310-B2B3CE61DDF2}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Island_Zebra_Pad_Layer" ID="{802C7CF0-25C3-4AD2-8794-98E500EA1A4C}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.930290961538462</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Sleep_Zebra_Pad" ID="{4172C03F-1737-443F-9A2C-17205357B4DE}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.130771730769231</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
