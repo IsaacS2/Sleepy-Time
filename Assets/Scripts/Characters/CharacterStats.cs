@@ -8,12 +8,13 @@ public class CharacterStats : MonoBehaviour
     [SerializeField] protected float _maxFlickerTime, _maxInvincibilityTime;
 
     protected SpriteRenderer _sprRend;
-    protected float _health, _strength, _flickerTimer, _invincibilityTimer;
+    protected float _health, _maxHealth, _strength, _flickerTimer, _invincibilityTimer;
     protected bool _invincible, _dead;
 
     protected virtual void Awake()
     {
         _health = character.health;
+        _maxHealth = _health;
         _strength = character.strength;
         _invincible = character.invincible;
         _invincibilityTimer = _maxInvincibilityTime;
@@ -25,7 +26,7 @@ public class CharacterStats : MonoBehaviour
         _sprRend = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (_invincibilityTimer < _maxInvincibilityTime)
         {
@@ -50,9 +51,15 @@ public class CharacterStats : MonoBehaviour
     {
         if (!_invincible)
         {
-            _health -= damage;
-            _invincibilityTimer = 0;
-            _invincible = true;
+            _health = Mathf.Min(_health - damage, _maxHealth);
+
+            if (damage > 0)
+            {
+                _invincibilityTimer = 0;
+                _invincible = true;
+            }
+            
+            Debug.Log("Health: " + _health);
         }
 
         if (_health <= 0) _dead = true;
@@ -60,17 +67,22 @@ public class CharacterStats : MonoBehaviour
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        Weapon weapon = collision.GetComponent<Weapon>();
+        Weapon weapon = collision.gameObject.GetComponent<Weapon>();
 
         if (weapon)
         {
             CalculateDamage(weapon.GetDamage());
-            Debug.Log("Health: " + _health);
         }
     }
 
     public bool IsDead()
     {
         return _dead;
+    }
+
+
+    public float GetStrength()
+    {
+        return _strength;
     }
 }

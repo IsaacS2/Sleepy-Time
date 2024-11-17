@@ -15,7 +15,7 @@ public class GameplayInputManager : MonoBehaviour
     private Awake _awake;
     private PlayerStats _playerStats;
 
-    public static Action OnAttack;
+    public static event Action OnAttack;
 
     private void OnEnable()
     {

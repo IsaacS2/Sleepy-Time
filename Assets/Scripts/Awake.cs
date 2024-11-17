@@ -11,16 +11,17 @@ public class Awake : MonoBehaviour
     private PlayerStats _player;
     private Movement _movementScript;
 
-    public static Action<bool> OnAwake;
+    public static event Action<bool> OnAwake = (_awake) => { };
 
     private void Start()
     {
         _player = GetComponent<PlayerStats>();
-        _movementScript = GetComponent<Movement>();
     }
 
     void OnEnable()
     {
+        if (_movementScript == null) _movementScript = GetComponent<Movement>();
+
         if (_movementScript)
         {
             _movementScript.ChangeSpeed(_movementSpeed);

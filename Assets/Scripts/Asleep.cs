@@ -10,16 +10,18 @@ public class Asleep : MonoBehaviour
 
     private PlayerStats _player;
     private Movement _movementScript;
-    public static Action<bool> OnAsleep;
+
+    public static event Action<bool> OnAsleep = (_sleep) => { };
 
     private void Start()
     {
         _player = GetComponent<PlayerStats>();
-        _movementScript = GetComponent<Movement>();
     }
 
     void OnEnable()
     {
+        if (_movementScript == null) _movementScript = GetComponent<Movement>();
+
         if (_movementScript)
         {
             _movementScript.ChangeSpeed(_movementSpeed);
@@ -31,6 +33,6 @@ public class Asleep : MonoBehaviour
     void Update()
     {
         _player.IncreaseRestStat(Time.deltaTime * _restRate);
-        _player.CalculateDamage(_healthIncreaseRate);
+        _player.CalculateDamage(-_healthIncreaseRate);
     }
 }
