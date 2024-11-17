@@ -11,7 +11,7 @@ public class Awake : MonoBehaviour
     private PlayerStats _player;
     private Movement _movementScript;
 
-    public static Action<bool> OnAwake;
+    public static event Action<bool> OnAwake = (_awake) => { };
 
     private void Start()
     {

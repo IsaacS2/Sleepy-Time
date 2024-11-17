@@ -10,7 +10,8 @@ public class Asleep : MonoBehaviour
 
     private PlayerStats _player;
     private Movement _movementScript;
-    public static Action<bool> OnAsleep;
+
+    public static event Action<bool> OnAsleep = (_sleep) => { };
 
     private void Start()
     {

@@ -16,9 +16,9 @@ public class PlayerStats : CharacterStats
     protected float _restStat = 10, _restMaxStat = 10, _deathTimer;
     protected int _checkpointIndex = 0;
 
-    public static Action<PlayerStats> OnLevelStart;
-    public static Action<Vector3> OnCheckpointContact;
-    public static Action<bool> OnDeath;
+    public static event Action<PlayerStats> OnLevelStart = (_playerStats) => { };
+    public static event Action<Vector3> OnCheckpointContact = (_checkPointPos) => { };
+    public static event Action<bool> OnDeath = (_deathBool) => { };
 
     private void OnEnable()
     {
@@ -58,7 +58,7 @@ public class PlayerStats : CharacterStats
     {
         base.CalculateDamage(damage);
 
-        if (_dead) _deathTimer = 0;
+        if (_dead && _deathTimer >= _maxDeathTime) _deathTimer = 0;
     }
 
     protected override void OnTriggerEnter2D(Collider2D collision)
@@ -68,7 +68,7 @@ public class PlayerStats : CharacterStats
         if (checkpoint) OnCheckpointContact(collision.transform.position);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         EnemyStats enemy = collision.gameObject.GetComponent<EnemyStats>();
 
