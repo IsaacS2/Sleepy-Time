@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class Awake : MonoBehaviour
 {
+    [SerializeField] private LayerMask _awakeLayer;
     [SerializeField] private float _restDropRate, _movementSpeed;
 
     private PlayerStats _player;
@@ -16,14 +17,16 @@ public class Awake : MonoBehaviour
     private void Start()
     {
         _player = GetComponent<PlayerStats>();
-
-        // Set state to awake
-        AkSoundEngine.SetState("Sleeping", "Awake");
-        // End - TJ
     }
 
     void OnEnable()
     {
+        // Set state to awake
+        AkSoundEngine.SetState("Sleeping", "Awake");
+        // End - TJ
+
+        Camera.main.cullingMask = _awakeLayer;
+
         if (_movementScript == null) _movementScript = GetComponent<Movement>();
 
         if (_movementScript)

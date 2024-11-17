@@ -1006,7 +1006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877247616}
   - component: {fileID: 877247615}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Global Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 32
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1600, y: 900}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2225,7 +2225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4464643378385167030, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4989692159636905878, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: m_Color.b
@@ -2256,6 +2256,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5384079717170841905, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
+      propertyPath: _asleepLayer.m_Bits
+      value: 384
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384079717170841905, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: _healthIncreaseRate
       value: 0.01
       objectReference: {fileID: 0}
@@ -2282,6 +2286,10 @@ PrefabInstance:
     - target: {fileID: 6543622589585941831, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: _movementSpeed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543622589585941831, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
+      propertyPath: _awakeLayer.m_Bits
+      value: 375
       objectReference: {fileID: 0}
     - target: {fileID: 7273380907038812382, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: moveSpeed
