@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="AMB" ID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AMB_Sleep_Test" ID="{D1CF1456-5B5F-49BB-A98D-B9FFF39B678E}" ShortID="997171316">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}">
+							<Language>SFX</Language>
+							<AudioFile>AMB_AMB_Sleep_Test.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="636364065"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

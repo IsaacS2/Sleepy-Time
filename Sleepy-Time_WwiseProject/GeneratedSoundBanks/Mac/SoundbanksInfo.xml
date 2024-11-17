@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{1964E9AC-8E66-B01E-91A4-AE0839EAC3E9}">
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{E72D94DC-7793-BD3D-A2CC-4624ADEB8BE7}">
+			<ShortName>MUS</ShortName>
+			<Path>MUS.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{000F69C0-E6D9-C3DD-FEBF-A69FA0386A42}">
+			<ShortName>AMB</ShortName>
+			<Path>AMB.bnk</Path>
+			<Media>
+				<File Id="636364065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_AMB_Sleep_Test.wav</ShortName>
+					<CachePath>SFX/AMB_AMB_Sleep_Test_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="768061573" Name="Play_AMB_Sleep_Test" DurationType="OneShot" DurationMin="28.8" DurationMax="28.8">
+					<MediaRefs>
+						<MediaRef Id="636364065"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F7F20B46-C682-19DF-F4AE-5AB6E79D92F8}</FileHash>
+</SoundBanksInfo>

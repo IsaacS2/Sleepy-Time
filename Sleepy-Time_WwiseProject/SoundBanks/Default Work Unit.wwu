@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B2BB8D7B-3793-4417-90F7-828906F58F2F}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{B2BB8D7B-3793-4417-90F7-828906F58F2F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B2BB8D7B-3793-4417-90F7-828906F58F2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AMB" ID="{A0E8DA6B-4398-48FD-99C8-7A39E2A2D06A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AMB" ID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" WorkUnitID="{1C8BE035-FC16-4627-A78F-831F1748E3A8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{8B113978-9033-45D2-ADE9-FFDA14D367F8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MUS" ID="{E89EEDC2-5AE0-4EEC-A104-9A1A11FFAA4D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
