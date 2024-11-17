@@ -16,7 +16,10 @@ public class Asleep : MonoBehaviour
     private void Start()
     {
         _player = GetComponent<PlayerStats>();
+
+        // Set state to asleep
         AkSoundEngine.SetState("Sleeping", "Asleep");
+        // End - TJ
     }
 
     void OnEnable()

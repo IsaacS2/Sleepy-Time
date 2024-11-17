@@ -95,8 +95,10 @@ public class PlayerStats : CharacterStats
         if (_vignette)
         {
             _vignette.intensity.value = 1 - (_restStat / _restMaxStat);
-            // trying to implement the rtpc - tj
+
+            // 'Drowsiness' RTPC
             AkSoundEngine.SetRTPCValue("Drowsiness", _vignette.intensity.value);
+            // End -TJ
         }
     }
 
