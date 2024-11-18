@@ -34,7 +34,7 @@ public class CharacterStats : MonoBehaviour
         if (_invincibilityTimer < _maxInvincibilityTime)
         {
             _flickerTimer += _invincibilityTimer += Time.deltaTime;
-            
+
             if (_flickerTimer >= _maxFlickerTime && _sprRend)
             {
                 _flickerTimer = 0;
@@ -67,7 +67,7 @@ public class CharacterStats : MonoBehaviour
                 _invincibilityTimer = 0;
                 _invincible = true;
             }
-            
+
             Debug.Log("Health: " + _health);
         }
 
@@ -86,7 +86,8 @@ public class CharacterStats : MonoBehaviour
         //
         if (weapon)
         {
-            // TODO: Add blunt-weapon impact sound-effect
+            // Add blunt-weapon impact sound-effect
+            AkSoundEngine.PostEvent("Play_SFX_Weapon_Impact", gameObject);
 
             CalculateDamage(weapon.GetDamage());
         }

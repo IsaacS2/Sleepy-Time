@@ -52,7 +52,7 @@
 							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+							<ObjectRef Name="AMB" ID="{3E424A5C-F44A-4488-A3E1-F889C235F9D8}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

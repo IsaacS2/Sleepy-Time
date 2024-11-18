@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2CC663EE-C6C5-D290-AC76-25B5D7D21B7D}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{B6AE2A09-771C-32E3-18B1-5870351430F0}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -63,15 +63,6 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4023174377" Name="Play_Blood_Spatter_UI" DurationType="OneShot" DurationMin="0.6" DurationMax="1.35">
-					<MediaRefs>
-						<MediaRef Id="31191500"/>
-						<MediaRef Id="321683485"/>
-						<MediaRef Id="423826708"/>
-						<MediaRef Id="957313629"/>
-						<MediaRef Id="972321335"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="1573854218" Name="Play_SFX_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="26.4" DurationMax="26.4">
 					<MediaRefs>
 						<MediaRef Id="599667693"/>
@@ -92,6 +83,15 @@
 						<MediaRef Id="821796859"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="793446718" Name="Play_SFX_UI_Splatter" DurationType="OneShot" DurationMin="0.6" DurationMax="1.35">
+					<MediaRefs>
+						<MediaRef Id="31191500"/>
+						<MediaRef Id="321683485"/>
+						<MediaRef Id="423826708"/>
+						<MediaRef Id="957313629"/>
+						<MediaRef Id="972321335"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2499893359" Name="Play_SFX_Weapon_Impact" DurationType="OneShot" DurationMin="0.26313367" DurationMax="0.5208104">
 					<MediaRefs>
 						<MediaRef Id="2395609"/>
@@ -100,8 +100,67 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="2455975320" Name="Drowsiness"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{A524159A-0F80-9A58-2DA8-3D50444A9BB2}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{7F04BB09-9980-C371-C807-8D207C2E20B9}">
+			<ShortName>DGX</ShortName>
+			<Path>DGX.bnk</Path>
+			<Media>
+				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-005_818F3B66.wem</CachePath>
+				</File>
+				<File Id="701098869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-001.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="716638564" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Child\Child_Barks-002.wav</ShortName>
+					<CachePath>SFX/Barks/Child/Child_Barks-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="728877307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-004.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="770230295" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Child\Child_Barks-003.wav</ShortName>
+					<CachePath>SFX/Barks/Child/Child_Barks-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1019154521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Child\Child_Barks-001.wav</ShortName>
+					<CachePath>SFX/Barks/Child/Child_Barks-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1035737766" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-002.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-002_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2579943048" Name="Play_DGX_Child_Barks" DurationType="OneShot" DurationMin="1.5589792" DurationMax="1.8131875">
+					<MediaRefs>
+						<MediaRef Id="716638564"/>
+						<MediaRef Id="770230295"/>
+						<MediaRef Id="1019154521"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="707361275" Name="Play_DGX_Entity_Barks" DurationType="OneShot" DurationMin="19.2" DurationMax="19.2">
+					<MediaRefs>
+						<MediaRef Id="417103303"/>
+						<MediaRef Id="701098869"/>
+						<MediaRef Id="723883399"/>
+						<MediaRef Id="728877307"/>
+						<MediaRef Id="1035737766"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{ED3C5CC4-9F79-0F0B-736B-FE855A926178}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -132,7 +191,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{78106C10-D7FE-3A54-4328-84C654C7D562}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{B5A7C4BF-F1E2-D266-3EE4-81961B62CA56}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -220,7 +279,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A425CB33-2085-941F-5D70-624B027376AD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D9384746-824E-B66E-8CAD-81267862BF93}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -230,6 +289,10 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="412430282" Name="DGX"/>
+				<Bus Id="712897226" Name="MUS"/>
+				<Bus Id="1117531639" Name="AMB"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
@@ -246,5 +309,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{73B72223-3D02-E528-F6BA-F7FA4F383A2E}</FileHash>
+	<FileHash>{0057B582-B247-1C39-E07B-98EA836D4110}</FileHash>
 </SoundBanksInfo>

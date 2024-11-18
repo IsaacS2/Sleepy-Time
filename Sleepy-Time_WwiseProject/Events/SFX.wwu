@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="SFX" ID="{557E6DFF-EFF3-43C1-9C41-7060AA9E0D80}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Blood_Spatter_UI" ID="{76F11AA2-903D-4972-B990-F5679993CE45}">
+				<Event Name="Play_SFX_UI_Splatter" ID="{76F11AA2-903D-4972-B990-F5679993CE45}">
 					<ChildrenList>
 						<Action Name="" ID="{F3CB48A2-1BD0-4C89-931F-6487CEDC80C6}" ShortID="685988981">
 							<ReferenceList>
@@ -20,6 +20,50 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Distorted_Chime_Stinger" ID="{B0F2CBA4-DFBE-4203-B6F5-846F6AD11FE3}">
+					<ChildrenList>
+						<Action Name="" ID="{152BA1A0-FA43-4868-AC60-77B3EE9238C8}" ShortID="837731778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Distorted_Chime_Stinger" ID="{C28487C0-D117-4616-8F2B-B0FF8362A6D6}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Resampled_Voice_Stinger" ID="{1E639AEF-1502-435D-9484-D09546FB8767}">
+					<ChildrenList>
+						<Action Name="" ID="{4FD5C713-46DE-4840-B44E-A727E917751C}" ShortID="48590564">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Resampled_Voice_Stinger" ID="{F1B0CA8E-BD9A-4F8C-BA84-D709D5B10EB8}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Swipe_Up_Stinger" ID="{1D3C179C-A9CF-4636-8AA9-D1A1AC1A5261}">
+					<ChildrenList>
+						<Action Name="" ID="{FC1C0671-8610-41D2-998C-8239E83757DA}" ShortID="800692300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Swipe_Up_Stinger" ID="{E51C0F50-FF28-4565-AD1A-426E6381C11B}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_String_Stinger" ID="{01D901E9-1B1A-4274-BC8E-855FF1725330}">
+					<ChildrenList>
+						<Action Name="" ID="{8D74B636-3132-4FB9-9772-F4EF6D0588B9}" ShortID="556597781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_String_Stinger" ID="{78141FAD-F2EC-4195-BE07-191C0DE69610}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

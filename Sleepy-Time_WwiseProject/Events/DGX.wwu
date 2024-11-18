@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="DGX" ID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_DGX_Child_Barks" ID="{D3E2A5FA-A7C4-49D0-9BAF-9425A603734C}">
+					<ChildrenList>
+						<Action Name="" ID="{89C5CDA2-C471-40F9-9257-D0B017A8C73E}" ShortID="418794786">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Entity_Barks" ID="{098047A8-669B-4864-A7CE-8CDE7D4D93CE}">
+					<ChildrenList>
+						<Action Name="" ID="{DACD26C3-85D0-405F-81B1-052770C0C465}" ShortID="319512283">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

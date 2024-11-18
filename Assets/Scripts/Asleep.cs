@@ -26,6 +26,7 @@ public class Asleep : MonoBehaviour
 
         // Set state to asleep
         AkSoundEngine.SetState("Sleeping", "Asleep");
+        AkSoundEngine.PostEvent("Play_SFX_Distorted_Chime_Stinger", gameObject);
         // End - TJ
 
         Camera.main.cullingMask = _asleepLayer;

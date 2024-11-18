@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="DGX" ID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Enemies" ID="{A4D2B02A-9473-4D78-A0CB-3661429B1F7D}" ShortID="900980419">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" ShortID="144265456">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Child_Barks-001" ID="{2DD37F3A-19FF-4E09-8EA3-2557AD0170A7}" ShortID="753342523">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Child_Barks-001" ID="{4154C786-DA03-4342-88DF-F314BBDAD348}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Child\Child_Barks-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019154521"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Child_Barks-001" ID="{4154C786-DA03-4342-88DF-F314BBDAD348}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Child_Barks-002" ID="{951BBD97-7EE1-419A-961D-247F76C3C2C6}" ShortID="669219385">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Child_Barks-002" ID="{80885FFF-4035-4FBA-A55E-4C6AC1F2B5FF}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Child\Child_Barks-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="716638564"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Child_Barks-002" ID="{80885FFF-4035-4FBA-A55E-4C6AC1F2B5FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Child_Barks-003" ID="{22A33431-4354-4D81-8590-0162A4CAC4E2}" ShortID="514996472">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Child_Barks-003" ID="{AF8F63EE-6DC9-475F-AF29-3126C027C794}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Child\Child_Barks-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="770230295"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Child_Barks-003" ID="{AF8F63EE-6DC9-475F-AF29-3126C027C794}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" ShortID="877192625">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Entity_Barks-001" ID="{55AB99D0-B17D-4DF2-9218-5417FF3A2547}" ShortID="65628113">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Barks-001" ID="{AF5734AE-E14F-4A07-AA5E-39065E5E7491}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Entity\Entity_Barks-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="701098869"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Barks-001" ID="{AF5734AE-E14F-4A07-AA5E-39065E5E7491}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Entity_Barks-002" ID="{FBF11112-BFBA-4DB6-B5F6-832AF6DD6393}" ShortID="323556823">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Barks-002" ID="{A6E97E59-FE9C-429A-9F5A-D7D4E1D9EEFC}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Entity\Entity_Barks-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1035737766"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Barks-002" ID="{A6E97E59-FE9C-429A-9F5A-D7D4E1D9EEFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Entity_Barks-003" ID="{38E17C78-0280-4D01-A189-2C9301EB6DEC}" ShortID="936390002">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Barks-003" ID="{D8E6CF20-C329-4EDA-A7B6-2915348D6566}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Entity\Entity_Barks-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="723883399"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Barks-003" ID="{D8E6CF20-C329-4EDA-A7B6-2915348D6566}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Entity_Barks-004" ID="{76791A2D-8705-4C66-96D6-B8F2E389A41F}" ShortID="665669021">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Barks-004" ID="{625CA9C2-5244-4F38-ABB4-9EC7EB1234B7}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Entity\Entity_Barks-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="728877307"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Barks-004" ID="{625CA9C2-5244-4F38-ABB4-9EC7EB1234B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Entity_Barks-005" ID="{8FA7B9DD-7652-432E-AFF6-E566C7E221FE}" ShortID="296165585">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Barks-005" ID="{A6B5EF5E-8059-45B7-A44F-5B29952DE1F6}">
+											<Language>SFX</Language>
+											<AudioFile>Barks\Entity\Entity_Barks-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417103303"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Barks-005" ID="{A6B5EF5E-8059-45B7-A44F-5B29952DE1F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
