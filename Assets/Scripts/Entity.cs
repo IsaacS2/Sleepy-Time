@@ -60,6 +60,7 @@ public class Entity : MonoBehaviour
         //
 
         // TODO: Add 'entity killing the player' sound effect
+        AkSoundEngine.PostEvent("Play_DGX_Entity_Barks", this.gameObject);
 
         Debug.Log("Jumpscare");
     }

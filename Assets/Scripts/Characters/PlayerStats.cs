@@ -74,7 +74,7 @@ public class PlayerStats : CharacterStats
         if (_dead && _deathTimer >= _maxDeathTime)
         {
             // TODO: Add player dying sound effect
-            
+
             _deathTimer = 0;
         }
     }
