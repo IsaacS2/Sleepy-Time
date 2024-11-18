@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: MainCharacter
   m_EditorClassIdentifier: 
   invincible: 0
-  strength: 10
-  jumpPower: 5
+  strength: 20
   health: 100
-  sprite: {fileID: 0}
