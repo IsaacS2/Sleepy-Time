@@ -47,12 +47,6 @@ public class EnemyStats : CharacterStats
 
                 _rb.velocity = targetDirection * _movementSpeed * Time.fixedDeltaTime;
             }
-/*
-            if (distance >= _maxDistanceToPlayer)
-            {
-                Debug.Log("too far!");
-                _player = null;
-            }*/
         }
     }
 

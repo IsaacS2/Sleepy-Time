@@ -69,17 +69,16 @@ public class Weapon : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (_wielder && canMove)
+        if (_wielder)
         {
-            _weaponDirection = (Camera.main.ScreenToViewportPoint(Mouse.current.position.ReadValue()) - new Vector3(0.5f, 0.5f, 0)).normalized;
+            if (canMove) _weaponDirection = (Camera.main.ScreenToViewportPoint(Mouse.current.position.ReadValue()) - new Vector3(0.5f, 0.5f, 0)).normalized;
 
             if (_weaponDirection != Vector2.zero)
             {
                 //
                 // Moving weapon
                 //
-                //MoveRotation();
-                _weapon.transform.up = _weaponDirection;
+                if (canMove) _weapon.transform.up = _weaponDirection;
                 _weapon.MovePosition(_weaponDirection * _distanceToPlayer + _wielder.position);
             }
         }

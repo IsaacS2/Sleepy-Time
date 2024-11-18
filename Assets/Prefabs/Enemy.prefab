@@ -148,7 +148,7 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: 436f4171d5b560d49994d5227c60842a, type: 2}
   _maxFlickerTime: 0.2
   _maxInvincibilityTime: 0.8
-  _movementSpeed: 50
+  _movementSpeed: 60
   _minDistanceToPlayer: 0.5
   _maxDistanceToPlayer: 3.5
 --- !u!50 &7326995807234670114

@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class Awake : MonoBehaviour
 {
     [SerializeField] private LayerMask _awakeLayer;
+    [SerializeField] private Color _awakeBackground = Color.white;
     [SerializeField] private float _restDropRate, _movementSpeed;
 
     private PlayerStats _player;
@@ -26,6 +27,7 @@ public class Awake : MonoBehaviour
         // End - TJ
 
         Camera.main.cullingMask = _awakeLayer;
+        Camera.main.backgroundColor = _awakeBackground;
 
         if (_movementScript == null) _movementScript = GetComponent<Movement>();
 
