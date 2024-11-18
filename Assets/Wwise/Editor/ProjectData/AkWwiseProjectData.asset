@@ -221,7 +221,7 @@ MonoBehaviour:
     ParentPath: Events/AMB
     guid: ca9055d0ea1b23499130fa3737a8b12c
     GuidInternal: 
-    m_lastTime: -8584697108047249089
+    m_lastTime: -8584696978135118090
     List:
     - name: Play_AMB
       guid: be9627fabf4ae342b667c624cc2f6c30
@@ -257,6 +257,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 28.8
       minDuration: 28.8
+    - name: Play_DGX_Player_Snoring
+      guid: 9377a796acfdd648a7b35e31becae9c5
+      id: 1950652224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB
+        ObjectType: 12
+        guid: ca9055d0ea1b23499130fa3737a8b12c
+      - ElementName: Play_DGX_Player_Snoring
+        ObjectType: 3
+        guid: 9377a796acfdd648a7b35e31becae9c5
+      Path: Events/AMB/Play_DGX_Player_Snoring
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -268,7 +285,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584697015072460937
+    m_lastTime: -8584696983537197807
     List: []
   - PhysicalPath: Events/DGX.wwu
     PathAndIcons:
@@ -281,7 +298,7 @@ MonoBehaviour:
     ParentPath: Events/DGX
     guid: d2ef4c84d9a4f945944b6f17002e9911
     GuidInternal: 
-    m_lastTime: -8584697015072511537
+    m_lastTime: -8584696978135060646
     List:
     - name: Play_DGX_Child_Barks
       guid: faa5e2d3c4a7d0499baf9425a603734c
@@ -300,6 +317,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.8131875
       minDuration: 1.5589792
+    - name: Play_DGX_Enemy_Aggro
+      guid: 502e6ae8239a6c4f8a78a9e242cedd9e
+      id: 3614410221
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Enemy_Aggro
+        ObjectType: 3
+        guid: 502e6ae8239a6c4f8a78a9e242cedd9e
+      Path: Events/DGX/Play_DGX_Enemy_Aggro
+      maxAttenuation: 0
+      maxDuration: 0.5043379
+      minDuration: 0.30577335
     - name: Play_DGX_Enemy_Death
       guid: ace1dc17c26fab429c7b1773c07801b9
       id: 3733121397
@@ -351,6 +385,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 10.045033
       minDuration: 9.4435625
+    - name: Play_DGX_Player_Hurt
+      guid: 2e2c9f16b7832e4aa8cea36ef36776bd
+      id: 512385751
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Player_Hurt
+        ObjectType: 3
+        guid: 2e2c9f16b7832e4aa8cea36ef36776bd
+      Path: Events/DGX/Play_DGX_Player_Hurt
+      maxAttenuation: 0
+      maxDuration: 0.6
+      minDuration: 0.3
     - name: Play_DGX_Spirit_Injured
       guid: b38e070042b34d4aa46a3e8f8b13547d
       id: 1459153067
@@ -426,7 +477,7 @@ MonoBehaviour:
     ParentPath: Events/SFX
     guid: ff6d7e55f3efc1439c417060aa9e0d80
     GuidInternal: 
-    m_lastTime: -8584697097143467381
+    m_lastTime: -8584696983537147702
     List:
     - name: Play_SFX_Distorted_Chime_Stinger
       guid: a4cbf2b0bedf0342b6f5846f6ad11fe3
@@ -445,6 +496,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 26.4
       minDuration: 26.4
+    - name: Play_SFX_Enemy_Attack
+      guid: 6a6d5476f67b6e4fbf84dbf6dd98be23
+      id: 2788169225
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: ff6d7e55f3efc1439c417060aa9e0d80
+      - ElementName: Play_SFX_Enemy_Attack
+        ObjectType: 3
+        guid: 6a6d5476f67b6e4fbf84dbf6dd98be23
+      Path: Events/SFX/Play_SFX_Enemy_Attack
+      maxAttenuation: 0
+      maxDuration: 1.05
+      minDuration: 0.9
     - name: Play_SFX_Resampled_Voice_Stinger
       guid: ef9a631e02155d439484d09546fb8767
       id: 1765240081
@@ -667,7 +735,7 @@ MonoBehaviour:
     m_lastTime: -8584697983758050912
     List: []
   ExpandedFileSystemItemIds: 03000000060000000b0000000c0000000d000000
-  ExpandedWaapiItemIds: 05000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001b0000001c0000001e0000001f00000015050000
+  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000170000001b0000001c0000001e0000001f00000015050000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
