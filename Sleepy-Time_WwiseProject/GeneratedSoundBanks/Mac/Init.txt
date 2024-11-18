@@ -17,8 +17,8 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1952219607	AUX_Verb			\Default Work Unit\Master Audio Bus\AUX_Verb	
 
 Effect plug-ins	ID	Name	Type				Notes
-	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+	2945072214	My_Closet	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

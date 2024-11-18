@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{45B9C427-10A2-D8F2-F823-5F001040E8F7}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{FDD21999-D6BC-2551-4F79-C86C6E8284B7}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -100,17 +100,50 @@
 					</MediaRefs>
 				</Event>
 			</Events>
-			<GameParameters>
-				<GameParameter Id="2455975320" Name="Drowsiness"/>
-			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{81598BF0-E59D-2164-27E9-207DEF7D6C9D}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{735AFA2B-FDCD-68B0-EEEB-77FB65A08950}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
+				<File Id="55358900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-007.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-007_8E324C96.wem</CachePath>
+				</File>
+				<File Id="101526326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-001.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-001_8E324C96.wem</CachePath>
+				</File>
+				<File Id="123826953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spirit_Injured\Spirit_Injured-006.wav</ShortName>
+					<CachePath>SFX/Spirit_Injured/Spirit_Injured-006_8E324C96.wem</CachePath>
+				</File>
+				<File Id="268468825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-004_8E324C96.wem</CachePath>
+				</File>
 				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
 					<CachePath>SFX/Barks/Entity/Entity_Barks-005_3FA7F294.wem</CachePath>
+				</File>
+				<File Id="457297709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-003_8E324C96.wem</CachePath>
+				</File>
+				<File Id="605729879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spirit_Injured\Spirit_Injured-005.wav</ShortName>
+					<CachePath>SFX/Spirit_Injured/Spirit_Injured-005_8E324C96.wem</CachePath>
+				</File>
+				<File Id="627388253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spirit_Injured\Spirit_Injured-001.wav</ShortName>
+					<CachePath>SFX/Spirit_Injured/Spirit_Injured-001_8E324C96.wem</CachePath>
+				</File>
+				<File Id="635210349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spirit_Injured\Spirit_Injured-002.wav</ShortName>
+					<CachePath>SFX/Spirit_Injured/Spirit_Injured-002_8E324C96.wem</CachePath>
+				</File>
+				<File Id="665232857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-005.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-005_8E324C96.wem</CachePath>
 				</File>
 				<File Id="701098869" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-001.wav</ShortName>
@@ -124,6 +157,10 @@
 					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
 					<CachePath>SFX/Barks/Entity/Entity_Barks-003_95C85B5B.wem</CachePath>
 				</File>
+				<File Id="724165326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spirit_Injured\Spirit_Injured-003.wav</ShortName>
+					<CachePath>SFX/Spirit_Injured/Spirit_Injured-003_8E324C96.wem</CachePath>
+				</File>
 				<File Id="728877307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-004.wav</ShortName>
 					<CachePath>SFX/Barks/Entity/Entity_Barks-004_182A8887.wem</CachePath>
@@ -131,6 +168,18 @@
 				<File Id="770230295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-003.wav</ShortName>
 					<CachePath>SFX/Barks/Child/Child_Barks-003_8E324C96.wem</CachePath>
+				</File>
+				<File Id="801129690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spirit_Injured\Spirit_Injured-004.wav</ShortName>
+					<CachePath>SFX/Spirit_Injured/Spirit_Injured-004_8E324C96.wem</CachePath>
+				</File>
+				<File Id="802858964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-002_8E324C96.wem</CachePath>
+				</File>
+				<File Id="963000293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-006.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-006_8E324C96.wem</CachePath>
 				</File>
 				<File Id="1019154521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-001.wav</ShortName>
@@ -149,6 +198,17 @@
 						<MediaRef Id="1019154521"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4287381608" Name="Play_DGX_Enemy_Injured" DurationType="OneShot" DurationMin="0.31237054" DurationMax="1.8592246">
+					<MediaRefs>
+						<MediaRef Id="55358900"/>
+						<MediaRef Id="101526326"/>
+						<MediaRef Id="268468825"/>
+						<MediaRef Id="457297709"/>
+						<MediaRef Id="665232857"/>
+						<MediaRef Id="802858964"/>
+						<MediaRef Id="963000293"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="9.4435625" DurationMax="10.045033">
 					<MediaRefs>
 						<MediaRef Id="417103303"/>
@@ -156,6 +216,16 @@
 						<MediaRef Id="723883399"/>
 						<MediaRef Id="728877307"/>
 						<MediaRef Id="1035737766"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1459153067" Name="Play_DGX_Spirit_Injured" DurationType="OneShot" DurationMin="2.3014166" DurationMax="2.5032916">
+					<MediaRefs>
+						<MediaRef Id="123826953"/>
+						<MediaRef Id="605729879"/>
+						<MediaRef Id="627388253"/>
+						<MediaRef Id="635210349"/>
+						<MediaRef Id="724165326"/>
+						<MediaRef Id="801129690"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -279,13 +349,13 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FD2B7AEF-CCBD-FD11-7738-167170A46F26}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7F10D462-647A-1C8D-DFA2-FB4A3227D831}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2652646462" Name="Dialog_Leveler_Soft" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="2945072214" Name="My_Closet" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -316,7 +386,7 @@
 				<AuxBus Id="1952219607" Name="AUX_Verb">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="48620415"/>
+							<PluginRef Id="2945072214"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -335,5 +405,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B9DC4B77-E14F-AD9B-EA5C-EA4E8BC4F981}</FileHash>
+	<FileHash>{691E0304-D153-DA4A-6913-CB8FE3EE14B2}</FileHash>
 </SoundBanksInfo>

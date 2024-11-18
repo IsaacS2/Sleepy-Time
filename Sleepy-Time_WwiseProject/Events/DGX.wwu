@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DGX_Enemy_Injured" ID="{3D641E98-0E1D-4292-9855-0202BD4D0292}">
+					<ChildrenList>
+						<Action Name="" ID="{D17017E4-92DD-47D3-ACA2-BAA1B59AAA11}" ShortID="725761662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Enemy_Injured" ID="{5C133488-D88A-4CEE-B675-A959E50C6A76}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

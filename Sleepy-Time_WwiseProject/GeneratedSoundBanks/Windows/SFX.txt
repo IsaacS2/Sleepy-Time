@@ -6,9 +6,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2499893359	Play_SFX_Weapon_Impact			\SFX\Play_SFX_Weapon_Impact	
 	3884316202	Play_SFX_String_Stinger			\SFX\Play_SFX_String_Stinger	
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	2455975320	Drowsiness			\Default Work Unit\Drowsiness	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	2395609	Weapon_Impact-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Weapon_Impact\_Weapon_Impact-003_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\Weapon_Impact\Weapon_Impact-003		5849
 	31191500	Blood_Spatter-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Blood_Spatter\_Blood_Spatter-002_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\UI\Blood_Spatter_UI\Blood_Spatter-002		6561

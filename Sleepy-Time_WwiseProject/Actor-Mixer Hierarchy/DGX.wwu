@@ -242,6 +242,203 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DGX_Enemy_Injured" ID="{5C133488-D88A-4CEE-B675-A959E50C6A76}" ShortID="609085830">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9D357DCF-6434-43F5-A8C6-04984C06C623}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="632"/>
+													<Property Name="Min" Type="Real64" Value="-758"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F1D5F8A3-4D0C-4B34-9FFA-E12AC3511E9D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DGX_Enemy_Injured_Natural-001" ID="{0CFDFDA0-1514-4C45-89CC-84EAFA91C26D}" ShortID="673917625">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-001" ID="{78BB3615-F86D-438E-8D69-F1730F57AAFC}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="101526326"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-001" ID="{78BB3615-F86D-438E-8D69-F1730F57AAFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-002" ID="{C5D7D246-E458-42D9-8604-F4E60B03152D}" ShortID="409743130">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-002" ID="{DAD74530-0D9A-4EAE-82D8-39C146554D5B}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802858964"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-002" ID="{DAD74530-0D9A-4EAE-82D8-39C146554D5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-003" ID="{1985A4CD-07B8-4AB8-851A-2E262B66952E}" ShortID="975358943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-003" ID="{2D519D2A-5F4C-41FE-8A4E-E875D9D17E97}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="457297709"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-003" ID="{2D519D2A-5F4C-41FE-8A4E-E875D9D17E97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-004" ID="{11B05F56-DAC8-4A63-A28F-AB6C504AB577}" ShortID="881449857">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-004" ID="{27A341C7-9FEE-48A0-BA85-675F599E7D33}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="268468825"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-004" ID="{27A341C7-9FEE-48A0-BA85-675F599E7D33}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-005" ID="{26521FD8-2B73-4986-A0D0-27F15C74AD2C}" ShortID="1072862916">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-005" ID="{8DBEBAD7-2216-4749-B33F-89E415750B4C}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665232857"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-005" ID="{8DBEBAD7-2216-4749-B33F-89E415750B4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-006" ID="{B86D16FA-0D9E-4190-95D5-DCD4C0AFDA84}" ShortID="751194054">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-006" ID="{B381BF3E-9302-4649-9433-7AD4B452C94B}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="963000293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-006" ID="{B381BF3E-9302-4649-9433-7AD4B452C94B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-007" ID="{11A0B291-5290-46ED-8D41-86819E715B41}" ShortID="177083839">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-007" ID="{AA3ED4B8-A25B-4BE3-A378-BC44DF935F8B}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="55358900"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-007" ID="{AA3ED4B8-A25B-4BE3-A378-BC44DF935F8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -16,7 +16,9 @@ namespace AK
         static const AkUniqueID PLAY_AMB = 2959533290U;
         static const AkUniqueID PLAY_AMB_SLEEP_TEST = 768061573U;
         static const AkUniqueID PLAY_DGX_CHILD_BARKS = 2579943048U;
+        static const AkUniqueID PLAY_DGX_ENEMY_INJURED = 4287381608U;
         static const AkUniqueID PLAY_DGX_ENTITY = 1819158867U;
+        static const AkUniqueID PLAY_DGX_SPIRIT_INJURED = 1459153067U;
         static const AkUniqueID PLAY_MUS_GAME = 3188041860U;
         static const AkUniqueID PLAY_MUS_TITLE = 3867386064U;
         static const AkUniqueID PLAY_SFX_DISTORTED_CHIME_STINGER = 1573854218U;
