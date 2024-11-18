@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_DGX_Entity_Barks" ID="{098047A8-669B-4864-A7CE-8CDE7D4D93CE}">
+				<Event Name="Play_DGX_Entity" ID="{098047A8-669B-4864-A7CE-8CDE7D4D93CE}">
 					<ChildrenList>
 						<Action Name="" ID="{DACD26C3-85D0-405F-81B1-052770C0C465}" ShortID="319512283">
 							<ReferenceList>

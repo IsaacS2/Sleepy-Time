@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	707361275	Play_DGX_Entity_Barks			\DGX\Play_DGX_Entity_Barks	
+	1819158867	Play_DGX_Entity			\DGX\Play_DGX_Entity	
 	2579943048	Play_DGX_Child_Barks			\DGX\Play_DGX_Child_Barks	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

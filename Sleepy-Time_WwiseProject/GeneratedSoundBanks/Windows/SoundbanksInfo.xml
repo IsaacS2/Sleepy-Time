@@ -104,7 +104,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{71ED556F-3831-9F5A-F7A6-3FE0EE599F9D}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{FC03A725-51EE-8006-D875-AA9B2B4E89D6}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -149,7 +149,7 @@
 						<MediaRef Id="1019154521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="707361275" Name="Play_DGX_Entity_Barks" DurationType="OneShot" DurationMin="19.2" DurationMax="19.2">
+				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="19.2" DurationMax="19.2">
 					<MediaRefs>
 						<MediaRef Id="417103303"/>
 						<MediaRef Id="701098869"/>
@@ -309,5 +309,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{67ECF293-2B68-B27C-F8B3-30FE76CF6DC0}</FileHash>
+	<FileHash>{F9633C88-55A3-6765-5131-B9DF0B9D435F}</FileHash>
 </SoundBanksInfo>

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d242b1e2b7b48d284ebb1c7677c072, type: 3}
   m_Name: 098047A8-669B-4864-A7CE-8CDE7D4D93CE
   m_EditorClassIdentifier: 
-  objectName: Play_DGX_Entity_Barks
-  id: 707361275
+  objectName: Play_DGX_Entity
+  id: 1819158867
   guid: 098047A8-669B-4864-A7CE-8CDE7D4D93CE

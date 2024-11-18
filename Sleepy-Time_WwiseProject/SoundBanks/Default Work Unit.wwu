@@ -30,6 +30,7 @@
 				<SoundBank Name="DGX" ID="{036659F3-B73B-4842-B3F4-CAD31A75A3BC}">
 					<ObjectInclusionList>
 						<ObjectRef Name="DGX" ID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies" ID="{A4D2B02A-9473-4D78-A0CB-3661429B1F7D}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DGX" ID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
