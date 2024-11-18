@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] private InputActionReference movement;
     [SerializeField] private float moveSpeed;
-    
+
     private Vector2 moveDirection;
     private Rigidbody2D _rb;
 
@@ -30,6 +30,8 @@ public class Movement : MonoBehaviour
         if (moveDirection != Vector2.zero)
         {
             // TODO: start player-walking sound effect here if it isn't already playing
+            AkSoundEngine.PostEvent("Play_SFX_FS_Player", gameObject);
+            // They are a single sound so the event needs to be repeated every footstep.
         }
         else
         {

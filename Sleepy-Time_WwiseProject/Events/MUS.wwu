@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EA1AF628-BD0F-40DB-BF95-7B3D949291AD}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="MUS" ID="{EA1AF628-BD0F-40DB-BF95-7B3D949291AD}" PersistMode="Standalone"/>
+		<WorkUnit Name="MUS" ID="{EA1AF628-BD0F-40DB-BF95-7B3D949291AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MUS_Game" ID="{5AEA9292-53C5-4649-8D3F-A832979CF86E}">
+					<ChildrenList>
+						<Action Name="" ID="{39FBBA49-9973-4A88-BFAB-F0B82AC6EB09}" ShortID="872229289">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_Game" ID="{D0CB024D-FBA2-45D5-B55C-E30CD8A95202}" WorkUnitID="{63699913-D499-4D6D-89A4-922131D92401}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MUS_Title" ID="{5E2EB850-24BB-42C4-A329-890332533BF4}">
+					<ChildrenList>
+						<Action Name="" ID="{BBE49B4D-FB2E-4D4C-B4FC-A79A7A227A71}" ShortID="993216546">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_Title" ID="{7FD9049F-8AD7-4B1D-963F-16AC0CBF20F9}" WorkUnitID="{63699913-D499-4D6D-89A4-922131D92401}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,6 +1,329 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{63699913-D499-4D6D-89A4-922131D92401}" SchemaVersion="119">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{63699913-D499-4D6D-89A4-922131D92401}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{63699913-D499-4D6D-89A4-922131D92401}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="MUS_Game" ID="{D0CB024D-FBA2-45D5-B55C-E30CD8A95202}" ShortID="957414455">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="153750"/>
+						<Property Name="Tempo" Type="Real64" Value="80"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUS" ID="{39425C8D-7EDF-4E54-A3C9-FBD6A0A08D27}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Marigold_Siesta_Exploring_Theme_32B_4P_80BPM" ID="{26F400A9-75AE-4FD7-BC3E-84465F31F9BB}" ShortID="77672330">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{E1642ED0-F77E-45F3-84D0-63593D27D0ED}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Marigold_Siesta_Exploring_Theme_32B_4P_80BPM" ID="{F01A58F6-6F53-44D9-85BD-A48E6865037A}">
+									<Language>SFX</Language>
+									<AudioFile>Marigold_Siesta_Exploring_Theme_32B_4P_80BPM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="678460541"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+										<CustomState Name="" ID="{CBCA5B7A-FF12-4459-B64D-B85E299378CF}" ShortID="775317212">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+										<CustomState Name="" ID="{9B4603CA-8B95-4B33-B3C2-F125D867E4B5}" ShortID="228753672"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+										<CustomState Name="" ID="{D1713A4D-DDDA-45E9-BF8A-5FAD1B430516}" ShortID="495068904">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{16EF5434-272B-4167-A551-FC630FDDF893}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Marigold_Siesta_Exploring_Theme_32B_4P_80BPM" ID="{BA6B1B72-A7E9-4463-8A69-84B2DF834747}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="108000"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="10025.6770633265"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Marigold_Siesta_Exploring_Theme_32B_4P_80BPM" ID="{F01A58F6-6F53-44D9-85BD-A48E6865037A}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+						<MusicTrack Name="Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM" ID="{25A33778-C629-4025-A666-BC7333A3AC1E}" ShortID="79052250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{D54E77CB-377B-48DB-A328-6AAEAD12CA97}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM" ID="{1716D4E7-A2FD-4C26-A719-9FB4EC4D5ECB}">
+									<Language>SFX</Language>
+									<AudioFile>Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="562036594"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+										<CustomState Name="" ID="{9921AFE1-7C1E-4725-B25C-CA1036D5FB63}" ShortID="10119590">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+										<CustomState Name="" ID="{16370ECE-AF7E-463D-BCB3-533C9A184BDE}" ShortID="196628357">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+										<CustomState Name="" ID="{65098769-2F79-4760-A8CE-4F00F8D99028}" ShortID="334548490"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{52BF0EE7-4F20-43F1-9F25-B115C0EB612F}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM" ID="{834B018C-86EA-480D-B84D-71E28E777C22}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="108000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM" ID="{1716D4E7-A2FD-4C26-A719-9FB4EC4D5ECB}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+								<CustomState Name="" ID="{0EEBB146-0E10-4DBF-89D7-3116CA4CB189}" ShortID="734856456"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+								<CustomState Name="" ID="{C4BBAAF2-14E4-43C5-9280-310B94149E1F}" ShortID="218404249"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+								<CustomState Name="" ID="{9F58C84E-A458-4BDE-A711-BB945B740608}" ShortID="834942393"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{CCE31339-71F7-44C8-87B1-13E925EA657C}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{2FF965BC-AEDB-4D92-A357-8C0CCBB5CE5A}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="108000"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+				<MusicSegment Name="MUS_Title" ID="{7FD9049F-8AD7-4B1D-963F-16AC0CBF20F9}" ShortID="1005452716">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="144000"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUS" ID="{39425C8D-7EDF-4E54-A3C9-FBD6A0A08D27}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Marigold_Siesta_Title Theme_48B_0P_80BPM" ID="{A6A70ACE-30F0-43E8-92DB-075BB4AD0FC9}" ShortID="761445956">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{D3EFE2C7-1FA1-48B7-8483-13AF3B078993}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Marigold_Siesta_Title Theme_48B_0P_80BPM" ID="{412B4205-606D-4645-8C57-0C01D6EEC8D7}">
+									<Language>SFX</Language>
+									<AudioFile>Marigold_Siesta_Title Theme_48B_0P_80BPM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1002442582"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{ABB644AC-9071-40E8-AFA9-8DA2547E7293}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Marigold_Siesta_Title Theme_48B_0P_80BPM" ID="{9E85607D-0F33-4852-A862-0A1CEC174DAB}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="144000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Marigold_Siesta_Title Theme_48B_0P_80BPM" ID="{412B4205-606D-4645-8C57-0C01D6EEC8D7}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{AB1A4809-252D-4A24-A889-3594C088A8F3}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{002DBA69-AEE6-48C6-9298-BDCC2275ADF1}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

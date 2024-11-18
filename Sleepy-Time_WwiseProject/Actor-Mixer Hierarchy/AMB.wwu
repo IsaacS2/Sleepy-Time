@@ -52,32 +52,10 @@
 							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+							<ObjectRef Name="AMB" ID="{3E424A5C-F44A-4488-A3E1-F889C235F9D8}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="AMB_Sleep_Test" ID="{D1CF1456-5B5F-49BB-A98D-B9FFF39B678E}" ShortID="997171316">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}">
-									<Language>SFX</Language>
-									<AudioFile>AMB_AMB_Sleep_Test.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="636364065"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Folder Name="Awake" ID="{29D1B9B5-51DA-4645-8458-BC0157F6E5F1}" ShortID="993434775">
 							<ChildrenList>
 								<Sound Name="AMB_Awake_Insects" ID="{D810314C-711A-4346-85A4-B74FF5908950}" ShortID="441646273">
@@ -151,6 +129,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{A8A78C1F-8DB9-4E0F-979E-24480E9B30C4}" ShortID="426473234">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{5152C748-1A1B-44CE-BD20-49DC01E5B587}" ShortID="522812480"/>
@@ -354,6 +340,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{8988DD14-8C63-41F3-9D06-D9263963E655}" ShortID="256311695">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{713E7D6C-1C97-470B-94BB-2BED86942506}" ShortID="438205017"/>
@@ -596,6 +590,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{4C7F484C-166F-488F-82F0-80F1680F9BD1}" ShortID="422475182">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{0D1B0F69-789A-4823-80D6-EA442A146221}" ShortID="780773252"/>
 											</CustomState>
@@ -713,6 +715,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{46EA7620-9A38-46A4-B03D-550955AF1859}" ShortID="339511098">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{AC6A2706-5656-4E0D-BFE1-5E2EB85B0227}" ShortID="152605495"/>
@@ -887,6 +897,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{45F771F6-C7FA-4D26-B1F0-0DB05F8AF062}" ShortID="981815030">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{41CCC578-9587-4223-8932-937A7E8EC17F}" ShortID="191558047"/>
 											</CustomState>
@@ -1060,6 +1078,10 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
+														<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+														<CustomState Name="" ID="{E658CC13-E3FB-410C-ABCD-2FF44879372D}" ShortID="786552619"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 														<CustomState Name="" ID="{26FE96FC-AF24-40BB-AEB5-D20C5A3AAC83}" ShortID="332464454"/>
 													</CustomState>
@@ -1111,6 +1133,10 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
+														<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+														<CustomState Name="" ID="{CE1E23A7-81D8-4FBA-A57C-954C714B17DE}" ShortID="120138359"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 														<CustomState Name="" ID="{026137FC-D313-45D5-AA78-ABE361FFA63E}" ShortID="77342940"/>
 													</CustomState>
@@ -1129,6 +1155,35 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{D1A24E62-5A00-43AF-9AA7-6D5E67AF99CD}" ShortID="512389221">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{1D29C520-EEFF-4931-9FFF-5A352475DC38}" ShortID="465480514"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{03B7FB35-5C94-4FE3-BFBA-9D0CC5D0D214}" ShortID="819335666">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<BlendTrackList>
 										<BlendTrack Name="Drowsiness" ID="{16362E78-DE21-4EB4-A7DB-03B864781754}" ShortID="833919925">
 											<PropertyList>
@@ -1238,6 +1293,10 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{AE671A80-3ABD-40CB-AC98-46E1B3EA0053}" ShortID="187670997"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{26BCE778-5F8D-4E2E-A210-91181FB81575}" ShortID="406506192">
 													<PropertyList>
@@ -1283,6 +1342,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{1BC4DC29-CDB2-4DB4-AD9A-41CCB82B8E44}" ShortID="392686494">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="8"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{AE0753D5-92B4-4C7F-89BD-BBF17DCBF2FA}" ShortID="192004992">
@@ -1373,6 +1440,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{EEB06780-426E-4701-B5FB-F3E8F71375BF}" ShortID="12033522">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{1EAEA1CF-C6C0-4BAB-90E9-600639BC5CE6}" ShortID="718796756">
 													<PropertyList>
@@ -1462,6 +1537,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{9A6B4D81-5616-48C1-B3CB-19257B5F4870}" ShortID="978909794">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="8"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{8ED9B586-7967-4651-A080-F474BC2AE940}" ShortID="448623486">
 													<PropertyList>
@@ -1512,6 +1595,10 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{C8EB00D3-EF49-48F2-BEC9-D4D790B3FF47}" ShortID="65082617"/>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{67DCFCD4-8F86-4FF8-95D8-3AB90746647D}" ShortID="201999632">
@@ -1612,6 +1699,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{10EA7644-8D87-42FE-AAAD-FC7F98CB7A08}" ShortID="1004262563">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{89CBA2C0-E90E-4353-AD9E-1D3E101AD418}" ShortID="435206260">
 													<PropertyList>
@@ -1629,10 +1724,261 @@
 										<ActiveSource Name="AMB_Sleep_Distant_Jungle" ID="{4C42DB22-A326-4D11-9219-6F6C3E111F15}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="AMB_Sleep_Test" ID="{D1CF1456-5B5F-49BB-A98D-B9FFF39B678E}" ShortID="997171316">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{9E93E759-C63D-4C3C-B05C-6DF772C6569A}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{293A51B5-ADF1-4B8A-99E8-9DAA861A313F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{D21F54AE-1ACB-46F4-8C00-9C09429CBBC6}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_AMB_Sleep_Test.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="636364065"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
 				</ActorMixer>
+				<RandomSequenceContainer Name="DGX_Player_Snoring" ID="{C9A5E8F8-8038-48DD-BF7F-CEB81B1884CA}" ShortID="211193932">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7C12BB58-6264-4A66-A02D-12E3E025C6E5}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="5"/>
+											<Property Name="Min" Type="Real64" Value="-7"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="DGX_Player_Snoring-001" ID="{0C3D3E47-3C11-464B-8CE4-3BFC57B7CCEC}" ShortID="6820660">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Snoring-001" ID="{0B14C21F-9FDC-4683-B5E2-4A14FE3D0BEB}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Snoring\Player_Snoring-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="380877099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Snoring-001" ID="{0B14C21F-9FDC-4683-B5E2-4A14FE3D0BEB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DGX_Player_Snoring-002" ID="{1E232BAF-8D5E-4974-B1F0-4C72CF213EAA}" ShortID="902015670">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Snoring-002" ID="{9D65EADF-E887-407D-B670-A106CF94CED1}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Snoring\Player_Snoring-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="703104942"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Snoring-002" ID="{9D65EADF-E887-407D-B670-A106CF94CED1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DGX_Player_Snoring-003" ID="{CE1F5226-4B69-4CB5-BC47-FA3C4572AEB4}" ShortID="449366805">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Snoring-003" ID="{7F445590-9595-44EB-94EF-ABF032C072DD}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Snoring\Player_Snoring-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="426201924"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Snoring-003" ID="{7F445590-9595-44EB-94EF-ABF032C072DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DGX_Player_Snoring-004" ID="{59B035D4-0BDA-4553-8C3C-2A03DF37D708}" ShortID="346014190">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Snoring-004" ID="{845B9A05-BA9B-4893-A143-01AA2243A630}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Snoring\Player_Snoring-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="742855847"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Snoring-004" ID="{845B9A05-BA9B-4893-A143-01AA2243A630}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DGX_Player_Snoring-005" ID="{A9760E1B-024B-4711-A4AD-F6587AFB99A3}" ShortID="21403991">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Snoring-005" ID="{848D089F-9C69-4458-942B-A98479DF1F7E}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Snoring\Player_Snoring-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="369466060"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Snoring-005" ID="{848D089F-9C69-4458-942B-A98479DF1F7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DGX_Player_Snoring-006" ID="{74DF40FF-453F-4A5A-9B3F-EE2D0CC7D034}" ShortID="368560250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_Snoring-006" ID="{0F912980-8B94-4C09-9307-89FAF5799267}">
+									<Language>SFX</Language>
+									<AudioFile>Player_Snoring\Player_Snoring-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1064574171"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_Snoring-006" ID="{0F912980-8B94-4C09-9307-89FAF5799267}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+								<CustomState Name="" ID="{8E7E8E43-38AB-4186-85B4-E5933918E247}" ShortID="853607809"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+								<CustomState Name="" ID="{7FFC0BB5-C422-4728-A436-C9E239EBBE26}" ShortID="87968769">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+								<CustomState Name="" ID="{9EBE75D2-1DB2-4A42-8519-7022BC2E3308}" ShortID="400652864"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="DGX" ID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_DGX_Child_Barks" ID="{D3E2A5FA-A7C4-49D0-9BAF-9425A603734C}">
+					<ChildrenList>
+						<Action Name="" ID="{89C5CDA2-C471-40F9-9257-D0B017A8C73E}" ShortID="418794786">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Entity" ID="{098047A8-669B-4864-A7CE-8CDE7D4D93CE}">
+					<ChildrenList>
+						<Action Name="" ID="{DACD26C3-85D0-405F-81B1-052770C0C465}" ShortID="319512283">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Enemy_Injured" ID="{3D641E98-0E1D-4292-9855-0202BD4D0292}">
+					<ChildrenList>
+						<Action Name="" ID="{D17017E4-92DD-47D3-ACA2-BAA1B59AAA11}" ShortID="725761662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Enemy_Injured" ID="{5C133488-D88A-4CEE-B675-A959E50C6A76}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Enemy_Death" ID="{17DCE1AC-6FC2-42AB-9C7B-1773C07801B9}">
+					<ChildrenList>
+						<Action Name="" ID="{F4741473-1752-4A27-A9D6-A791A997BD2D}" ShortID="380281513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Enemy_Death" ID="{71CA0810-8966-4633-A377-212653E81F64}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Spirit_Injured" ID="{00078EB3-B342-4A4D-A46A-3E8F8B13547D}">
+					<ChildrenList>
+						<Action Name="" ID="{32FB6AC5-E145-4DCB-AD64-D75F148A5C48}" ShortID="580547326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Spirit_Injured" ID="{0E274B05-38F5-45FA-BFC9-834A2E6A56BE}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Enemy_Aggro" ID="{E86A2E50-9A23-4F6C-8A78-A9E242CEDD9E}">
+					<ChildrenList>
+						<Action Name="" ID="{D0BE1F4E-CEDC-47CF-8BAA-6DE7C1C9B6A1}" ShortID="548673782">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Enemy_Aggro" ID="{86C0BB5F-92F7-4BA8-8A76-58477752281F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Player_Hurt" ID="{169F2C2E-83B7-4A2E-A8CE-A36EF36776BD}">
+					<ChildrenList>
+						<Action Name="" ID="{76652708-A8C1-4D4A-A178-D26701590CF2}" ShortID="420377860">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Hurt" ID="{5D2EBC41-797B-404A-A0C9-BE4DD1A13EBB}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Player_Wake" ID="{16BB884C-97D1-41D1-B603-0F091AEDEF31}">
+					<ChildrenList>
+						<Action Name="" ID="{184FE28B-CF27-4CCC-973C-6B99AC720129}" ShortID="715289809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Wake" ID="{1519AAF2-EA7B-4794-A4DC-3A4516F195ED}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{71E4E22A-A9A7-40F8-9C36-CC79F6CCD3D5}" ShortID="969736685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Player_Scream" ID="{311609E7-5528-4504-8343-41B9696FD94D}">
+					<ChildrenList>
+						<Action Name="" ID="{321A7CEE-ACA9-4ED6-B8BD-AB7D6033FA4E}" ShortID="416233502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Scream" ID="{16A9957C-5F18-4DEB-84AC-6C449BE2F722}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Entity_Dry" ID="{A96943CA-34CB-4A69-B005-83364A6B9D7D}">
+					<ChildrenList>
+						<Action Name="" ID="{8CC03238-AA4B-430D-AFC9-C415B602BD3D}" ShortID="704712429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Entity_Dry" ID="{53F3E2A1-7C41-4E39-A3FB-FFB55869498E}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Death_Sequence" ID="{75E2841B-C8D6-4D5A-B0D6-B73AF0098BA5}">
+					<ChildrenList>
+						<Action Name="" ID="{C207D3DD-F14B-4F6F-8ED2-AEAB436A86B4}" ShortID="166295207">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_DGX_Entity_Dry" ID="{A96943CA-34CB-4A69-B005-83364A6B9D7D}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F3EB1F82-5A91-43D6-81BE-BA0358A3E55C}" ShortID="18433550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_DGX_Entity" ID="{098047A8-669B-4864-A7CE-8CDE7D4D93CE}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{17089966-3253-4D6C-A42F-84608D9D012A}" ShortID="105717741">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_DGX_Player_Scream" ID="{311609E7-5528-4504-8343-41B9696FD94D}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

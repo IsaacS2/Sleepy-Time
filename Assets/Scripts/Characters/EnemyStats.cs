@@ -52,12 +52,14 @@ public class EnemyStats : CharacterStats
     public override void CalculateDamage(float damage)
     {
         // TODO: Add enemy grunting/hurt sound effect
+        AkSoundEngine.PostEvent("Play_DGX_Enemy_Injured", gameObject);
 
         base.CalculateDamage(damage);
 
         if (_dead)
         {
             // TODO: add enemy dying sound effect
+            AkSoundEngine.PostEvent("Play_DGX_Enemy_Death", gameObject);
             Destroy(gameObject);
         }
     }
