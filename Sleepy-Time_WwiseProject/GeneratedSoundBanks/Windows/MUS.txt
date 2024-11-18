@@ -11,7 +11,7 @@ State	ID	Name	State Group			Notes
 	3778954319	Asleep	Sleeping			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	562036594	Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Game\Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM		19051296
-	678460541	Marigold_Siesta_Exploring_Theme_32B_4P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Marigold_Siesta_Exploring_Theme_32B_4P_80BPM_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Game\Marigold_Siesta_Exploring_Theme_32B_4P_80BPM		19051296
-	1002442582	Marigold_Siesta_Title Theme_48B_0P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Marigold_Siesta_Title Theme_48B_0P_80BPM_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Title\Marigold_Siesta_Title Theme_48B_0P_80BPM		25401696
+	562036594	Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Game\Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM		1513925
+	678460541	Marigold_Siesta_Exploring_Theme_32B_4P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Marigold_Siesta_Exploring_Theme_32B_4P_80BPM_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Game\Marigold_Siesta_Exploring_Theme_32B_4P_80BPM		1183546
+	1002442582	Marigold_Siesta_Title Theme_48B_0P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Marigold_Siesta_Title Theme_48B_0P_80BPM_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Title\Marigold_Siesta_Title Theme_48B_0P_80BPM		1737991
 

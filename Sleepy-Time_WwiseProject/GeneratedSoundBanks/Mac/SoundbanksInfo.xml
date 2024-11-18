@@ -9,57 +9,57 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{B6AE2A09-771C-32E3-18B1-5870351430F0}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{45B9C427-10A2-D8F2-F823-5F001040E8F7}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
 				<File Id="2395609" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact\_Weapon_Impact-003.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-003_818F3B66.wem</CachePath>
+					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-003_8E324C96.wem</CachePath>
 				</File>
 				<File Id="31191500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-002.wav</ShortName>
-					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-002_818F3B66.wem</CachePath>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-002_8E324C96.wem</CachePath>
 				</File>
 				<File Id="198589439" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact\_Weapon_Impact-002.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-002_818F3B66.wem</CachePath>
+					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-002_8E324C96.wem</CachePath>
 				</File>
 				<File Id="321683485" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-004.wav</ShortName>
-					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-004_818F3B66.wem</CachePath>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-004_8E324C96.wem</CachePath>
 				</File>
 				<File Id="423826708" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-001.wav</ShortName>
-					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-001_818F3B66.wem</CachePath>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-001_8E324C96.wem</CachePath>
 				</File>
 				<File Id="589159237" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact\_Weapon_Impact-001.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-001_818F3B66.wem</CachePath>
+					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-001_8E324C96.wem</CachePath>
 				</File>
 				<File Id="599667693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</ShortName>
-					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_818F3B66.wem</CachePath>
+					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_8E324C96.wem</CachePath>
 				</File>
 				<File Id="665366938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\String_Sting\Stingers_String_Sting.wav</ShortName>
-					<CachePath>SFX/Stingers/String_Sting/Stingers_String_Sting_818F3B66.wem</CachePath>
+					<CachePath>SFX/Stingers/String_Sting/Stingers_String_Sting_8E324C96.wem</CachePath>
 				</File>
 				<File Id="775532303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</ShortName>
-					<CachePath>SFX/Stingers/Resampled_Voice/Stingers_Resampled_Voice_818F3B66.wem</CachePath>
+					<CachePath>SFX/Stingers/Resampled_Voice/Stingers_Resampled_Voice_8E324C96.wem</CachePath>
 				</File>
 				<File Id="821796859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</ShortName>
-					<CachePath>SFX/Stingers/Swipe_Up/Stingers_Swipe_Up_818F3B66.wem</CachePath>
+					<CachePath>SFX/Stingers/Swipe_Up/Stingers_Swipe_Up_8E324C96.wem</CachePath>
 				</File>
 				<File Id="957313629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-003.wav</ShortName>
-					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-003_818F3B66.wem</CachePath>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-003_8E324C96.wem</CachePath>
 				</File>
 				<File Id="972321335" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-005.wav</ShortName>
-					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-005_818F3B66.wem</CachePath>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-005_8E324C96.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -104,41 +104,41 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{7F04BB09-9980-C371-C807-8D207C2E20B9}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{71ED556F-3831-9F5A-F7A6-3FE0EE599F9D}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
 				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-005_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-005_8E324C96.wem</CachePath>
 				</File>
 				<File Id="701098869" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-001.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-001_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-001_8E324C96.wem</CachePath>
 				</File>
 				<File Id="716638564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-002.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-002_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-002_8E324C96.wem</CachePath>
 				</File>
 				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-003_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-003_8E324C96.wem</CachePath>
 				</File>
 				<File Id="728877307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-004.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-004_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-004_8E324C96.wem</CachePath>
 				</File>
 				<File Id="770230295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-003.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-003_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-003_8E324C96.wem</CachePath>
 				</File>
 				<File Id="1019154521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-001.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-001_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-001_8E324C96.wem</CachePath>
 				</File>
 				<File Id="1035737766" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-002.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-002_818F3B66.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-002_8E324C96.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -160,21 +160,21 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{ED3C5CC4-9F79-0F0B-736B-FE855A926178}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{EDCF70C3-F24A-4621-E4D3-EE4F402C43F9}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
 				<File Id="562036594" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM.wav</ShortName>
-					<CachePath>SFX/Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM_56CEF360.wem</CachePath>
 				</File>
 				<File Id="678460541" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Marigold_Siesta_Exploring_Theme_32B_4P_80BPM.wav</ShortName>
-					<CachePath>SFX/Marigold_Siesta_Exploring_Theme_32B_4P_80BPM_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Marigold_Siesta_Exploring_Theme_32B_4P_80BPM_56CEF360.wem</CachePath>
 				</File>
 				<File Id="1002442582" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Marigold_Siesta_Title Theme_48B_0P_80BPM.wav</ShortName>
-					<CachePath>SFX/Marigold_Siesta_Title Theme_48B_0P_80BPM_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Marigold_Siesta_Title Theme_48B_0P_80BPM_56CEF360.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -309,5 +309,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9B6345C9-6B35-15FD-7FB4-8BEE016FCF40}</FileHash>
+	<FileHash>{6E66B092-5D79-37DB-F775-AB63B2B1E5D2}</FileHash>
 </SoundBanksInfo>
