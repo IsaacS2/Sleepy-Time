@@ -104,17 +104,17 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{D7B4663B-D961-BBD0-A720-CFEA793CCBB4}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{81598BF0-E59D-2164-27E9-207DEF7D6C9D}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
 				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-005_0497DBBD.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-005_3FA7F294.wem</CachePath>
 				</File>
 				<File Id="701098869" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-001.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-001_FD556F00.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-001_E90FF1F8.wem</CachePath>
 				</File>
 				<File Id="716638564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-002.wav</ShortName>
@@ -122,11 +122,11 @@
 				</File>
 				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-003_8C23B383.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-003_95C85B5B.wem</CachePath>
 				</File>
 				<File Id="728877307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-004.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-004_9F669D3D.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-004_182A8887.wem</CachePath>
 				</File>
 				<File Id="770230295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-003.wav</ShortName>
@@ -138,7 +138,7 @@
 				</File>
 				<File Id="1035737766" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-002.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-002_F11C567D.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-002_BEDE94E8.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -149,7 +149,7 @@
 						<MediaRef Id="1019154521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="5.896063" DurationMax="10.015748">
+				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="9.4435625" DurationMax="10.045033">
 					<MediaRefs>
 						<MediaRef Id="417103303"/>
 						<MediaRef Id="701098869"/>
@@ -279,7 +279,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1D2EB06D-F161-B87B-849E-6CBCD9C13297}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9D877896-6D46-5DA0-FB0E-1E536FD9E649}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -335,5 +335,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1C67BD67-F358-4646-11E6-7DF3F725FB01}</FileHash>
+	<FileHash>{E0184B66-B258-1FF7-2ABE-3A52A7565999}</FileHash>
 </SoundBanksInfo>
