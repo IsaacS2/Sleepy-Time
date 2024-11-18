@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{CC4707CE-D6DB-61CD-F01C-5E61D75ED40D}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{2CC663EE-C6C5-D290-AC76-25B5D7D21B7D}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -72,7 +72,27 @@
 						<MediaRef Id="972321335"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3739832523" Name="Play_Weapon_Impact" DurationType="OneShot" DurationMin="0.26313367" DurationMax="0.5208104">
+				<Event Id="1573854218" Name="Play_SFX_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="26.4" DurationMax="26.4">
+					<MediaRefs>
+						<MediaRef Id="599667693"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1765240081" Name="Play_SFX_Resampled_Voice_Stinger" DurationType="OneShot" DurationMin="13.8" DurationMax="13.8">
+					<MediaRefs>
+						<MediaRef Id="775532303"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3884316202" Name="Play_SFX_String_Stinger" DurationType="OneShot" DurationMin="6.6" DurationMax="6.6">
+					<MediaRefs>
+						<MediaRef Id="665366938"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1936094923" Name="Play_SFX_Swipe_Up_Stinger" DurationType="OneShot" DurationMin="11.4" DurationMax="11.4">
+					<MediaRefs>
+						<MediaRef Id="821796859"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2499893359" Name="Play_SFX_Weapon_Impact" DurationType="OneShot" DurationMin="0.26313367" DurationMax="0.5208104">
 					<MediaRefs>
 						<MediaRef Id="2395609"/>
 						<MediaRef Id="198589439"/>
@@ -81,9 +101,36 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{E72D94DC-7793-BD3D-A2CC-4624ADEB8BE7}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{A524159A-0F80-9A58-2DA8-3D50444A9BB2}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
+			<Media>
+				<File Id="562036594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM.wav</ShortName>
+					<CachePath>SFX/Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="678460541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Marigold_Siesta_Exploring_Theme_32B_4P_80BPM.wav</ShortName>
+					<CachePath>SFX/Marigold_Siesta_Exploring_Theme_32B_4P_80BPM_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1002442582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Marigold_Siesta_Title Theme_48B_0P_80BPM.wav</ShortName>
+					<CachePath>SFX/Marigold_Siesta_Title Theme_48B_0P_80BPM_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3188041860" Name="Play_MUS_Game" DurationType="OneShot" DurationMin="108" DurationMax="108">
+					<MediaRefs>
+						<MediaRef Id="562036594"/>
+						<MediaRef Id="678460541"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3867386064" Name="Play_MUS_Title" DurationType="OneShot" DurationMin="144" DurationMax="144">
+					<MediaRefs>
+						<MediaRef Id="1002442582"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{78106C10-D7FE-3A54-4328-84C654C7D562}">
 			<ShortName>AMB</ShortName>
@@ -173,7 +220,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D707F3B9-5075-86D9-6A32-5DB1EC2EE127}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A425CB33-2085-941F-5D70-624B027376AD}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -199,5 +246,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9657D54B-693E-97B1-679E-C12153963C0D}</FileHash>
+	<FileHash>{73B72223-3D02-E528-F6BA-F7FA4F383A2E}</FileHash>
 </SoundBanksInfo>

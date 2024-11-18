@@ -16,7 +16,13 @@ namespace AK
         static const AkUniqueID PLAY_AMB = 2959533290U;
         static const AkUniqueID PLAY_AMB_SLEEP_TEST = 768061573U;
         static const AkUniqueID PLAY_BLOOD_SPATTER_UI = 4023174377U;
-        static const AkUniqueID PLAY_WEAPON_IMPACT = 3739832523U;
+        static const AkUniqueID PLAY_MUS_GAME = 3188041860U;
+        static const AkUniqueID PLAY_MUS_TITLE = 3867386064U;
+        static const AkUniqueID PLAY_SFX_DISTORTED_CHIME_STINGER = 1573854218U;
+        static const AkUniqueID PLAY_SFX_RESAMPLED_VOICE_STINGER = 1765240081U;
+        static const AkUniqueID PLAY_SFX_STRING_STINGER = 3884316202U;
+        static const AkUniqueID PLAY_SFX_SWIPE_UP_STINGER = 1936094923U;
+        static const AkUniqueID PLAY_SFX_WEAPON_IMPACT = 2499893359U;
     } // namespace EVENTS
 
     namespace STATES

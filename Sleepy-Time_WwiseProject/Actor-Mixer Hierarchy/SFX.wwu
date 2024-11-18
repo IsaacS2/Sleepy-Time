@@ -3,7 +3,225 @@
 	<AudioObjects>
 		<WorkUnit Name="SFX" ID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="SFX" ID="{132D7CAC-3313-4917-8A28-F08AAAD52F3B}" ShortID="159088677">
+				<ActorMixer Name="Stingers" ID="{132D7CAC-3313-4917-8A28-F08AAAD52F3B}" ShortID="159088677">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Distorted_Chime_Stinger" ID="{C28487C0-D117-4616-8F2B-B0FF8362A6D6}" ShortID="799610250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599667693"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Resampled_Voice_Stinger" ID="{F1B0CA8E-BD9A-4F8C-BA84-D709D5B10EB8}" ShortID="972093962">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_Resampled_Voice" ID="{558FA32A-6055-474D-BE74-3FEF3A73EEFC}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775532303"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_Resampled_Voice" ID="{558FA32A-6055-474D-BE74-3FEF3A73EEFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_String_Stinger" ID="{78141FAD-F2EC-4195-BE07-191C0DE69610}" ShortID="821422305">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_String_Sting" ID="{E9F6CF3E-3CCA-41CC-97D4-FB80AC5BE2CD}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\String_Sting\Stingers_String_Sting.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="665366938"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_String_Sting" ID="{E9F6CF3E-3CCA-41CC-97D4-FB80AC5BE2CD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Swipe_Up_Stinger" ID="{E51C0F50-FF28-4565-AD1A-426E6381C11B}" ShortID="48384973">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="821796859"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Gameplay" ID="{44475565-1568-4BA5-BE4E-DBFAF480F98A}" ShortID="168007477">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" ShortID="51292949">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6C8C9635-C0AC-43E7-B346-87ACFCACDDA6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{87838A84-EB23-44AC-97B3-904C1DCB09FE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Weapon_Impact-001" ID="{E5B612F8-FEC6-4BF1-A503-7C68395C1724}" ShortID="867769506">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Impact-001" ID="{EFD3023A-CBAE-4C99-A5C3-E3CB98261797}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Impact\_Weapon_Impact-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589159237"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Impact-001" ID="{EFD3023A-CBAE-4C99-A5C3-E3CB98261797}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Impact-002" ID="{B3D033B6-5A71-4BE1-9CC4-C0DA1658466F}" ShortID="220545187">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Impact-002" ID="{02B6550E-6CDF-450E-9238-56BD67B273AF}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Impact\_Weapon_Impact-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="198589439"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Impact-002" ID="{02B6550E-6CDF-450E-9238-56BD67B273AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Impact-003" ID="{62C6493B-E2BA-4C68-B230-5C91CE99D9B6}" ShortID="1056531163">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Impact-003" ID="{B28FC490-BCC4-403E-B37E-2063A5B436CF}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Impact\_Weapon_Impact-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="2395609"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Impact-003" ID="{B28FC490-BCC4-403E-B37E-2063A5B436CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="UI" ID="{C0AA76B2-793E-4309-8039-449F75E6C125}" ShortID="394005557">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -135,200 +353,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" ShortID="51292949">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{6C8C9635-C0AC-43E7-B346-87ACFCACDDA6}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="227"/>
-													<Property Name="Min" Type="Real64" Value="-253"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{87838A84-EB23-44AC-97B3-904C1DCB09FE}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="3"/>
-													<Property Name="Min" Type="Real64" Value="-3"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Weapon_Impact-001" ID="{E5B612F8-FEC6-4BF1-A503-7C68395C1724}" ShortID="867769506">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="_Weapon_Impact-001" ID="{EFD3023A-CBAE-4C99-A5C3-E3CB98261797}">
-											<Language>SFX</Language>
-											<AudioFile>Weapon_Impact\_Weapon_Impact-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="589159237"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="_Weapon_Impact-001" ID="{EFD3023A-CBAE-4C99-A5C3-E3CB98261797}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Weapon_Impact-002" ID="{B3D033B6-5A71-4BE1-9CC4-C0DA1658466F}" ShortID="220545187">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="_Weapon_Impact-002" ID="{02B6550E-6CDF-450E-9238-56BD67B273AF}">
-											<Language>SFX</Language>
-											<AudioFile>Weapon_Impact\_Weapon_Impact-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="198589439"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="_Weapon_Impact-002" ID="{02B6550E-6CDF-450E-9238-56BD67B273AF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Weapon_Impact-003" ID="{62C6493B-E2BA-4C68-B230-5C91CE99D9B6}" ShortID="1056531163">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="_Weapon_Impact-003" ID="{B28FC490-BCC4-403E-B37E-2063A5B436CF}">
-											<Language>SFX</Language>
-											<AudioFile>Weapon_Impact\_Weapon_Impact-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="2395609"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="_Weapon_Impact-003" ID="{B28FC490-BCC4-403E-B37E-2063A5B436CF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<Sound Name="Distorted_Chime" ID="{C28487C0-D117-4616-8F2B-B0FF8362A6D6}" ShortID="799610250">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}">
-									<Language>SFX</Language>
-									<AudioFile>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="599667693"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Resampled_Voice" ID="{F1B0CA8E-BD9A-4F8C-BA84-D709D5B10EB8}" ShortID="972093962">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Stingers_Resampled_Voice" ID="{558FA32A-6055-474D-BE74-3FEF3A73EEFC}">
-									<Language>SFX</Language>
-									<AudioFile>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="775532303"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Stingers_Resampled_Voice" ID="{558FA32A-6055-474D-BE74-3FEF3A73EEFC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="String_Sting" ID="{78141FAD-F2EC-4195-BE07-191C0DE69610}" ShortID="821422305">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Stingers_String_Sting" ID="{E9F6CF3E-3CCA-41CC-97D4-FB80AC5BE2CD}">
-									<Language>SFX</Language>
-									<AudioFile>Stingers\String_Sting\Stingers_String_Sting.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="665366938"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Stingers_String_Sting" ID="{E9F6CF3E-3CCA-41CC-97D4-FB80AC5BE2CD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Swipe_Up" ID="{E51C0F50-FF28-4565-AD1A-426E6381C11B}" ShortID="48384973">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}">
-									<Language>SFX</Language>
-									<AudioFile>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="821796859"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

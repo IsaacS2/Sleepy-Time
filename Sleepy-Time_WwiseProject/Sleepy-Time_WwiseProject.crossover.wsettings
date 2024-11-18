@@ -3,9 +3,15 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{B6A019B1-AAC2-466A-9978-2A9AD140009D}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Music\Reaper\GAMES\Foundry_Jam\Piano_Theme\renders\"/>
+				<Property Name="Event Action List\{01D901E9-1B1A-4274-BC8E-855FF1725330}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{02DCA21F-13D4-480D-A058-3731FD6935DD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1E639AEF-1502-435D-9484-D09546FB8767}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{48E9833A-FA27-4B14-AF61-1D163441B4EB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5AEA9292-53C5-4649-8D3F-A832979CF86E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5E2EB850-24BB-42C4-A329-890332533BF4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{76F11AA2-903D-4972-B990-F5679993CE45}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B0F2CBA4-DFBE-4203-B6F5-846F6AD11FE3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B2A6AD64-643F-486E-B7AC-2A9C55473FBF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BC8C6485-8159-4EC5-BD27-F2261912E9D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FA2796BE-4ABF-42E3-B667-C624CC2F6C30}\x64_Expand States" Type="string" Value=""/>
@@ -31,6 +37,8 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="bvPw5UYszEeksOF8uBioPVcnylY+FhhFkhlxeYSah3E="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="a9rooJhD/UiZyHo54qLQasLtnujgWuxOoQSaGhH/qk14ORGLM5DSRa3p/9oU02f4"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{7FD9049F-8AD7-4B1D-963F-16AC0CBF20F9} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAOGhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{D0CB024D-FBA2-45D5-B55C-E30CD8A95202} - SegmentEditorZoomInfo" Type="string" Value="Z55T3LB2GEAAAAAAAADwP3Icx3EchxVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -41,6 +49,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{26F400A9-75AE-4FD7-BC3E-84465F31F9BB}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{26F400A9-75AE-4FD7-BC3E-84465F31F9BB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value="ewA4AEIAMQAxADMAOQA3ADgALQA5ADAAMwAzAC0ANAA1AEQAMgAtAEEARABFADkALQBGAEYARABBADEANABEADMANgA3AEYAOAB9AAAAAAE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{33392E9B-1921-43E3-ADD7-E15F520B0ED4}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{618C1FF9-37D4-45A7-AF0A-E2D511E44707}" Type="string" Value=""/>

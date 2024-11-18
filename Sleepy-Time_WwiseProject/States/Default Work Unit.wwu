@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}">
 					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.5"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{D9A4FEDC-3FE8-4149-9046-5858A9D4CCB5}"/>
