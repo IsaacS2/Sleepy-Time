@@ -75,6 +75,7 @@ public class PlayerStats : CharacterStats
         if (_dead && _deathTimer >= _maxDeathTime)
         {
             // TODO: Add player dying sound effect
+            //AkSoundEngine.PostEvent("Play_DGX_Player_Scream", gameObject);
 
             _deathTimer = 0;
         }

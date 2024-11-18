@@ -15,12 +15,15 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB = 2959533290U;
         static const AkUniqueID PLAY_AMB_SLEEP_TEST = 768061573U;
+        static const AkUniqueID PLAY_DEATH_SEQUENCE = 4163297412U;
         static const AkUniqueID PLAY_DGX_CHILD_BARKS = 2579943048U;
         static const AkUniqueID PLAY_DGX_ENEMY_AGGRO = 3614410221U;
         static const AkUniqueID PLAY_DGX_ENEMY_DEATH = 3733121397U;
         static const AkUniqueID PLAY_DGX_ENEMY_INJURED = 4287381608U;
         static const AkUniqueID PLAY_DGX_ENTITY = 1819158867U;
+        static const AkUniqueID PLAY_DGX_ENTITY_DRY = 3940443801U;
         static const AkUniqueID PLAY_DGX_PLAYER_HURT = 512385751U;
+        static const AkUniqueID PLAY_DGX_PLAYER_SCREAM = 1911911943U;
         static const AkUniqueID PLAY_DGX_PLAYER_SNORING = 1950652224U;
         static const AkUniqueID PLAY_DGX_PLAYER_WAKE = 800539628U;
         static const AkUniqueID PLAY_DGX_SPIRIT_INJURED = 1459153067U;
@@ -45,6 +48,7 @@ namespace AK
             {
                 static const AkUniqueID ASLEEP = 3778954319U;
                 static const AkUniqueID AWAKE = 1151176110U;
+                static const AkUniqueID DEAD = 2044049779U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace SLEEPING

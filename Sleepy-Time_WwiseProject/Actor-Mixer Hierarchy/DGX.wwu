@@ -833,6 +833,166 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DGX_Entity_Dry" ID="{53F3E2A1-7C41-4E39-A3FB-FFB55869498E}" ShortID="378165176">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DGX_Entity_Dry-001" ID="{B08CC8EE-F5DC-4186-995B-F9F1EDE5332F}" ShortID="446781281">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Dry-001" ID="{6A685D5C-15A5-4C36-8380-A23E27AEC97A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.141309875328084"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.904383202099738"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.261423269356955"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.82619750656168"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Entity_Dry\Entity_Dry-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="966806026"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Dry-001" ID="{6A685D5C-15A5-4C36-8380-A23E27AEC97A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Entity_Dry-002" ID="{7E1B4E9B-81A5-46D3-9A21-E7EBD6796875}" ShortID="336599358">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Dry-002" ID="{9A30E700-C297-4718-962C-4D74A2C1C321}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.610834235564305"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.188448859908136"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.03394803969816"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Entity_Dry\Entity_Dry-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="805343949"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Dry-002" ID="{9A30E700-C297-4718-962C-4D74A2C1C321}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Entity_Dry-003" ID="{3F020A54-8206-4EAF-A236-342A4BBBD199}" ShortID="412066336">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Dry-003" ID="{5233F15D-4BD5-48F1-9566-2C1A61E469ED}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.314150590551181"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.521356299212598"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.03602854330709"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.04792913385827"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Entity_Dry\Entity_Dry-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1015312305"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Dry-003" ID="{5233F15D-4BD5-48F1-9566-2C1A61E469ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Entity_Dry-004" ID="{D75D6F88-466F-48F3-BEBD-B4A917C08BA8}" ShortID="587310628">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Dry-004" ID="{3750D863-C111-4866-80D2-4AA124D773C7}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.647937130905512"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.15138718011811"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.11942052165354"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Entity_Dry\Entity_Dry-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="440116752"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Dry-004" ID="{3750D863-C111-4866-80D2-4AA124D773C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Entity_Dry-005" ID="{C2DDC5B4-4B72-49C8-A1AF-2F9CBA48A6EC}" ShortID="825583273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Entity_Dry-005" ID="{618CC177-D7E0-4C8C-81E1-59FA80EBDD17}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.196352526246719"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.20896592027559"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Entity_Dry\Entity_Dry-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665902365"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Entity_Dry-005" ID="{618CC177-D7E0-4C8C-81E1-59FA80EBDD17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Player" ID="{91CDCCEF-DDB5-4E7C-944D-BB2DDAAC60AC}" ShortID="796465278">
@@ -964,9 +1124,7 @@
 								<ObjectList Name="Effects">
 									<Reference>
 										<Local>
-											<EffectSlot Name="" ID="{B3824A56-CE50-40F8-A7EA-66D07793DC25}" ShortID="572551818">
-												<ReferenceList/>
-											</EffectSlot>
+											<EffectSlot Name="" ID="{B3824A56-CE50-40F8-A7EA-66D07793DC25}" ShortID="572551818"/>
 										</Local>
 									</Reference>
 								</ObjectList>
@@ -977,7 +1135,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -990,7 +1148,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="DGX_Player_Wake-001" ID="{4EBF6C0E-55B5-414C-8A71-C5701F8CA12D}" ShortID="234452039">
+								<Sound Name="DGX_Player_Wake-001" ID="{D6A1A30B-F157-4541-859D-F0C4DD014FFD}" ShortID="289736511">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -1000,12 +1158,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player_Wake-001" ID="{CE87D639-028C-4E95-8B96-96992AAC6DF6}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0259842519685039"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0661417322834646"/>
-											</PropertyList>
+										<AudioFileSource Name="Player_Wake-001" ID="{2C1D3D03-B0F1-461C-9C8D-00662B8FBDE2}">
 											<Language>SFX</Language>
 											<AudioFile>Player_Wake\Player_Wake-001.wav</AudioFile>
 											<MediaIDList>
@@ -1014,10 +1167,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player_Wake-001" ID="{CE87D639-028C-4E95-8B96-96992AAC6DF6}" Platform="Linked"/>
+										<ActiveSource Name="Player_Wake-001" ID="{2C1D3D03-B0F1-461C-9C8D-00662B8FBDE2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="DGX_Player_Wake-002" ID="{523F2625-64A6-4481-BFE5-788D60B22A4E}" ShortID="532835595">
+								<Sound Name="DGX_Player_Wake-002" ID="{B3E37C2F-974D-484D-B4AD-ED39AD4764B0}" ShortID="839528877">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -1027,11 +1180,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player_Wake-002" ID="{B0F625D4-D400-4D7D-931E-326253D67965}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.179527559055118"/>
-											</PropertyList>
+										<AudioFileSource Name="Player_Wake-002" ID="{AA8DEA4C-1909-4F61-BBC1-446862EB1A5D}">
 											<Language>SFX</Language>
 											<AudioFile>Player_Wake\Player_Wake-002.wav</AudioFile>
 											<MediaIDList>
@@ -1040,10 +1189,184 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player_Wake-002" ID="{B0F625D4-D400-4D7D-931E-326253D67965}" Platform="Linked"/>
+										<ActiveSource Name="Player_Wake-002" ID="{AA8DEA4C-1909-4F61-BBC1-446862EB1A5D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="DGX_Player_Wake-003" ID="{6A132ADB-A16F-4CEE-B2C5-0D12984622CD}" ShortID="461220829">
+								<Sound Name="DGX_Player_Wake-003" ID="{C54C01E6-7563-442C-BC52-495270CA7EBB}" ShortID="805127760">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-003" ID="{49068417-774F-4470-BA22-5AC54B11C9FF}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="834033836"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-003" ID="{49068417-774F-4470-BA22-5AC54B11C9FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-004" ID="{75D50E5F-44E6-46D2-AEF1-FFAC8155B381}" ShortID="719499276">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-004" ID="{3572D4A5-B27D-49DE-9201-CB3B49AB6841}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="31217012"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-004" ID="{3572D4A5-B27D-49DE-9201-CB3B49AB6841}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-005" ID="{18F0B909-1946-4B5B-BCB6-9F6623BDF0AE}" ShortID="971999544">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-005" ID="{3CB1A827-F008-485F-917E-AEA118B9A1AA}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="173244936"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-005" ID="{3CB1A827-F008-485F-917E-AEA118B9A1AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-006" ID="{6D21594A-0EEE-43C4-921D-8A2ECD589AB3}" ShortID="850030940">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-006" ID="{F23C8195-2EF4-4098-A076-CB958AE45894}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="463093217"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-006" ID="{F23C8195-2EF4-4098-A076-CB958AE45894}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-007" ID="{67CCF1CE-6149-474B-905E-6EF60AD494BE}" ShortID="622434334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-007" ID="{6C3E47FF-0CA7-408E-9506-0C296BE97E21}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="292337563"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-007" ID="{6C3E47FF-0CA7-408E-9506-0C296BE97E21}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-008" ID="{EDA200F3-5CF5-4125-BBB1-25645B7DA1FD}" ShortID="934793428">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-008" ID="{046BA90F-7A07-4018-9299-91321CE02E66}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345222127"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-008" ID="{046BA90F-7A07-4018-9299-91321CE02E66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-003" ID="{01FC7952-86A4-417B-B905-4CACCFFF488E}" ShortID="820389073">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-003" ID="{2941EBAE-D7B4-40E4-BD1F-A990BC4FD72D}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="938235534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-003" ID="{2941EBAE-D7B4-40E4-BD1F-A990BC4FD72D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DGX_Player_Scream" ID="{16A9957C-5F18-4DEB-84AC-6C449BE2F722}" ShortID="386798605">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DGX_Player_Scream-001" ID="{48E93096-8616-439D-B1D6-FC21B9A1F46F}" ShortID="781754265">
 									<PropertyList>
 										<Property Name="Inclusion" Type="bool">
 											<ValueList>
@@ -1060,24 +1383,180 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player_Wake-003" ID="{536F2CDE-D5FB-4B76-9FE4-585859E255A9}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.183070866141732"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.183070866141732"/>
-											</PropertyList>
+										<AudioFileSource Name="Player_Scream-001" ID="{9EBA4AF7-0827-48F1-B5FC-9FE09984A1BD}">
 											<Language>SFX</Language>
-											<AudioFile>Player_Wake\Player_Wake-003.wav</AudioFile>
+											<AudioFile>Player_Scream\Player_Scream-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="834033836"/>
+												<MediaID ID="257322730"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player_Wake-003" ID="{536F2CDE-D5FB-4B76-9FE4-585859E255A9}" Platform="Linked"/>
+										<ActiveSource Name="Player_Scream-001" ID="{9EBA4AF7-0827-48F1-B5FC-9FE09984A1BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-002" ID="{85EA0708-E5BD-4397-B229-C1506264A00E}" ShortID="500872874">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-002" ID="{D1E6F029-B63E-46AB-A61F-A9E74742A1D2}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="110438871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-002" ID="{D1E6F029-B63E-46AB-A61F-A9E74742A1D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-004" ID="{D06D048B-B427-4628-9F5E-EBFC4F5B7707}" ShortID="901598575">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-004" ID="{5A6C0995-082E-4FF8-B238-F101E23BEB01}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="922279835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-004" ID="{5A6C0995-082E-4FF8-B238-F101E23BEB01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-005" ID="{31F8681D-3221-4FAA-B565-345A110E373C}" ShortID="376897619">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-005" ID="{6A1F0A63-F611-491D-8044-ACD64D1BB47C}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="860868299"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-005" ID="{6A1F0A63-F611-491D-8044-ACD64D1BB47C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-006" ID="{DA74B99E-7EF9-4395-B82E-348E1BE39E68}" ShortID="741481473">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-006" ID="{553B1ADF-0496-44B5-A326-C38333038308}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1016419192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-006" ID="{553B1ADF-0496-44B5-A326-C38333038308}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-007" ID="{722BF62B-A2B2-4C3C-9E05-BFC92AAFFF20}" ShortID="61805757">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-007" ID="{20FB6CAE-B256-4B59-8B20-23B18F6C04DF}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="317984438"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-007" ID="{20FB6CAE-B256-4B59-8B20-23B18F6C04DF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4C596FE2-A9FC-4689-8BE8-B0F453D48B19}" ShortID="890127231">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<ObjectRef Name="Nearly_Forever" ID="{38550FDA-9236-4FC5-8AE0-68DB08164B25}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{04AE201A-38E7-43AB-B473-49B85221815D}" ShortID="23385598">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+														<ObjectRef Name="Underwater_Echoes" ID="{3C6B127B-9DAE-4879-A4ED-75DF209310EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{53C2EC26-B1AC-44D1-8E33-A57BD6CA1581}" ShortID="643440561">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>

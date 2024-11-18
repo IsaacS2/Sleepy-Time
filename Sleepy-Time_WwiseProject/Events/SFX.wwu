@@ -58,7 +58,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_String_Stinger" ID="{01D901E9-1B1A-4274-BC8E-855FF1725330}">
+				<Event Name="Play_SFX_Checkpoint_String_Stinger" ID="{01D901E9-1B1A-4274-BC8E-855FF1725330}">
 					<ChildrenList>
 						<Action Name="" ID="{8D74B636-3132-4FB9-9772-F4EF6D0588B9}" ShortID="556597781">
 							<ReferenceList>

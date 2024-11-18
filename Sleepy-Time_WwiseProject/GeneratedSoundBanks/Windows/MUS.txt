@@ -8,6 +8,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	Sleeping			
 	1151176110	Awake	Sleeping			
+	2044049779	Dead	Sleeping			
 	3778954319	Asleep	Sleeping			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

@@ -98,6 +98,68 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DGX_Player_Scream" ID="{311609E7-5528-4504-8343-41B9696FD94D}">
+					<ChildrenList>
+						<Action Name="" ID="{321A7CEE-ACA9-4ED6-B8BD-AB7D6033FA4E}" ShortID="416233502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Scream" ID="{16A9957C-5F18-4DEB-84AC-6C449BE2F722}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Entity_Dry" ID="{A96943CA-34CB-4A69-B005-83364A6B9D7D}">
+					<ChildrenList>
+						<Action Name="" ID="{8CC03238-AA4B-430D-AFC9-C415B602BD3D}" ShortID="704712429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Entity_Dry" ID="{53F3E2A1-7C41-4E39-A3FB-FFB55869498E}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Death_Sequence" ID="{75E2841B-C8D6-4D5A-B0D6-B73AF0098BA5}">
+					<ChildrenList>
+						<Action Name="" ID="{C207D3DD-F14B-4F6F-8ED2-AEAB436A86B4}" ShortID="166295207">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_DGX_Entity_Dry" ID="{A96943CA-34CB-4A69-B005-83364A6B9D7D}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F3EB1F82-5A91-43D6-81BE-BA0358A3E55C}" ShortID="18433550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_DGX_Entity" ID="{098047A8-669B-4864-A7CE-8CDE7D4D93CE}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{17089966-3253-4D6C-A42F-84608D9D012A}" ShortID="105717741">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_DGX_Player_Scream" ID="{311609E7-5528-4504-8343-41B9696FD94D}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

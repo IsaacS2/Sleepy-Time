@@ -130,6 +130,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{A8A78C1F-8DB9-4E0F-979E-24480E9B30C4}" ShortID="426473234">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{5152C748-1A1B-44CE-BD20-49DC01E5B587}" ShortID="522812480"/>
 											</CustomState>
@@ -332,6 +340,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{8988DD14-8C63-41F3-9D06-D9263963E655}" ShortID="256311695">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{713E7D6C-1C97-470B-94BB-2BED86942506}" ShortID="438205017"/>
@@ -574,6 +590,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{4C7F484C-166F-488F-82F0-80F1680F9BD1}" ShortID="422475182">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{0D1B0F69-789A-4823-80D6-EA442A146221}" ShortID="780773252"/>
 											</CustomState>
@@ -691,6 +715,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{46EA7620-9A38-46A4-B03D-550955AF1859}" ShortID="339511098">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{AC6A2706-5656-4E0D-BFE1-5E2EB85B0227}" ShortID="152605495"/>
@@ -865,6 +897,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{45F771F6-C7FA-4D26-B1F0-0DB05F8AF062}" ShortID="981815030">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{41CCC578-9587-4223-8932-937A7E8EC17F}" ShortID="191558047"/>
 											</CustomState>
@@ -1038,6 +1078,10 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
+														<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+														<CustomState Name="" ID="{E658CC13-E3FB-410C-ABCD-2FF44879372D}" ShortID="786552619"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 														<CustomState Name="" ID="{26FE96FC-AF24-40BB-AEB5-D20C5A3AAC83}" ShortID="332464454"/>
 													</CustomState>
@@ -1089,6 +1133,10 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
+														<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+														<CustomState Name="" ID="{CE1E23A7-81D8-4FBA-A57C-954C714B17DE}" ShortID="120138359"/>
+													</CustomState>
+													<CustomState>
 														<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 														<CustomState Name="" ID="{026137FC-D313-45D5-AA78-ABE361FFA63E}" ShortID="77342940"/>
 													</CustomState>
@@ -1107,6 +1155,35 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{D1A24E62-5A00-43AF-9AA7-6D5E67AF99CD}" ShortID="512389221">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+												<CustomState Name="" ID="{1D29C520-EEFF-4931-9FFF-5A352475DC38}" ShortID="465480514"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+												<CustomState Name="" ID="{03B7FB35-5C94-4FE3-BFBA-9D0CC5D0D214}" ShortID="819335666">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<BlendTrackList>
 										<BlendTrack Name="Drowsiness" ID="{16362E78-DE21-4EB4-A7DB-03B864781754}" ShortID="833919925">
 											<PropertyList>
@@ -1216,6 +1293,10 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{AE671A80-3ABD-40CB-AC98-46E1B3EA0053}" ShortID="187670997"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{26BCE778-5F8D-4E2E-A210-91181FB81575}" ShortID="406506192">
 													<PropertyList>
@@ -1261,6 +1342,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{1BC4DC29-CDB2-4DB4-AD9A-41CCB82B8E44}" ShortID="392686494">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="8"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{AE0753D5-92B4-4C7F-89BD-BBF17DCBF2FA}" ShortID="192004992">
@@ -1351,6 +1440,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{EEB06780-426E-4701-B5FB-F3E8F71375BF}" ShortID="12033522">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{1EAEA1CF-C6C0-4BAB-90E9-600639BC5CE6}" ShortID="718796756">
 													<PropertyList>
@@ -1440,6 +1537,14 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{9A6B4D81-5616-48C1-B3CB-19257B5F4870}" ShortID="978909794">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="8"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{8ED9B586-7967-4651-A080-F474BC2AE940}" ShortID="448623486">
 													<PropertyList>
@@ -1490,6 +1595,10 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{C8EB00D3-EF49-48F2-BEC9-D4D790B3FF47}" ShortID="65082617"/>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{67DCFCD4-8F86-4FF8-95D8-3AB90746647D}" ShortID="201999632">
@@ -1589,6 +1698,14 @@
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+												<CustomState Name="" ID="{10EA7644-8D87-42FE-AAAD-FC7F98CB7A08}" ShortID="1004262563">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
 											<CustomState>
 												<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 												<CustomState Name="" ID="{89CBA2C0-E90E-4353-AD9E-1D3E101AD418}" ShortID="435206260">
@@ -1843,6 +1960,10 @@
 							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+								<CustomState Name="" ID="{8E7E8E43-38AB-4186-85B4-E5933918E247}" ShortID="853607809"/>
+							</CustomState>
 							<CustomState>
 								<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
 								<CustomState Name="" ID="{7FFC0BB5-C422-4728-A436-C9E239EBBE26}" ShortID="87968769">

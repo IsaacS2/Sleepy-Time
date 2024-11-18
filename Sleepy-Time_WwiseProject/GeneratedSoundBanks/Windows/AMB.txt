@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	768061573	Play_AMB_Sleep_Test			\AMB\Play_AMB_Sleep_Test	
-	1950652224	Play_DGX_Player_Snoring			\DGX\Play_DGX_Player_Snoring	
+	1950652224	Play_DGX_Player_Snoring			\AMB\Play_DGX_Player_Snoring	
 	2959533290	Play_AMB			\AMB\Play_AMB	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -9,6 +9,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	Sleeping			
 	1151176110	Awake	Sleeping			
+	2044049779	Dead	Sleeping			
 	3778954319	Asleep	Sleeping			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
