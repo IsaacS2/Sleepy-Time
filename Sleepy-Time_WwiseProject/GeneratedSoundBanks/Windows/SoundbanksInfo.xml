@@ -9,15 +9,83 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{9177DFB4-C2DF-E72C-D3FD-8D5AD4C5A071}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{CC4707CE-D6DB-61CD-F01C-5E61D75ED40D}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="2395609" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact\_Weapon_Impact-003.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="31191500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Blood_Spatter\_Blood_Spatter-002.wav</ShortName>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="198589439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact\_Weapon_Impact-002.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="321683485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Blood_Spatter\_Blood_Spatter-004.wav</ShortName>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="423826708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Blood_Spatter\_Blood_Spatter-001.wav</ShortName>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="589159237" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact\_Weapon_Impact-001.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="599667693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</ShortName>
+					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_818F3B66.wem</CachePath>
+				</File>
+				<File Id="665366938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stingers\String_Sting\Stingers_String_Sting.wav</ShortName>
+					<CachePath>SFX/Stingers/String_Sting/Stingers_String_Sting_818F3B66.wem</CachePath>
+				</File>
+				<File Id="775532303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</ShortName>
+					<CachePath>SFX/Stingers/Resampled_Voice/Stingers_Resampled_Voice_818F3B66.wem</CachePath>
+				</File>
+				<File Id="821796859" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</ShortName>
+					<CachePath>SFX/Stingers/Swipe_Up/Stingers_Swipe_Up_818F3B66.wem</CachePath>
+				</File>
+				<File Id="957313629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Blood_Spatter\_Blood_Spatter-003.wav</ShortName>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="972321335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Blood_Spatter\_Blood_Spatter-005.wav</ShortName>
+					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-005_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4023174377" Name="Play_Blood_Spatter_UI" DurationType="OneShot" DurationMin="0.6" DurationMax="1.35">
+					<MediaRefs>
+						<MediaRef Id="31191500"/>
+						<MediaRef Id="321683485"/>
+						<MediaRef Id="423826708"/>
+						<MediaRef Id="957313629"/>
+						<MediaRef Id="972321335"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3739832523" Name="Play_Weapon_Impact" DurationType="OneShot" DurationMin="0.26313367" DurationMax="0.5208104">
+					<MediaRefs>
+						<MediaRef Id="2395609"/>
+						<MediaRef Id="198589439"/>
+						<MediaRef Id="589159237"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{E72D94DC-7793-BD3D-A2CC-4624ADEB8BE7}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AD7A5AC5-EE51-C792-9958-D5CD105374A3}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{78106C10-D7FE-3A54-4328-84C654C7D562}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -100,22 +168,6 @@
 						<MediaRef Id="636364065"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1662129422" Name="Play_Sleep_AMB" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="128107809"/>
-						<MediaRef Id="292223646"/>
-						<MediaRef Id="321254246"/>
-						<MediaRef Id="371143502"/>
-						<MediaRef Id="389628936"/>
-						<MediaRef Id="817228792"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4065082119" Name="Play_TC_Pad" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="305521094"/>
-						<MediaRef Id="817228792"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
@@ -147,5 +199,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{65913E5A-6F9D-661B-72D1-C81235E258FF}</FileHash>
+	<FileHash>{9657D54B-693E-97B1-679E-C12153963C0D}</FileHash>
 </SoundBanksInfo>

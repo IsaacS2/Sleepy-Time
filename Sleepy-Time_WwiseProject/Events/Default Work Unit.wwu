@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Weapon_Impact" ID="{BC8C6485-8159-4EC5-BD27-F2261912E9D4}">
+					<ChildrenList>
+						<Action Name="" ID="{73B1A5D6-574A-42B3-A5D6-17672DC05210}" ShortID="246848244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Blood_Spatter_UI" ID="{76F11AA2-903D-4972-B990-F5679993CE45}">
+					<ChildrenList>
+						<Action Name="" ID="{F3CB48A2-1BD0-4C89-931F-6487CEDC80C6}" ShortID="685988981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Blood_Spatter_UI" ID="{AC692E3F-87C7-4A0C-BDB6-ED69FEC40B14}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

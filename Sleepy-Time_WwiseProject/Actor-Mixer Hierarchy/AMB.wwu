@@ -56,28 +56,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="AMB_Sleep_Test" ID="{D1CF1456-5B5F-49BB-A98D-B9FFF39B678E}" ShortID="997171316">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}">
-									<Language>SFX</Language>
-									<AudioFile>AMB_AMB_Sleep_Test.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="636364065"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Folder Name="Awake" ID="{29D1B9B5-51DA-4645-8458-BC0157F6E5F1}" ShortID="993434775">
 							<ChildrenList>
 								<Sound Name="AMB_Awake_Insects" ID="{D810314C-711A-4346-85A4-B74FF5908950}" ShortID="441646273">
@@ -1627,6 +1605,71 @@
 									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="AMB_Sleep_Distant_Jungle" ID="{4C42DB22-A326-4D11-9219-6F6C3E111F15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Sleep_Test" ID="{D1CF1456-5B5F-49BB-A98D-B9FFF39B678E}" ShortID="997171316">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{9E93E759-C63D-4C3C-B05C-6DF772C6569A}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{293A51B5-ADF1-4B8A-99E8-9DAA861A313F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{D21F54AE-1ACB-46F4-8C00-9C09429CBBC6}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_AMB_Sleep_Test.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="636364065"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_AMB_Sleep_Test" ID="{C95D1A6E-F76E-40EC-9316-7722559C2017}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

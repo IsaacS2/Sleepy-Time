@@ -95,63 +95,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Sleep_AMB" ID="{02DCA21F-13D4-480D-A058-3731FD6935DD}">
-					<ChildrenList>
-						<Action Name="" ID="{3AB31758-DFE5-4CFE-BD19-86FE80E2130A}" ShortID="106248251">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Sleep_Distant_Clangs" ID="{D11845AF-C38E-4256-B559-92ACE8CD556F}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{FAE4AF75-F0F4-4BDE-9F6A-99F627150E33}" ShortID="1066906847">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Sleep_Distant_Jungle" ID="{34D4329C-B888-4A9E-917D-B7DDFB5CA7DE}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{CF646AC1-8643-4692-AC15-2450396DC7A9}" ShortID="678243052">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Sleep_Low_Static_Glitch" ID="{BA6CB1EA-72A0-47D5-8719-E41E3B1C794B}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{47F98859-5DB6-4EA3-8C9A-B319488B8F6E}" ShortID="594944099">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Sleep_Zebra_Pad" ID="{4172C03F-1737-443F-9A2C-17205357B4DE}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A196D509-6AF4-4830-8125-890311737F49}" ShortID="637614610">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Sleep_TC_Sub" ID="{26489DDC-DDC5-4971-80DB-EB673723ACA1}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B02AEE64-FAC7-4B83-AB2F-00314C8B7FA7}" ShortID="61754918">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Sleep_Distant_Skittering" ID="{6B6C10E1-CE70-404B-9F98-CF67BAD16D64}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TC_Pad" ID="{B2A6AD64-643F-486E-B7AC-2A9C55473FBF}">
-					<ChildrenList>
-						<Action Name="" ID="{F54D5BF4-6BC8-4CCD-9053-2FECD25A68A2}" ShortID="182559270">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Awake_TC_Pad" ID="{7817D587-04FD-4EF9-A5F7-745FB55E77E1}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

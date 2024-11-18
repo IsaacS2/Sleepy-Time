@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3739832523	Play_Weapon_Impact			\SFX\Play_Weapon_Impact	
+	4023174377	Play_Blood_Spatter_UI			\SFX\Play_Blood_Spatter_UI	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2395609	Weapon_Impact-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Weapon_Impact\_Weapon_Impact-003_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Weapon_Impact\Weapon_Impact-003		79476
+	31191500	Blood_Spatter-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Blood_Spatter\_Blood_Spatter-002_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Blood_Spatter_UI\Blood_Spatter-002		238236
+	198589439	Weapon_Impact-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Weapon_Impact\_Weapon_Impact-002_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Weapon_Impact\Weapon_Impact-002		53016
+	321683485	Blood_Spatter-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Blood_Spatter\_Blood_Spatter-004_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Blood_Spatter_UI\Blood_Spatter-004		162680
+	423826708	Blood_Spatter-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Blood_Spatter\_Blood_Spatter-001_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Blood_Spatter_UI\Blood_Spatter-001		201968
+	589159237	Weapon_Impact-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Weapon_Impact\_Weapon_Impact-001_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Weapon_Impact\Weapon_Impact-001		53016
+	599667693	Distorted_Chime	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\Distorted_Chime\Stingers_Distorted_Chime_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Distorted_Chime		4657056
+	665366938	String_Sting	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\String_Sting\Stingers_String_Sting_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\String_Sting		1164336
+	775532303	Resampled_Voice	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\Resampled_Voice\Stingers_Resampled_Voice_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Resampled_Voice		2434416
+	821796859	Swipe_Up	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\Swipe_Up\Stingers_Swipe_Up_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Swipe_Up		2011056
+	957313629	Blood_Spatter-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Blood_Spatter\_Blood_Spatter-003_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Blood_Spatter_UI\Blood_Spatter-003		211776
+	972321335	Blood_Spatter-005	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Blood_Spatter\_Blood_Spatter-005_818F3B66.wem		\Actor-Mixer Hierarchy\SFX\SFX\Blood_Spatter_UI\Blood_Spatter-005		105936
+

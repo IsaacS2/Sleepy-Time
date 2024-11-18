@@ -12,6 +12,324 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Blood_Spatter_UI" ID="{AC692E3F-87C7-4A0C-BDB6-ED69FEC40B14}" ShortID="909837729">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Blood_Spatter-001" ID="{430168CF-CA4D-4D90-8419-FF2C896DA4E5}" ShortID="361533915">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Blood_Spatter-001" ID="{C028F5A0-5A7C-4D51-B3FC-50769B7ABAFC}">
+											<Language>SFX</Language>
+											<AudioFile>Blood_Spatter\_Blood_Spatter-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423826708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Blood_Spatter-001" ID="{C028F5A0-5A7C-4D51-B3FC-50769B7ABAFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Blood_Spatter-002" ID="{FDBEA48B-750A-4671-8D44-24E69422F0B5}" ShortID="290233899">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Blood_Spatter-002" ID="{16DEC329-A085-4077-93A3-956C2844D335}">
+											<Language>SFX</Language>
+											<AudioFile>Blood_Spatter\_Blood_Spatter-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="31191500"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Blood_Spatter-002" ID="{16DEC329-A085-4077-93A3-956C2844D335}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Blood_Spatter-003" ID="{3647F753-1BF6-4507-857B-7F793010775F}" ShortID="671637761">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Blood_Spatter-003" ID="{8A6C776B-D6AC-4171-9AFC-5B906824F625}">
+											<Language>SFX</Language>
+											<AudioFile>Blood_Spatter\_Blood_Spatter-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="957313629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Blood_Spatter-003" ID="{8A6C776B-D6AC-4171-9AFC-5B906824F625}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Blood_Spatter-004" ID="{CBA348FE-0D8F-4051-91C7-36F2C01D6D45}" ShortID="698902892">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Blood_Spatter-004" ID="{B3679E43-D2E8-435A-BB75-D39EE803B44E}">
+											<Language>SFX</Language>
+											<AudioFile>Blood_Spatter\_Blood_Spatter-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="321683485"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Blood_Spatter-004" ID="{B3679E43-D2E8-435A-BB75-D39EE803B44E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Blood_Spatter-005" ID="{90442929-65FA-45AF-BFBF-1441B933D810}" ShortID="615433374">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Blood_Spatter-005" ID="{19E8E317-E3CA-44B6-9FC1-5D5C76663CB5}">
+											<Language>SFX</Language>
+											<AudioFile>Blood_Spatter\_Blood_Spatter-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="972321335"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Blood_Spatter-005" ID="{19E8E317-E3CA-44B6-9FC1-5D5C76663CB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" ShortID="51292949">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6C8C9635-C0AC-43E7-B346-87ACFCACDDA6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{87838A84-EB23-44AC-97B3-904C1DCB09FE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Weapon_Impact-001" ID="{E5B612F8-FEC6-4BF1-A503-7C68395C1724}" ShortID="867769506">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Impact-001" ID="{EFD3023A-CBAE-4C99-A5C3-E3CB98261797}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Impact\_Weapon_Impact-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589159237"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Impact-001" ID="{EFD3023A-CBAE-4C99-A5C3-E3CB98261797}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Impact-002" ID="{B3D033B6-5A71-4BE1-9CC4-C0DA1658466F}" ShortID="220545187">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Impact-002" ID="{02B6550E-6CDF-450E-9238-56BD67B273AF}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Impact\_Weapon_Impact-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="198589439"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Impact-002" ID="{02B6550E-6CDF-450E-9238-56BD67B273AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Impact-003" ID="{62C6493B-E2BA-4C68-B230-5C91CE99D9B6}" ShortID="1056531163">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Impact-003" ID="{B28FC490-BCC4-403E-B37E-2063A5B436CF}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Impact\_Weapon_Impact-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="2395609"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Impact-003" ID="{B28FC490-BCC4-403E-B37E-2063A5B436CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Distorted_Chime" ID="{C28487C0-D117-4616-8F2B-B0FF8362A6D6}" ShortID="799610250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599667693"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Resampled_Voice" ID="{F1B0CA8E-BD9A-4F8C-BA84-D709D5B10EB8}" ShortID="972093962">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_Resampled_Voice" ID="{558FA32A-6055-474D-BE74-3FEF3A73EEFC}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775532303"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_Resampled_Voice" ID="{558FA32A-6055-474D-BE74-3FEF3A73EEFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String_Sting" ID="{78141FAD-F2EC-4195-BE07-191C0DE69610}" ShortID="821422305">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_String_Sting" ID="{E9F6CF3E-3CCA-41CC-97D4-FB80AC5BE2CD}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\String_Sting\Stingers_String_Sting.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="665366938"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_String_Sting" ID="{E9F6CF3E-3CCA-41CC-97D4-FB80AC5BE2CD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Swipe_Up" ID="{E51C0F50-FF28-4565-AD1A-426E6381C11B}" ShortID="48384973">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}">
+									<Language>SFX</Language>
+									<AudioFile>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="821796859"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

@@ -15,8 +15,8 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB = 2959533290U;
         static const AkUniqueID PLAY_AMB_SLEEP_TEST = 768061573U;
-        static const AkUniqueID PLAY_SLEEP_AMB = 1662129422U;
-        static const AkUniqueID PLAY_TC_PAD = 4065082119U;
+        static const AkUniqueID PLAY_BLOOD_SPATTER_UI = 4023174377U;
+        static const AkUniqueID PLAY_WEAPON_IMPACT = 3739832523U;
     } // namespace EVENTS
 
     namespace STATES
