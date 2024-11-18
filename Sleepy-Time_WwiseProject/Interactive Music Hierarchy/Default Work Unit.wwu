@@ -18,6 +18,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Marigold_Siesta_Exploring_Theme_32B_4P_80BPM" ID="{26F400A9-75AE-4FD7-BC3E-84465F31F9BB}" ShortID="77672330">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{76AAC827-FEEC-D894-8743-138BF6F2F36E}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{49B3C1A3-1B0B-2B1B-042C-2495A679A0B4}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -120,7 +120,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{604B219C-2073-1256-068D-FDE26B5B532E}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{97C380C5-31B0-4ECB-260B-6DFA3AF3B29F}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -138,7 +138,7 @@
 				</File>
 				<File Id="114106278" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Wake\Player_Wake-002.wav</ShortName>
-					<CachePath>SFX/Player_Wake/Player_Wake-002_8E324C96.wem</CachePath>
+					<CachePath>SFX/Player_Wake/Player_Wake-002_AE48BD7D.wem</CachePath>
 				</File>
 				<File Id="123826953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spirit_Injured\Spirit_Injured-006.wav</ShortName>
@@ -146,7 +146,7 @@
 				</File>
 				<File Id="189442506" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Wake\Player_Wake-001.wav</ShortName>
-					<CachePath>SFX/Player_Wake/Player_Wake-001_8E324C96.wem</CachePath>
+					<CachePath>SFX/Player_Wake/Player_Wake-001_97A1EFC1.wem</CachePath>
 				</File>
 				<File Id="268468825" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</ShortName>
@@ -202,7 +202,7 @@
 				</File>
 				<File Id="716638564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-002.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-002_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-002_7ADE1020.wem</CachePath>
 				</File>
 				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
@@ -222,7 +222,7 @@
 				</File>
 				<File Id="770230295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-003.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-003_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-003_152337B1.wem</CachePath>
 				</File>
 				<File Id="801129690" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spirit_Injured\Spirit_Injured-004.wav</ShortName>
@@ -231,10 +231,6 @@
 				<File Id="802858964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-002_8E324C96.wem</CachePath>
-				</File>
-				<File Id="834033836" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Wake\Player_Wake-003.wav</ShortName>
-					<CachePath>SFX/Player_Wake/Player_Wake-003_8E324C96.wem</CachePath>
 				</File>
 				<File Id="871314606" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</ShortName>
@@ -246,13 +242,18 @@
 				</File>
 				<File Id="1019154521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-001.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-001_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-001_FA8E8177.wem</CachePath>
 				</File>
 				<File Id="1035737766" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-002.wav</ShortName>
 					<CachePath>SFX/Barks/Entity/Entity_Barks-002_51ADECA6.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="2579943048" Name="Play_DGX_Child_Barks" DurationType="OneShot" DurationMin="1.5589792" DurationMax="1.8131875">
 					<MediaRefs>
@@ -260,6 +261,11 @@
 						<MediaRef Id="770230295"/>
 						<MediaRef Id="1019154521"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3614410221" Name="Play_DGX_Enemy_Aggro" DurationType="OneShot" DurationMin="0.30577335" DurationMax="0.5043379">
 					<MediaRefs>
@@ -301,12 +307,19 @@
 						<MediaRef Id="1000006349"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="800539628" Name="Play_DGX_Player_Wake" DurationType="OneShot" DurationMin="1.2" DurationMax="1.5">
+				<Event Id="800539628" Name="Play_DGX_Player_Wake" DurationType="OneShot" DurationMin="1.5589792" DurationMax="1.8131875">
 					<MediaRefs>
 						<MediaRef Id="114106278"/>
 						<MediaRef Id="189442506"/>
-						<MediaRef Id="834033836"/>
+						<MediaRef Id="716638564"/>
+						<MediaRef Id="770230295"/>
+						<MediaRef Id="1019154521"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="1459153067" Name="Play_DGX_Spirit_Injured" DurationType="OneShot" DurationMin="2.3014166" DurationMax="2.5032916">
 					<MediaRefs>
@@ -320,7 +333,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{2CE38BF2-0FF7-8780-CFD7-13B1C93A50CC}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{DB5B2001-32C8-540B-C60C-E3897F7B1516}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -476,7 +489,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{854D5E6C-651C-3AA4-226D-F35EA281FCE3}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{8DB78ADA-8A4D-C5EB-8286-F5CCFB51266C}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -532,5 +545,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D514C456-DFE0-EE6B-4155-8A7482A9C0E0}</FileHash>
+	<FileHash>{0C36A761-A15C-6551-9C44-B156D57F177F}</FileHash>
 </SoundBanksInfo>

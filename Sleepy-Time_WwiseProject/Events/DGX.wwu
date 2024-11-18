@@ -80,6 +80,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DGX_Player_Wake" ID="{16BB884C-97D1-41D1-B603-0F091AEDEF31}">
+					<ChildrenList>
+						<Action Name="" ID="{184FE28B-CF27-4CCC-973C-6B99AC720129}" ShortID="715289809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Wake" ID="{1519AAF2-EA7B-4794-A4DC-3A4516F195ED}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{71E4E22A-A9A7-40F8-9C36-CC79F6CCD3D5}" ShortID="969736685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

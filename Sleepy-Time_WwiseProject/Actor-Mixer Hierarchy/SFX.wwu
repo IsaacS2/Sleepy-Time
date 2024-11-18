@@ -14,6 +14,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="SFX_Distorted_Chime_Stinger" ID="{C28487C0-D117-4616-8F2B-B0FF8362A6D6}" ShortID="799610250">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -58,6 +65,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_String_Stinger" ID="{78141FAD-F2EC-4195-BE07-191C0DE69610}" ShortID="821422305">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>

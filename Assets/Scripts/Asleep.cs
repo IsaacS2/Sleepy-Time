@@ -42,7 +42,7 @@ public class Asleep : MonoBehaviour
 
     private void OnDisable()
     {
-    
+        AkSoundEngine.PostEvent("Play_DGX_Player_Wake", gameObject);
     }
 
     void Update()

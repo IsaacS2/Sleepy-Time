@@ -23,7 +23,6 @@ public class Awake : MonoBehaviour
     {
         // Set state to awake
         AkSoundEngine.SetState("Sleeping", "Awake");
-        AkSoundEngine.PostEvent("Play_DGX_Player_Wake", gameObject);
         // End - TJ
 
         Camera.main.cullingMask = _awakeLayer;

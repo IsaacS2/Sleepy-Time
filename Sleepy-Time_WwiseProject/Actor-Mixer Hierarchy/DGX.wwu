@@ -14,6 +14,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" ShortID="144265456">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -34,6 +42,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Child_Barks-001" ID="{4154C786-DA03-4342-88DF-F314BBDAD348}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.168110099337748"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Child\Child_Barks-001.wav</AudioFile>
 											<MediaIDList>
@@ -56,6 +69,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Child_Barks-002" ID="{80885FFF-4035-4FBA-A55E-4C6AC1F2B5FF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.464900662251656"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Child\Child_Barks-002.wav</AudioFile>
 											<MediaIDList>
@@ -78,6 +96,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Child_Barks-003" ID="{AF8F63EE-6DC9-475F-AF29-3126C027C794}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.521380449779249"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Child\Child_Barks-003.wav</AudioFile>
 											<MediaIDList>
@@ -90,6 +113,21 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B2B926A4-332E-43F5-B32E-C5A65F34B0BF}" ShortID="373611447">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" ShortID="877192625">
 							<ReferenceList>
@@ -714,7 +752,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-26</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -817,6 +855,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -921,8 +960,27 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B3824A56-CE50-40F8-A7EA-66D07793DC25}" ShortID="572551818">
+												<ReferenceList/>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="DGX_Player_Wake" ID="{1519AAF2-EA7B-4794-A4DC-3A4516F195ED}" ShortID="238429206">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -943,6 +1001,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Wake-001" ID="{CE87D639-028C-4E95-8B96-96992AAC6DF6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0259842519685039"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0661417322834646"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Player_Wake\Player_Wake-001.wav</AudioFile>
 											<MediaIDList>
@@ -965,6 +1028,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Wake-002" ID="{B0F625D4-D400-4D7D-931E-326253D67965}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.179527559055118"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Player_Wake\Player_Wake-002.wav</AudioFile>
 											<MediaIDList>
@@ -977,6 +1044,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Player_Wake-003" ID="{6A132ADB-A16F-4CEE-B2C5-0D12984622CD}" ShortID="461220829">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -987,6 +1061,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Wake-003" ID="{536F2CDE-D5FB-4B76-9FE4-585859E255A9}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.183070866141732"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.183070866141732"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Player_Wake\Player_Wake-003.wav</AudioFile>
 											<MediaIDList>

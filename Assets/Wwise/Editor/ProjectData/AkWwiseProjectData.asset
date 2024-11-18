@@ -285,7 +285,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584696983537197807
+    m_lastTime: -8584696963516843709
     List: []
   - PhysicalPath: Events/DGX.wwu
     PathAndIcons:
@@ -298,7 +298,7 @@ MonoBehaviour:
     ParentPath: Events/DGX
     guid: d2ef4c84d9a4f945944b6f17002e9911
     GuidInternal: 
-    m_lastTime: -8584696978135060646
+    m_lastTime: -8584696948835967039
     List:
     - name: Play_DGX_Child_Barks
       guid: faa5e2d3c4a7d0499baf9425a603734c
@@ -402,6 +402,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.6
       minDuration: 0.3
+    - name: Play_DGX_Player_Wake
+      guid: 4c88bb16d197d141b6030f091aedef31
+      id: 800539628
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Player_Wake
+        ObjectType: 3
+        guid: 4c88bb16d197d141b6030f091aedef31
+      Path: Events/DGX/Play_DGX_Player_Wake
+      maxAttenuation: 0
+      maxDuration: 1.8131875
+      minDuration: 1.5589792
     - name: Play_DGX_Spirit_Injured
       guid: b38e070042b34d4aa46a3e8f8b13547d
       id: 1459153067
@@ -638,7 +655,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 09d8f54a9e1ec24d963432cbf72feb44
     GuidInternal: 
-    m_lastTime: -8584697102085082394
+    m_lastTime: -8584696954731429126
     List:
     - name: Sleeping
       guid: 6af6a8f3e400154eb87e4cd560e01394
@@ -735,7 +752,7 @@ MonoBehaviour:
     m_lastTime: -8584697983758050912
     List: []
   ExpandedFileSystemItemIds: 03000000060000000b0000000c0000000d000000
-  ExpandedWaapiItemIds: 050000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000170000001b0000001c0000001e0000001f000000220000002300000015050000
+  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000140000001b0000001c0000001e0000001f000000220000002300000015050000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
