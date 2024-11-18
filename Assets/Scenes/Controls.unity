@@ -13301,6 +13301,14 @@ PrefabInstance:
       propertyPath: _asleepLayer.m_Bits
       value: 384
       objectReference: {fileID: 0}
+    - target: {fileID: 6218965541734825372, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218965541734825372, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6264558711646135835, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: _restMaxStat
       value: 15
