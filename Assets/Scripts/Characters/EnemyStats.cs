@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class EnemyStats : CharacterStats
 {
-    [SerializeField] private float _movementSpeed, _minDistanceToPlayer;
+    [SerializeField] private float _movementSpeed, _minDistanceToPlayer, _maxDistanceToPlayer = 3.5f;
 
     private EnemySensor _sensor;
     private Rigidbody2D _rb;
@@ -32,8 +32,9 @@ public class EnemyStats : CharacterStats
 
     private void FixedUpdate()
     {
-        if (_player)
+        if (_player != null)
         {
+            Debug.Log("transform pos: " + _player.position);
             float distance = Vector3.Distance(_player.position, _rb.transform.position);
 
             if (distance >= _minDistanceToPlayer)
@@ -46,6 +47,12 @@ public class EnemyStats : CharacterStats
 
                 _rb.velocity = targetDirection * _movementSpeed * Time.fixedDeltaTime;
             }
+/*
+            if (distance >= _maxDistanceToPlayer)
+            {
+                Debug.Log("too far!");
+                _player = null;
+            }*/
         }
     }
 
@@ -82,6 +89,7 @@ public class EnemyStats : CharacterStats
         //
         // Regular enemy is releasing player's transform to stop following
         //
+        _rb.velocity = Vector3.zero;
         _player = null;
 
         // TODO: Stop playing enemy walking sound-effect

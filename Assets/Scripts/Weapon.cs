@@ -15,6 +15,7 @@ public class Weapon : MonoBehaviour
     private SpriteRenderer _spr;
     private Vector2 _weaponDirection;
     private float _distanceToPlayer, _attackTimer, _damage;
+    private bool canMove;
 
     private void OnEnable()
     {
@@ -22,6 +23,7 @@ public class Weapon : MonoBehaviour
         Awake.OnAwake += ActivateWeapon;
         GameplayInputManager.OnAttack += Attack;
         PlayerStats.OnLevelStart += EditDamage;
+        canMove = true;
     }
 
     private void OnDisable()
@@ -60,13 +62,14 @@ public class Weapon : MonoBehaviour
             {
                 _col.enabled = false;
                 if (_attackSprite) _spr.sprite = _originalSprite;
+                canMove = true;
             }
         }
     }
 
     void FixedUpdate()
     {
-        if (_wielder)
+        if (_wielder && canMove)
         {
             _weaponDirection = (Camera.main.ScreenToViewportPoint(Mouse.current.position.ReadValue()) - new Vector3(0.5f, 0.5f, 0)).normalized;
 
@@ -75,8 +78,9 @@ public class Weapon : MonoBehaviour
                 //
                 // Moving weapon
                 //
-                transform.up = _weaponDirection;
-                _weapon.position = (_weaponDirection * _distanceToPlayer + _wielder.position);
+                //MoveRotation();
+                _weapon.transform.up = _weaponDirection;
+                _weapon.MovePosition(_weaponDirection * _distanceToPlayer + _wielder.position);
             }
         }
     }
@@ -97,8 +101,9 @@ public class Weapon : MonoBehaviour
         if (_originalSprite && _spr.enabled && _col && !_col.enabled)
         {
             //
-            // Attack is now-effect
+            // Attack is now in-effect
             //
+            canMove = false;
             _col.enabled = true;
             _attackTimer = 0;
 

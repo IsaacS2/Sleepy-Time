@@ -82,7 +82,7 @@ public class PlayerStats : CharacterStats
         }
     }
 
-    protected override void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
         Checkpoint checkpoint = collision.gameObject.GetComponent<Checkpoint>();
 
@@ -103,7 +103,12 @@ public class PlayerStats : CharacterStats
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    protected override void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("player touches their weapon");
+    }
+
+    protected virtual void OnCollisionStay2D(Collision2D collision)
     {
         EnemyStats enemy = collision.gameObject.GetComponent<EnemyStats>();
 
