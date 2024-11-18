@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID PLAY_DGX_ENTITY = 1819158867U;
         static const AkUniqueID PLAY_DGX_PLAYER_HURT = 512385751U;
         static const AkUniqueID PLAY_DGX_PLAYER_SNORING = 1950652224U;
+        static const AkUniqueID PLAY_DGX_PLAYER_WAKE = 800539628U;
         static const AkUniqueID PLAY_DGX_SPIRIT_INJURED = 1459153067U;
         static const AkUniqueID PLAY_MUS_GAME = 3188041860U;
         static const AkUniqueID PLAY_MUS_TITLE = 3867386064U;

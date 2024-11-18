@@ -4,9 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{4AF5D809-1E9E-4DC2-9634-32CBF72FEB44}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.5"/>
-					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{D9A4FEDC-3FE8-4149-9046-5858A9D4CCB5}"/>
 						<State Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>

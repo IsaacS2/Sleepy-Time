@@ -120,7 +120,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{C68E3A39-51FD-199F-F160-D95F0ED5E71B}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{604B219C-2073-1256-068D-FDE26B5B532E}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -136,9 +136,17 @@
 					<ShortName>Enemy_Injury\Enemy_Aggro\Enemy_Aggro_Enemy_Injury-003.wav</ShortName>
 					<CachePath>SFX/Enemy_Injury/Enemy_Aggro/Enemy_Aggro_Enemy_Injury-003_8E324C96.wem</CachePath>
 				</File>
+				<File Id="114106278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Wake\Player_Wake-002.wav</ShortName>
+					<CachePath>SFX/Player_Wake/Player_Wake-002_8E324C96.wem</CachePath>
+				</File>
 				<File Id="123826953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spirit_Injured\Spirit_Injured-006.wav</ShortName>
 					<CachePath>SFX/Spirit_Injured/Spirit_Injured-006_8E324C96.wem</CachePath>
+				</File>
+				<File Id="189442506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Wake\Player_Wake-001.wav</ShortName>
+					<CachePath>SFX/Player_Wake/Player_Wake-001_8E324C96.wem</CachePath>
 				</File>
 				<File Id="268468825" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</ShortName>
@@ -224,6 +232,10 @@
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-002_8E324C96.wem</CachePath>
 				</File>
+				<File Id="834033836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Wake\Player_Wake-003.wav</ShortName>
+					<CachePath>SFX/Player_Wake/Player_Wake-003_8E324C96.wem</CachePath>
+				</File>
 				<File Id="871314606" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-003_646E8585.wem</CachePath>
@@ -287,6 +299,13 @@
 						<MediaRef Id="705908460"/>
 						<MediaRef Id="733756162"/>
 						<MediaRef Id="1000006349"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="800539628" Name="Play_DGX_Player_Wake" DurationType="OneShot" DurationMin="1.2" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="114106278"/>
+						<MediaRef Id="189442506"/>
+						<MediaRef Id="834033836"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1459153067" Name="Play_DGX_Spirit_Injured" DurationType="OneShot" DurationMin="2.3014166" DurationMax="2.5032916">
@@ -457,7 +476,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6B6BF3F5-90F8-C7E8-DF98-A7F886E1A620}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E556C176-D1EF-C8DC-706F-2B43B70C8CF9}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -513,5 +532,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{34500495-CB6A-F151-EE8F-D6BD1C17A23D}</FileHash>
+	<FileHash>{8F523108-CCB3-0F61-ED38-2B074A5FBB6F}</FileHash>
 </SoundBanksInfo>

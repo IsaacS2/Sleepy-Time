@@ -16,6 +16,7 @@ public class EnemySensor : MonoBehaviour
         // Enemy has spotted a nearby player
         //
         if (playerStats) OnPlayerFound(playerStats);
+        AkSoundEngine.PostEvent("Play_DGX_Enemy_Aggro", gameObject);
     }
 
     private void OnTriggerExit2D(Collider2D collision)

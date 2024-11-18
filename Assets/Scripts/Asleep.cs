@@ -21,12 +21,11 @@ public class Asleep : MonoBehaviour
 
     void OnEnable()
     {
-        // TODO: Add bell chimes for player as they're starting to sleep
-        // TODO: Start snoring sound-effect
+        // TODO: I opted with a voice stinger, but we can go back to the bell if you like.
 
         // Set state to asleep
         AkSoundEngine.SetState("Sleeping", "Asleep");
-        AkSoundEngine.PostEvent("Play_SFX_Distorted_Chime_Stinger", gameObject);
+        AkSoundEngine.PostEvent("Play_SFX_Resampled_Voice_Stinger", gameObject);
         // End - TJ
 
         Camera.main.cullingMask = _asleepLayer;
@@ -43,7 +42,7 @@ public class Asleep : MonoBehaviour
 
     private void OnDisable()
     {
-        // TODO: Stop snoring sound-effect (may not be necessary if it's done automatically)
+    
     }
 
     void Update()
