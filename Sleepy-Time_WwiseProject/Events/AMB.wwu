@@ -99,7 +99,18 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_DGX_Player_Snoring" ID="{96A77793-FDAC-48D6-A7B3-5E31BECAE9C5}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+									<ObjectRef Name="Play_DGX_Player_Snoring" ID="{96A77793-FDAC-48D6-A7B3-5E31BECAE9C5}" WorkUnitID="{D05590CA-1BEA-4923-9130-FA3737A8B12C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Player_Snoring" ID="{96A77793-FDAC-48D6-A7B3-5E31BECAE9C5}">
+					<ChildrenList>
+						<Action Name="" ID="{B369191A-E512-4254-8A55-DA540916D862}" ShortID="260991811">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Snoring" ID="{C9A5E8F8-8038-48DD-BF7F-CEB81B1884CA}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -110,6 +110,7 @@ public class PlayerStats : CharacterStats
         if (enemy)
         {
             // TODO: Add player's grunting/hurt sound effect
+            AkSoundEngine.PostEvent("Play_DGX_Player_Hurt", gameObject);
 
             CalculateDamage(enemy.GetStrength());
             if (_sprRend) _sprRend.color = Color.red;

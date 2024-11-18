@@ -808,6 +808,21 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="DGX_Player_Hurt" ID="{5D2EBC41-797B-404A-A0C9-BE4DD1A13EBB}" ShortID="1069966503">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -906,188 +921,6 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="DGX_Player_Snoring" ID="{C9A5E8F8-8038-48DD-BF7F-CEB81B1884CA}" ShortID="211193932">
-							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{7C12BB58-6264-4A66-A02D-12E3E025C6E5}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-7"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="DGX_Player_Snoring-001" ID="{0C3D3E47-3C11-464B-8CE4-3BFC57B7CCEC}" ShortID="6820660">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Snoring-001" ID="{0B14C21F-9FDC-4683-B5E2-4A14FE3D0BEB}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Snoring\Player_Snoring-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="380877099"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Snoring-001" ID="{0B14C21F-9FDC-4683-B5E2-4A14FE3D0BEB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Snoring-002" ID="{1E232BAF-8D5E-4974-B1F0-4C72CF213EAA}" ShortID="902015670">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Snoring-002" ID="{9D65EADF-E887-407D-B670-A106CF94CED1}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Snoring\Player_Snoring-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="703104942"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Snoring-002" ID="{9D65EADF-E887-407D-B670-A106CF94CED1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Snoring-003" ID="{CE1F5226-4B69-4CB5-BC47-FA3C4572AEB4}" ShortID="449366805">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Snoring-003" ID="{7F445590-9595-44EB-94EF-ABF032C072DD}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Snoring\Player_Snoring-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="426201924"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Snoring-003" ID="{7F445590-9595-44EB-94EF-ABF032C072DD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Snoring-004" ID="{59B035D4-0BDA-4553-8C3C-2A03DF37D708}" ShortID="346014190">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Snoring-004" ID="{845B9A05-BA9B-4893-A143-01AA2243A630}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Snoring\Player_Snoring-004.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="742855847"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Snoring-004" ID="{845B9A05-BA9B-4893-A143-01AA2243A630}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Snoring-005" ID="{A9760E1B-024B-4711-A4AD-F6587AFB99A3}" ShortID="21403991">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Snoring-005" ID="{848D089F-9C69-4458-942B-A98479DF1F7E}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Snoring\Player_Snoring-005.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="369466060"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Snoring-005" ID="{848D089F-9C69-4458-942B-A98479DF1F7E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Snoring-006" ID="{74DF40FF-453F-4A5A-9B3F-EE2D0CC7D034}" ShortID="368560250">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Snoring-006" ID="{0F912980-8B94-4C09-9307-89FAF5799267}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Snoring\Player_Snoring-006.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1064574171"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Snoring-006" ID="{0F912980-8B94-4C09-9307-89FAF5799267}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
-										<CustomState Name="" ID="{7FFC0BB5-C422-4728-A436-C9E239EBBE26}" ShortID="87968769">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
-										<CustomState Name="" ID="{9EBE75D2-1DB2-4A42-8519-7022BC2E3308}" ShortID="400652864"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
