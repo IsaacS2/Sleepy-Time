@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: ed8d74e2750b694d83bf57ce993a34ff
     GuidInternal: 
-    m_lastTime: -8584697097143576233
+    m_lastTime: -8584697013456182843
     List:
     - name: AMB
       guid: 5c4a423e4af48844a3e1f889c235f9d8
@@ -57,6 +57,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 5c4a423e4af48844a3e1f889c235f9d8
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/AMB
+    - name: AUX_Verb
+      guid: 5b955f83afea844a98c00aad9cfc1f9f
+      id: 1952219607
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed8d74e2750b694d83bf57ce993a34ff
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: AUX_Verb
+        ObjectType: 1
+        guid: 5b955f83afea844a98c00aad9cfc1f9f
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/AUX_Verb
     - name: DGX
       guid: 001c356ed3fa934d881c52f6efe56f10
       id: 412430282
@@ -251,7 +268,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584697080701220676
+    m_lastTime: -8584697015072460937
     List: []
   - PhysicalPath: Events/DGX.wwu
     PathAndIcons:
@@ -264,7 +281,7 @@ MonoBehaviour:
     ParentPath: Events/DGX
     guid: d2ef4c84d9a4f945944b6f17002e9911
     GuidInternal: 
-    m_lastTime: -8584697063424807677
+    m_lastTime: -8584697015072511537
     List:
     - name: Play_DGX_Child_Barks
       guid: faa5e2d3c4a7d0499baf9425a603734c
@@ -283,6 +300,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.8131875
       minDuration: 1.5589792
+    - name: Play_DGX_Enemy_Death
+      guid: ace1dc17c26fab429c7b1773c07801b9
+      id: 3733121397
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Enemy_Death
+        ObjectType: 3
+        guid: ace1dc17c26fab429c7b1773c07801b9
+      Path: Events/DGX/Play_DGX_Enemy_Death
+      maxAttenuation: 0
+      maxDuration: 1.4090288
+      minDuration: 0.62019587
+    - name: Play_DGX_Enemy_Injured
+      guid: 981e643d1d0e924298550202bd4d0292
+      id: 4287381608
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Enemy_Injured
+        ObjectType: 3
+        guid: 981e643d1d0e924298550202bd4d0292
+      Path: Events/DGX/Play_DGX_Enemy_Injured
+      maxAttenuation: 0
+      maxDuration: 0.52838576
+      minDuration: 0.27244353
     - name: Play_DGX_Entity
       guid: a84780099b666448a7ce8cde7d4d93ce
       id: 1819158867
@@ -298,8 +349,25 @@ MonoBehaviour:
         guid: a84780099b666448a7ce8cde7d4d93ce
       Path: Events/DGX/Play_DGX_Entity
       maxAttenuation: 0
-      maxDuration: 19.2
-      minDuration: 19.2
+      maxDuration: 10.045033
+      minDuration: 9.4435625
+    - name: Play_DGX_Spirit_Injured
+      guid: b38e070042b34d4aa46a3e8f8b13547d
+      id: 1459153067
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Spirit_Injured
+        ObjectType: 3
+        guid: b38e070042b34d4aa46a3e8f8b13547d
+      Path: Events/DGX/Play_DGX_Spirit_Injured
+      maxAttenuation: 0
+      maxDuration: 2.5032916
+      minDuration: 2.3014166
   - PhysicalPath: Events/MUS.wwu
     PathAndIcons:
     - ElementName: Events
@@ -599,7 +667,7 @@ MonoBehaviour:
     m_lastTime: -8584697983758050912
     List: []
   ExpandedFileSystemItemIds: 03000000060000000b0000000c0000000d000000
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001b00000015050000
+  ExpandedWaapiItemIds: 05000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001b0000001c0000001e0000001f00000015050000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

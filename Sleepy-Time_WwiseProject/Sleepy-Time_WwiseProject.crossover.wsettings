@@ -5,11 +5,14 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Music\Reaper\GAMES\Foundry_Jam\Piano_Theme\renders\"/>
 				<Property Name="EffectsView\MeteringObject\{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" Type="string" Value="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}"/>
+				<Property Name="Event Action List\{00078EB3-B342-4A4D-A46A-3E8F8B13547D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{01D901E9-1B1A-4274-BC8E-855FF1725330}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{02DCA21F-13D4-480D-A058-3731FD6935DD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{098047A8-669B-4864-A7CE-8CDE7D4D93CE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{17DCE1AC-6FC2-42AB-9C7B-1773C07801B9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1D3C179C-A9CF-4636-8AA9-D1A1AC1A5261}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1E639AEF-1502-435D-9484-D09546FB8767}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3D641E98-0E1D-4292-9855-0202BD4D0292}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{48E9833A-FA27-4B14-AF61-1D163441B4EB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5AEA9292-53C5-4649-8D3F-A832979CF86E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5E2EB850-24BB-42C4-A329-890332533BF4}\x64_Expand States" Type="string" Value=""/>

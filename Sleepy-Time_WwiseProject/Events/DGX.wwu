@@ -36,6 +36,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DGX_Enemy_Death" ID="{17DCE1AC-6FC2-42AB-9C7B-1773C07801B9}">
+					<ChildrenList>
+						<Action Name="" ID="{F4741473-1752-4A27-A9D6-A791A997BD2D}" ShortID="380281513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Enemy_Death" ID="{71CA0810-8966-4633-A377-212653E81F64}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Spirit_Injured" ID="{00078EB3-B342-4A4D-A46A-3E8F8B13547D}">
+					<ChildrenList>
+						<Action Name="" ID="{32FB6AC5-E145-4DCB-AD64-D75F148A5C48}" ShortID="580547326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Spirit_Injured" ID="{0E274B05-38F5-45FA-BFC9-834A2E6A56BE}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

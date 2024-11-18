@@ -101,7 +101,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{735AFA2B-FDCD-68B0-EEEB-77FB65A08950}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{596E9793-144E-CD55-6186-6BFB088094CD}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -120,6 +120,10 @@
 				<File Id="268468825" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-004_8E324C96.wem</CachePath>
+				</File>
+				<File Id="330312693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-002_E3E05775.wem</CachePath>
 				</File>
 				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
@@ -177,9 +181,9 @@
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-002_8E324C96.wem</CachePath>
 				</File>
-				<File Id="963000293" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-006.wav</ShortName>
-					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-006_8E324C96.wem</CachePath>
+				<File Id="871314606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</ShortName>
+					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-003_A33CE10B.wem</CachePath>
 				</File>
 				<File Id="1019154521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-001.wav</ShortName>
@@ -198,15 +202,20 @@
 						<MediaRef Id="1019154521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4287381608" Name="Play_DGX_Enemy_Injured" DurationType="OneShot" DurationMin="0.31237054" DurationMax="1.8592246">
+				<Event Id="3733121397" Name="Play_DGX_Enemy_Death" DurationType="OneShot" DurationMin="0.62019587" DurationMax="1.4090288">
 					<MediaRefs>
 						<MediaRef Id="55358900"/>
-						<MediaRef Id="101526326"/>
 						<MediaRef Id="268468825"/>
 						<MediaRef Id="457297709"/>
-						<MediaRef Id="665232857"/>
 						<MediaRef Id="802858964"/>
-						<MediaRef Id="963000293"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4287381608" Name="Play_DGX_Enemy_Injured" DurationType="OneShot" DurationMin="0.27244353" DurationMax="0.52838576">
+					<MediaRefs>
+						<MediaRef Id="101526326"/>
+						<MediaRef Id="330312693"/>
+						<MediaRef Id="665232857"/>
+						<MediaRef Id="871314606"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="9.4435625" DurationMax="10.045033">
@@ -349,7 +358,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7F10D462-647A-1C8D-DFA2-FB4A3227D831}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6B6BF3F5-90F8-C7E8-DF98-A7F886E1A620}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -405,5 +414,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{691E0304-D153-DA4A-6913-CB8FE3EE14B2}</FileHash>
+	<FileHash>{8ED6B8FE-F7EA-7699-EBD9-F5DE7C1C1880}</FileHash>
 </SoundBanksInfo>

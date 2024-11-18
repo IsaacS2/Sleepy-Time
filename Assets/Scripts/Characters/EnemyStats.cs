@@ -59,6 +59,7 @@ public class EnemyStats : CharacterStats
         if (_dead)
         {
             // TODO: add enemy dying sound effect
+            AkSoundEngine.PostEvent("Play_DGX_Enemy_Death", gameObject);
             Destroy(gameObject);
         }
     }

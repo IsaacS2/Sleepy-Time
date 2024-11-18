@@ -250,8 +250,8 @@
 											<Modifier Name="" ID="{9D357DCF-6434-43F5-A8C6-04984C06C623}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="632"/>
-													<Property Name="Min" Type="Real64" Value="-758"/>
+													<Property Name="Max" Type="Real64" Value="177"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -259,7 +259,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-36</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -316,10 +316,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Enemy_Injured_Natural-002" ID="{DAD74530-0D9A-4EAE-82D8-39C146554D5B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.174212598425197"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.345472440944882"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="802858964"/>
+												<MediaID ID="330312693"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -338,37 +343,20 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Enemy_Injured_Natural-003" ID="{2D519D2A-5F4C-41FE-8A4E-E875D9D17E97}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.103346456692913"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.301771653543307"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="457297709"/>
+												<MediaID ID="871314606"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Enemy_Injured_Natural-003" ID="{2D519D2A-5F4C-41FE-8A4E-E875D9D17E97}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Enemy_Injured_Natural-004" ID="{11B05F56-DAC8-4A63-A28F-AB6C504AB577}" ShortID="881449857">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Enemy_Injured_Natural-004" ID="{27A341C7-9FEE-48A0-BA85-675F599E7D33}">
-											<Language>SFX</Language>
-											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="268468825"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Enemy_Injured_Natural-004" ID="{27A341C7-9FEE-48A0-BA85-675F599E7D33}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Enemy_Injured_Natural-005" ID="{26521FD8-2B73-4986-A0D0-27F15C74AD2C}" ShortID="1072862916">
@@ -394,6 +382,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Enemy_Injured_Natural-006" ID="{B86D16FA-0D9E-4190-95D5-DCD4C0AFDA84}" ShortID="751194054">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -415,7 +410,19 @@
 										<ActiveSource Name="Enemy_Injured_Natural-006" ID="{B381BF3E-9302-4649-9433-7AD4B452C94B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="DGX_Enemy_Injured_Natural-007" ID="{11A0B291-5290-46ED-8D41-86819E715B41}" ShortID="177083839">
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DGX_Spirit_Injured" ID="{0E274B05-38F5-45FA-BFC9-834A2E6A56BE}" ShortID="724352184">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DGX_Spirit_Injured-001" ID="{E99B28CE-0048-49A8-82B8-CD483B84E931}" ShortID="1041118146">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -425,7 +432,255 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Enemy_Injured_Natural-007" ID="{AA3ED4B8-A25B-4BE3-A378-BC44DF935F8B}">
+										<AudioFileSource Name="Spirit_Injured-001" ID="{ACC9880E-DDAB-4984-889B-D04807948B38}">
+											<Language>SFX</Language>
+											<AudioFile>Spirit_Injured\Spirit_Injured-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="627388253"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spirit_Injured-001" ID="{ACC9880E-DDAB-4984-889B-D04807948B38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Spirit_Injured-002" ID="{55B62E6A-E2BD-45E9-B498-8D86CA019CF4}" ShortID="376290561">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spirit_Injured-002" ID="{A09DDBB1-DBDA-4543-9080-5B59248BB880}">
+											<Language>SFX</Language>
+											<AudioFile>Spirit_Injured\Spirit_Injured-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="635210349"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spirit_Injured-002" ID="{A09DDBB1-DBDA-4543-9080-5B59248BB880}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Spirit_Injured-003" ID="{062073F0-D503-4BF0-8335-47F7C39EC051}" ShortID="854442374">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spirit_Injured-003" ID="{7A4D9C7D-EAA9-4407-AFCD-C7829B70B9B2}">
+											<Language>SFX</Language>
+											<AudioFile>Spirit_Injured\Spirit_Injured-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="724165326"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spirit_Injured-003" ID="{7A4D9C7D-EAA9-4407-AFCD-C7829B70B9B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Spirit_Injured-004" ID="{DC85BE13-4A34-48BE-977B-1C5B2AFC294F}" ShortID="301794588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spirit_Injured-004" ID="{52A2A728-C26C-41DD-A4E6-F55B8403F423}">
+											<Language>SFX</Language>
+											<AudioFile>Spirit_Injured\Spirit_Injured-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="801129690"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spirit_Injured-004" ID="{52A2A728-C26C-41DD-A4E6-F55B8403F423}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Spirit_Injured-005" ID="{A51F9BE2-398B-4B32-85D2-E21726428D4D}" ShortID="711729162">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spirit_Injured-005" ID="{4B1E2BF7-98B6-46D1-ADA1-0A13CAC24612}">
+											<Language>SFX</Language>
+											<AudioFile>Spirit_Injured\Spirit_Injured-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="605729879"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spirit_Injured-005" ID="{4B1E2BF7-98B6-46D1-ADA1-0A13CAC24612}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Spirit_Injured-006" ID="{1952E78E-CB37-466B-A0E6-6FF62774598F}" ShortID="585363318">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spirit_Injured-006" ID="{BFE80023-E529-4294-9959-E062A5245F14}">
+											<Language>SFX</Language>
+											<AudioFile>Spirit_Injured\Spirit_Injured-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123826953"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spirit_Injured-006" ID="{BFE80023-E529-4294-9959-E062A5245F14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DGX_Enemy_Death" ID="{71CA0810-8966-4633-A377-212653E81F64}" ShortID="133163397">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DB1A9482-0376-4FAA-A6D6-BF9A8F736B63}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="329"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-24</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{217FABE9-CDF7-420B-8B60-C02538C052AB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DGX_Enemy_Injured_Natural-002" ID="{834D3052-D551-4478-9550-FBC89E1004F3}" ShortID="1062037804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-002" ID="{3587A682-280D-4ABE-BA36-04D7968E9C91}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802858964"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-002" ID="{3587A682-280D-4ABE-BA36-04D7968E9C91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-003" ID="{5F5BB9F2-0A49-4938-8CDB-B6A7C5C1604E}" ShortID="309309175">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-003" ID="{DD30325F-BC97-43FC-BA6E-96B6FAB5E818}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="457297709"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-003" ID="{DD30325F-BC97-43FC-BA6E-96B6FAB5E818}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-004" ID="{21C8A54B-DB08-428A-A39C-4C7715A7712E}" ShortID="743731325">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>230</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-004" ID="{F2B94875-759C-47D3-9CAB-8E8E38DC9760}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="268468825"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Injured_Natural-004" ID="{F2B94875-759C-47D3-9CAB-8E8E38DC9760}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Injured_Natural-007" ID="{E75730C3-55BC-46B4-BD3E-36044D90CC04}" ShortID="478546951">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Injured_Natural-007" ID="{F098E219-01EC-451A-B83E-64EF5867379F}">
 											<Language>SFX</Language>
 											<AudioFile>Enemy_Injured_Natural\Enemy_Injured_Natural-007.wav</AudioFile>
 											<MediaIDList>
@@ -434,7 +689,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Enemy_Injured_Natural-007" ID="{AA3ED4B8-A25B-4BE3-A378-BC44DF935F8B}" Platform="Linked"/>
+										<ActiveSource Name="Enemy_Injured_Natural-007" ID="{F098E219-01EC-451A-B83E-64EF5867379F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
