@@ -10,10 +10,10 @@ using UnityEngine.SceneManagement;
 public class PlayerStats : CharacterStats
 {
     [SerializeField] private VolumeProfile vp;
-    [SerializeField] private float _maxDeathTime = 2f;
+    [SerializeField] private float _maxDeathTime = 2f, _restMaxStat = 10;
 
     private Vignette _vignette;
-    protected float _restStat = 10, _restMaxStat = 10, _deathTimer;
+    protected float _restStat = 10, _deathTimer;
     protected int _checkpointIndex = 0;
 
     public static event Action<PlayerStats> OnLevelStart = (_playerStats) => { };
@@ -35,6 +35,7 @@ public class PlayerStats : CharacterStats
     {
         base.Start();
         OnLevelStart(this);
+        _restStat = _restMaxStat;
     }
 
     protected override void Update()
