@@ -3,12 +3,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2579943048	Play_DGX_Child_Barks			\DGX\Play_DGX_Child_Barks	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	417103303	Entity_Barks-005	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-005_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-005		205854
-	701098869	Entity_Barks-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-001		200872
+	417103303	Entity_Barks-005	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-005_0497DBBD.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-005		103933
+	701098869	Entity_Barks-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-001_FD556F00.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-001		76152
 	716638564	Child_Barks-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-002_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-002		24857
-	723883399	Entity_Barks-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-003_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-003		205631
-	728877307	Entity_Barks-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-004_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-004		199140
+	723883399	Entity_Barks-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-003_8C23B383.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-003		77780
+	728877307	Entity_Barks-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-004_9F669D3D.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-004		127385
 	770230295	Child_Barks-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-003_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-003		22877
 	1019154521	Child_Barks-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-001		25499
-	1035737766	Entity_Barks-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-002_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-002		204733
+	1035737766	Entity_Barks-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-002_F11C567D.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Entity_Barks\Entity_Barks-002		73979
 

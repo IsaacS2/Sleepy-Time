@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{B6A019B1-AAC2-466A-9978-2A9AD140009D}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Music\Reaper\GAMES\Foundry_Jam\Piano_Theme\renders\"/>
+				<Property Name="EffectsView\MeteringObject\{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" Type="string" Value="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}"/>
 				<Property Name="Event Action List\{01D901E9-1B1A-4274-BC8E-855FF1725330}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{02DCA21F-13D4-480D-A058-3731FD6935DD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{098047A8-669B-4864-A7CE-8CDE7D4D93CE}\x64_Expand States" Type="string" Value=""/>
@@ -52,6 +53,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{25A33778-C629-4025-A666-BC7333A3AC1E}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{25A33778-C629-4025-A666-BC7333A3AC1E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{26F400A9-75AE-4FD7-BC3E-84465F31F9BB}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{26F400A9-75AE-4FD7-BC3E-84465F31F9BB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value="ewA4AEIAMQAxADMAOQA3ADgALQA5ADAAMwAzAC0ANAA1AEQAMgAtAEEARABFADkALQBGAEYARABBADEANABEADMANgA3AEYAOAB9AAAAAAE="/>

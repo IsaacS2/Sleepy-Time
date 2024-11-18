@@ -104,17 +104,17 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{FC03A725-51EE-8006-D875-AA9B2B4E89D6}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{D7B4663B-D961-BBD0-A720-CFEA793CCBB4}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
 				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-005_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-005_0497DBBD.wem</CachePath>
 				</File>
 				<File Id="701098869" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-001.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-001_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-001_FD556F00.wem</CachePath>
 				</File>
 				<File Id="716638564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-002.wav</ShortName>
@@ -122,11 +122,11 @@
 				</File>
 				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-003_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-003_8C23B383.wem</CachePath>
 				</File>
 				<File Id="728877307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-004.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-004_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-004_9F669D3D.wem</CachePath>
 				</File>
 				<File Id="770230295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-003.wav</ShortName>
@@ -138,7 +138,7 @@
 				</File>
 				<File Id="1035737766" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-002.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-002_8E324C96.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-002_F11C567D.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -149,7 +149,7 @@
 						<MediaRef Id="1019154521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="19.2" DurationMax="19.2">
+				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="5.896063" DurationMax="10.015748">
 					<MediaRefs>
 						<MediaRef Id="417103303"/>
 						<MediaRef Id="701098869"/>
@@ -279,22 +279,48 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5991B70D-B1CB-610D-8918-7D7D656E8E81}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{663C5508-AEC5-9A12-30C1-08960DE36C9F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2652646462" Name="Dialog_Leveler_Soft" LibName="Wwise Compressor" LibId="7077891"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="393239870" Name="SFX"/>
-				<Bus Id="412430282" Name="DGX"/>
+				<Bus Id="393239870" Name="SFX">
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="412430282" Name="DGX">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2652646462"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
+				</Bus>
 				<Bus Id="712897226" Name="MUS"/>
 				<Bus Id="1117531639" Name="AMB"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1952219607" Name="AUX_Verb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
@@ -309,5 +335,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{718B3482-103F-95A8-A257-FB9939ABEAF6}</FileHash>
+	<FileHash>{AD8D05F5-ADDA-BB41-0A67-7B7E36ED48BD}</FileHash>
 </SoundBanksInfo>

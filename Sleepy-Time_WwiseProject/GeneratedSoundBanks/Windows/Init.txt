@@ -13,6 +13,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1952219607	AUX_Verb			\Default Work Unit\Master Audio Bus\AUX_Verb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

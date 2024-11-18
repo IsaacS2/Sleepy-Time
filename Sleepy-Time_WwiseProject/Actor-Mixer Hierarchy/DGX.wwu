@@ -112,6 +112,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Entity_Barks-001" ID="{AF5734AE-E14F-4A07-AA5E-39065E5E7491}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="6.19842519685039"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.19842519685039"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Entity\Entity_Barks-001.wav</AudioFile>
 											<MediaIDList>
@@ -134,6 +139,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Entity_Barks-002" ID="{A6E97E59-FE9C-429A-9F5A-D7D4E1D9EEFC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.21574803149606"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.377952755905512"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.27401574803149"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Entity\Entity_Barks-002.wav</AudioFile>
 											<MediaIDList>
@@ -156,6 +167,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Entity_Barks-003" ID="{D8E6CF20-C329-4EDA-A7B6-2915348D6566}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.95118110236221"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.529133858267717"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.76535433070866"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Entity\Entity_Barks-003.wav</AudioFile>
 											<MediaIDList>
@@ -178,6 +195,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Entity_Barks-004" ID="{625CA9C2-5244-4F38-ABB4-9EC7EB1234B7}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="10.0157480314961"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.415748031496063"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.4314960629921"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Entity\Entity_Barks-004.wav</AudioFile>
 											<MediaIDList>
@@ -200,6 +223,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Entity_Barks-005" ID="{A6B5EF5E-8059-45B7-A44F-5B29952DE1F6}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="8.05039370078741"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.377952755905512"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.42834645669292"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Entity\Entity_Barks-005.wav</AudioFile>
 											<MediaIDList>

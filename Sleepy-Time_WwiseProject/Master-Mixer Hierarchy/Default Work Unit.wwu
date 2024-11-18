@@ -19,7 +19,13 @@
 								</Property>
 							</PropertyList>
 						</Bus>
-						<Bus Name="SFX" ID="{CE8B78E8-F241-4D19-903E-C6657E30693F}"/>
+						<Bus Name="SFX" ID="{CE8B78E8-F241-4D19-903E-C6657E30693F}">
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="AUX_Verb" ID="{835F955B-EAAF-4A84-98C0-0AAD9CFC1F9F}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 						<Bus Name="MUS" ID="{39425C8D-7EDF-4E54-A3C9-FBD6A0A08D27}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
@@ -29,7 +35,45 @@
 								</Property>
 							</PropertyList>
 						</Bus>
-						<Bus Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}"/>
+						<Bus Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}">
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="AUX_Verb" ID="{835F955B-EAAF-4A84-98C0-0AAD9CFC1F9F}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{36A5417C-F9F6-4BD7-9E5A-650357CFC630}" ShortID="866123209">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+														<ObjectRef Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<AuxBus Name="AUX_Verb" ID="{835F955B-EAAF-4A84-98C0-0AAD9CFC1F9F}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{66998C60-7036-430A-AF3D-B6798AD17C83}" ShortID="530226725">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
