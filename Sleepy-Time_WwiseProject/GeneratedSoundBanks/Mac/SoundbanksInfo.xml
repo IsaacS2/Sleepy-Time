@@ -9,10 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{49B3C1A3-1B0B-2B1B-042C-2495A679A0B4}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{A85507A8-55E0-AD5E-A935-F1345EC82452}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
+				<File Id="471141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-007.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-007_8E324C96.wem</CachePath>
+				</File>
 				<File Id="2395609" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact\_Weapon_Impact-003.wav</ShortName>
 					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-003_8E324C96.wem</CachePath>
@@ -21,9 +25,21 @@
 					<ShortName>Blood_Spatter\_Blood_Spatter-002.wav</ShortName>
 					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-002_8E324C96.wem</CachePath>
 				</File>
+				<File Id="51743689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-002.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-002_8E324C96.wem</CachePath>
+				</File>
+				<File Id="139711590" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-003.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-003_8E324C96.wem</CachePath>
+				</File>
 				<File Id="198589439" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact\_Weapon_Impact-002.wav</ShortName>
 					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-002_8E324C96.wem</CachePath>
+				</File>
+				<File Id="241309646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-001.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-001_8E324C96.wem</CachePath>
 				</File>
 				<File Id="245042377" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-002.wav</ShortName>
@@ -33,13 +49,25 @@
 					<ShortName>Blood_Spatter\_Blood_Spatter-004.wav</ShortName>
 					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-004_8E324C96.wem</CachePath>
 				</File>
+				<File Id="377686987" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-008.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-008_8E324C96.wem</CachePath>
+				</File>
 				<File Id="385218377" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-001.wav</ShortName>
 					<CachePath>SFX/Enemy_Injury/Enemy_Attack/Enemy_Attack_Enemy_Injury-001_8E324C96.wem</CachePath>
 				</File>
+				<File Id="407522374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-004.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-004_8E324C96.wem</CachePath>
+				</File>
 				<File Id="423826708" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-001.wav</ShortName>
 					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-001_8E324C96.wem</CachePath>
+				</File>
+				<File Id="524402028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-005.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-005_8E324C96.wem</CachePath>
 				</File>
 				<File Id="572287534" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-003.wav</ShortName>
@@ -56,6 +84,10 @@
 				<File Id="665366938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\String_Sting\Stingers_String_Sting.wav</ShortName>
 					<CachePath>SFX/Stingers/String_Sting/Stingers_String_Sting_8E324C96.wem</CachePath>
+				</File>
+				<File Id="753331897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Player\_SFX_FS_Player-006.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Player/_SFX_FS_Player-006_8E324C96.wem</CachePath>
 				</File>
 				<File Id="775532303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</ShortName>
@@ -75,9 +107,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1573854218" Name="Play_SFX_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="26.4" DurationMax="26.4">
+				<Event Id="3303012769" Name="Play_SFX_Checkpoint_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="26.4" DurationMax="26.4">
 					<MediaRefs>
 						<MediaRef Id="599667693"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3414352583" Name="Play_SFX_Checkpoint_String_Stinger" DurationType="OneShot" DurationMin="6.6" DurationMax="6.6">
+					<MediaRefs>
+						<MediaRef Id="665366938"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2788169225" Name="Play_SFX_Enemy_Attack" DurationType="OneShot" DurationMin="0.9" DurationMax="1.05">
@@ -87,14 +124,21 @@
 						<MediaRef Id="572287534"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1601566421" Name="Play_SFX_FS_Player" DurationType="OneShot" DurationMin="0.9" DurationMax="0.9">
+					<MediaRefs>
+						<MediaRef Id="471141"/>
+						<MediaRef Id="51743689"/>
+						<MediaRef Id="139711590"/>
+						<MediaRef Id="241309646"/>
+						<MediaRef Id="377686987"/>
+						<MediaRef Id="407522374"/>
+						<MediaRef Id="524402028"/>
+						<MediaRef Id="753331897"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1765240081" Name="Play_SFX_Resampled_Voice_Stinger" DurationType="OneShot" DurationMin="13.8" DurationMax="13.8">
 					<MediaRefs>
 						<MediaRef Id="775532303"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3884316202" Name="Play_SFX_String_Stinger" DurationType="OneShot" DurationMin="6.6" DurationMax="6.6">
-					<MediaRefs>
-						<MediaRef Id="665366938"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1936094923" Name="Play_SFX_Swipe_Up_Stinger" DurationType="OneShot" DurationMin="11.4" DurationMax="11.4">
@@ -640,5 +684,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96B02C25-8EA1-8BA1-B03C-F5138C626F5F}</FileHash>
+	<FileHash>{75D19300-3246-735E-27C4-B0A690DC8125}</FileHash>
 </SoundBanksInfo>

@@ -60,8 +60,10 @@ public class Entity : MonoBehaviour
         //
 
         // TODO: Add 'entity killing the player' sound effect
-        //AkSoundEngine.PostEvent("Play_DGX_Entity", gameObject);
         AkSoundEngine.PostEvent("Play_Death_Sequence", gameObject);
+        // I opted to go for this sequence event, if you'd like to return to having them separate and timed another way
+        //AkSoundEngine.PostEvent("Play_DGX_Entity", gameObject); - Washed out entity, good for 'stalking'
+        //AkSoundEngine.PostEvent("Play_DGX_Entity_Dry", gameObject); - dry, good for when the entity is right on the player. 
 
         Debug.Log("Jumpscare");
     }

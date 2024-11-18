@@ -76,6 +76,7 @@ public class PlayerStats : CharacterStats
         {
             // TODO: Add player dying sound effect
             //AkSoundEngine.PostEvent("Play_DGX_Player_Scream", gameObject);
+            // I opted to tie this in with the entity attack as the Play_Death_Sequence event, because I wanted the entity scream to happen in full before the player scream. 
 
             _deathTimer = 0;
         }
