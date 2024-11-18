@@ -7,7 +7,7 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] private Sprite _attackSprite;
     [SerializeField] private Rigidbody2D _wielder;
-    [SerializeField] private float _maxAttackTime;
+    [SerializeField] private float _maxAttackTime, _weaponDistance;
 
     private Sprite _originalSprite;
     private Rigidbody2D _weapon;
@@ -39,7 +39,7 @@ public class Weapon : MonoBehaviour
         _weapon = GetComponent<Rigidbody2D>();
         if (_spr) _originalSprite = _spr.sprite;
 
-        if (_wielder) _distanceToPlayer = Vector3.Distance(_wielder.position, transform.position);
+        if (_wielder) _distanceToPlayer = _weaponDistance;
 
         _attackTimer = _maxAttackTime;
     }
@@ -76,7 +76,7 @@ public class Weapon : MonoBehaviour
                 // Moving weapon
                 //
                 transform.up = _weaponDirection;
-                _weapon.MovePosition(_weaponDirection * _distanceToPlayer + _wielder.position);
+                _weapon.position = (_weaponDirection * _distanceToPlayer + _wielder.position);
             }
         }
     }

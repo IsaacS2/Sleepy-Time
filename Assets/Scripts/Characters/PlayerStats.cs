@@ -144,7 +144,7 @@ public class PlayerStats : CharacterStats
         //
         // move the player if directional keys or WASD keys are being pushed down
         //
-        if (_rb) _rb.MovePosition(_newPos);
+        if (_rb) { Debug.Log("Rigidbody found: moving to " + _newPos); _rb.position = _newPos; }
         else transform.position = _newPos;
     }
 }

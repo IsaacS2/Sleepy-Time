@@ -86,6 +86,7 @@ public class CharacterStats : MonoBehaviour
         //
         if (weapon)
         {
+            Debug.Log("Hit by weapon");
             // Add blunt-weapon impact sound-effect
             AkSoundEngine.PostEvent("Play_SFX_Weapon_Impact", gameObject);
 
