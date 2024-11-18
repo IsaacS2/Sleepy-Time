@@ -160,7 +160,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{EDCF70C3-F24A-4621-E4D3-EE4F402C43F9}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{2CE38BF2-0FF7-8780-CFD7-13B1C93A50CC}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -279,7 +279,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{83804342-9039-18E6-90CE-0F3C090DD7A2}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5991B70D-B1CB-610D-8918-7D7D656E8E81}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -309,5 +309,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9230FA7D-E1EA-1E36-067A-B13853FD1A1A}</FileHash>
+	<FileHash>{718B3482-103F-95A8-A257-FB9939ABEAF6}</FileHash>
 </SoundBanksInfo>
