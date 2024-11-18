@@ -19,7 +19,7 @@
 						<Action Name="" ID="{73B1A5D6-574A-42B3-A5D6-17672DC05210}" ShortID="246848244">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+									<ObjectRef Name="SFX_Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -64,6 +64,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_String_Stinger" ID="{78141FAD-F2EC-4195-BE07-191C0DE69610}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Enemy_Attack" ID="{76546D6A-7BF6-4F6E-BF84-DBF6DD98BE23}">
+					<ChildrenList>
+						<Action Name="" ID="{71546D92-703B-4816-B57A-F3D50E8C9D90}" ShortID="45985949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Enemy_Attack" ID="{508BD175-65D2-4D3F-9B94-FE96C1913571}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

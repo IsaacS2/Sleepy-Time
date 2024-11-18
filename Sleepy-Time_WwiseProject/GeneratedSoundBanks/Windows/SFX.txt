@@ -4,15 +4,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	1765240081	Play_SFX_Resampled_Voice_Stinger			\SFX\Play_SFX_Resampled_Voice_Stinger	
 	1936094923	Play_SFX_Swipe_Up_Stinger			\SFX\Play_SFX_Swipe_Up_Stinger	
 	2499893359	Play_SFX_Weapon_Impact			\SFX\Play_SFX_Weapon_Impact	
+	2788169225	Play_SFX_Enemy_Attack			\SFX\Play_SFX_Enemy_Attack	
 	3884316202	Play_SFX_String_Stinger			\SFX\Play_SFX_String_Stinger	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	2395609	Weapon_Impact-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Weapon_Impact\_Weapon_Impact-003_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\Weapon_Impact\Weapon_Impact-003		5849
+	2395609	Weapon_Impact-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Weapon_Impact\_Weapon_Impact-003_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Weapon_Impact\Weapon_Impact-003		5849
 	31191500	Blood_Spatter-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Blood_Spatter\_Blood_Spatter-002_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\UI\Blood_Spatter_UI\Blood_Spatter-002		6561
-	198589439	Weapon_Impact-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Weapon_Impact\_Weapon_Impact-002_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\Weapon_Impact\Weapon_Impact-002		4771
+	198589439	Weapon_Impact-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Weapon_Impact\_Weapon_Impact-002_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Weapon_Impact\Weapon_Impact-002		4771
+	245042377	DGX_Enemy_Attack-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-002_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Enemy_Attack\DGX_Enemy_Attack-002		16125
 	321683485	Blood_Spatter-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Blood_Spatter\_Blood_Spatter-004_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\UI\Blood_Spatter_UI\Blood_Spatter-004		5008
+	385218377	DGX_Enemy_Attack-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-001_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Enemy_Attack\DGX_Enemy_Attack-001		18398
 	423826708	Blood_Spatter-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Blood_Spatter\_Blood_Spatter-001_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\UI\Blood_Spatter_UI\Blood_Spatter-001		7542
-	589159237	Weapon_Impact-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Weapon_Impact\_Weapon_Impact-001_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\Weapon_Impact\Weapon_Impact-001		4971
+	572287534	DGX_Enemy_Attack-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-003_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Enemy_Attack\DGX_Enemy_Attack-003		12414
+	589159237	Weapon_Impact-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Weapon_Impact\_Weapon_Impact-001_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Weapon_Impact\Weapon_Impact-001		4971
 	599667693	SFX_Distorted_Chime_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Stingers\Distorted_Chime\Stingers_Distorted_Chime_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_Distorted_Chime_Stinger		202997
 	665366938	SFX_String_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Stingers\String_Sting\Stingers_String_Sting_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_String_Stinger		76249
 	775532303	SFX_Resampled_Voice_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Windows\SFX\Stingers\Resampled_Voice\Stingers_Resampled_Voice_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_Resampled_Voice_Stinger		116083

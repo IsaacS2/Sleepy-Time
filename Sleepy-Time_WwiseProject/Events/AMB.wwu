@@ -93,6 +93,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{856E427A-C103-4D4E-BC53-2D2BB33D9E0F}" ShortID="271886543">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_DGX_Player_Snoring" ID="{96A77793-FDAC-48D6-A7B3-5E31BECAE9C5}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

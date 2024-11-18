@@ -58,6 +58,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DGX_Enemy_Aggro" ID="{E86A2E50-9A23-4F6C-8A78-A9E242CEDD9E}">
+					<ChildrenList>
+						<Action Name="" ID="{D0BE1F4E-CEDC-47CF-8BAA-6DE7C1C9B6A1}" ShortID="548673782">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Enemy_Aggro" ID="{86C0BB5F-92F7-4BA8-8A76-58477752281F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Player_Hurt" ID="{169F2C2E-83B7-4A2E-A8CE-A36EF36776BD}">
+					<ChildrenList>
+						<Action Name="" ID="{76652708-A8C1-4D4A-A178-D26701590CF2}" ShortID="420377860">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Hurt" ID="{5D2EBC41-797B-404A-A0C9-BE4DD1A13EBB}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DGX_Player_Snoring" ID="{96A77793-FDAC-48D6-A7B3-5E31BECAE9C5}">
+					<ChildrenList>
+						<Action Name="" ID="{B369191A-E512-4254-8A55-DA540916D862}" ShortID="260991811">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Snoring" ID="{C9A5E8F8-8038-48DD-BF7F-CEB81B1884CA}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

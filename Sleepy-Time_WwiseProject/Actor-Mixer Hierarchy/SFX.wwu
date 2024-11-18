@@ -113,7 +113,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" ShortID="51292949">
+						<RandomSequenceContainer Name="SFX_Weapon_Impact" ID="{314D922F-34A9-4E3C-9BAC-82B83D15FD99}" ShortID="51292949">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -218,6 +218,91 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="_Weapon_Impact-003" ID="{B28FC490-BCC4-403E-B37E-2063A5B436CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_Enemy_Attack" ID="{508BD175-65D2-4D3F-9B94-FE96C1913571}" ShortID="460870658">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DGX_Enemy_Attack-001" ID="{A358900A-EB3A-417A-8DF0-1D7E5310252B}" ShortID="122067573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Attack_Enemy_Injury-001" ID="{28687DF6-0F23-4571-8E26-65CB06DEE78B}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="385218377"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Attack_Enemy_Injury-001" ID="{28687DF6-0F23-4571-8E26-65CB06DEE78B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Attack-002" ID="{B18D5C98-05EF-4992-A68A-10A0508EF6CA}" ShortID="746924410">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Attack_Enemy_Injury-002" ID="{EB8B78BE-8C41-42DE-9448-02B1C5199117}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="245042377"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Attack_Enemy_Injury-002" ID="{EB8B78BE-8C41-42DE-9448-02B1C5199117}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Enemy_Attack-003" ID="{38C1A8A2-F4E4-47C7-9688-6BF879D6EAC1}" ShortID="853820363">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Attack_Enemy_Injury-003" ID="{990A86A1-84CE-4DA8-838F-9F0749ABFE80}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="572287534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Attack_Enemy_Injury-003" ID="{990A86A1-84CE-4DA8-838F-9F0749ABFE80}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

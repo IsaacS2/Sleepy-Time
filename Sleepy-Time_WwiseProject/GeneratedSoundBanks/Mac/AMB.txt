@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	768061573	Play_AMB_Sleep_Test			\AMB\Play_AMB_Sleep_Test	
+	1950652224	Play_DGX_Player_Snoring			\DGX\Play_DGX_Player_Snoring	
 	2959533290	Play_AMB			\AMB\Play_AMB	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -20,12 +21,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	305521094	AMB_Island_TC_Glass_Pad	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Island_TC_Glass_Pad_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_TC_Pad\AMB_Island_TC_Glass_Pad		548878
 	321254246	AMB_Sleep_Distant_Clangs	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Sleep_Distant_Clangs_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Asleep\AMB_Sleep_Distant_Clangs		581961
 	367454663	AMB_Island_High_Cries	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Island_High_Cries_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_Jungle\AMB_Island_High_Cries		680455
+	369466060	DGX_Player_Snoring-005	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Snoring\Player_Snoring-005_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Snoring\DGX_Player_Snoring-005		24199
 	371143502	AMB_Sleep_Distant_Skittering	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Sleep_Distant_Skittering_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Asleep\AMB_Sleep_Distant_Skittering		601205
+	380877099	DGX_Player_Snoring-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Snoring\Player_Snoring-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Snoring\DGX_Player_Snoring-001		35350
 	386134812	AMB_Island_Low_Cries	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Island_Low_Cries_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_Jungle\AMB_Island_Low_Cries		852089
 	389628936	AMB_Sleep_Low_Static_Glitch	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Sleep_Low_Static_Glitch_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_Wind\AMB_Sleep_Low_Static_Glitch		263188
+	426201924	DGX_Player_Snoring-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Snoring\Player_Snoring-003_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Snoring\DGX_Player_Snoring-003		42203
 	428379815	AMB_Awake_Water_Layer	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Island_Water_Layer_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_Water_Layer		664503
 	562086378	AMB_Awake_Insects	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Island_Insects_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_Insects		699901
 	636364065	AMB_Sleep_Test	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_AMB_Sleep_Test_B032A71E.wem		\Actor-Mixer Hierarchy\AMB\AMB\Asleep\AMB_Sleep_Test		397062
+	703104942	DGX_Player_Snoring-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Snoring\Player_Snoring-002_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Snoring\DGX_Player_Snoring-002		40495
+	742855847	DGX_Player_Snoring-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Snoring\Player_Snoring-004_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Snoring\DGX_Player_Snoring-004		35816
 	817228792	AMB_Sleep_TC_Sub	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Sleep_TC_Sub_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_TC_Pad\AMB_Sleep_TC_Sub		316012
 	1032124457	AMB_Awake_Zebra_Pad_Layer	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\AMB_Island_Zebra_Pad_Layer_3B7822A8.wem		\Actor-Mixer Hierarchy\AMB\AMB\Awake\AMB_Awake_Zebra_Pad_Layer		656061
+	1064574171	DGX_Player_Snoring-006	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Snoring\Player_Snoring-006_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Snoring\DGX_Player_Snoring-006		57359
 
