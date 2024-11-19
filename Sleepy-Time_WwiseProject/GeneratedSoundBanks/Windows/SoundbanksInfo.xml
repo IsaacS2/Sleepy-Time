@@ -188,7 +188,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{4BE07984-1940-E09C-24C4-CAE65A7F675B}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{1F4018DC-B972-A48F-BAAA-ED87D3C9DA56}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -501,7 +501,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{0CF2A896-150B-D57F-763B-B8EE1C4EDBB7}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{D5C92D1F-FAF0-5B05-1810-8B8E6D73C9BF}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -711,5 +711,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E7EB1022-99B0-EA68-525A-F6E7F73FFAC9}</FileHash>
+	<FileHash>{552E61C1-FE57-54AD-1B80-2562D5008367}</FileHash>
 </SoundBanksInfo>
