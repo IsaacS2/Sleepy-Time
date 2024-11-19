@@ -29,6 +29,7 @@ namespace AK
         static const AkUniqueID PLAY_DGX_SPIRIT_INJURED = 1459153067U;
         static const AkUniqueID PLAY_MUS_GAME = 3188041860U;
         static const AkUniqueID PLAY_MUS_TITLE = 3867386064U;
+        static const AkUniqueID PLAY_MUS_WIN = 4102914192U;
         static const AkUniqueID PLAY_SFX_CHECKPOINT_DISTORTED_CHIME_STINGER = 3303012769U;
         static const AkUniqueID PLAY_SFX_CHECKPOINT_STRING_STINGER = 3414352583U;
         static const AkUniqueID PLAY_SFX_ENEMY_ATTACK = 2788169225U;

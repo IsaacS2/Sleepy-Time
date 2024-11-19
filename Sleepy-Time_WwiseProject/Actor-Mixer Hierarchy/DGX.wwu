@@ -1135,7 +1135,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1171,6 +1171,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Player_Wake-002" ID="{B3E37C2F-974D-484D-B4AD-ED39AD4764B0}" ShortID="839528877">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -1193,6 +1200,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Player_Wake-003" ID="{C54C01E6-7563-442C-BC52-495270CA7EBB}" ShortID="805127760">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -1281,6 +1295,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Player_Wake-007" ID="{67CCF1CE-6149-474B-905E-6EF60AD494BE}" ShortID="622434334">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -1303,6 +1324,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Player_Wake-008" ID="{EDA200F3-5CF5-4125-BBB1-25645B7DA1FD}" ShortID="934793428">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -1325,6 +1353,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Player_Scream-003" ID="{01FC7952-86A4-417B-B905-4CACCFFF488E}" ShortID="820389073">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>

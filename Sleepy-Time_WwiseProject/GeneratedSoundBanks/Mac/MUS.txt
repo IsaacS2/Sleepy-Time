@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3188041860	Play_MUS_Game			\MUS\Play_MUS_Game	
 	3867386064	Play_MUS_Title			\MUS\Play_MUS_Title	
+	4102914192	Play_MUS_Win			\Default Work Unit\Play_MUS_Win	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1313188810	Sleeping			\Default Work Unit\Sleeping	
@@ -15,4 +16,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	562036594	Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Game\Marigold_Siesta_Nightmare_Theme_32B_4P_80BPM		1513925
 	678460541	Marigold_Siesta_Exploring_Theme_32B_4P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Marigold_Siesta_Exploring_Theme_32B_4P_80BPM_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Game\Marigold_Siesta_Exploring_Theme_32B_4P_80BPM		1183546
 	1002442582	Marigold_Siesta_Title Theme_48B_0P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Marigold_Siesta_Title Theme_48B_0P_80BPM_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Title\Marigold_Siesta_Title Theme_48B_0P_80BPM		1737991
+	1020205215	Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM\Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM		1133685
 
