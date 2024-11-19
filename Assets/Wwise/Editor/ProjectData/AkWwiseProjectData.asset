@@ -285,7 +285,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584696963516843709
+    m_lastTime: -8584696608458552232
     List: []
   - PhysicalPath: Events/DGX.wwu
     PathAndIcons:
@@ -298,8 +298,25 @@ MonoBehaviour:
     ParentPath: Events/DGX
     guid: d2ef4c84d9a4f945944b6f17002e9911
     GuidInternal: 
-    m_lastTime: -8584696948835967039
+    m_lastTime: -8584696616725077242
     List:
+    - name: Play_Death_Sequence
+      guid: 1b84e275d6c85a4db0d6b73af0098ba5
+      id: 4163297412
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_Death_Sequence
+        ObjectType: 3
+        guid: 1b84e275d6c85a4db0d6b73af0098ba5
+      Path: Events/DGX/Play_Death_Sequence
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_DGX_Child_Barks
       guid: faa5e2d3c4a7d0499baf9425a603734c
       id: 2579943048
@@ -385,6 +402,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 10.045033
       minDuration: 9.4435625
+    - name: Play_DGX_Entity_Dry
+      guid: ca4369a9cb34694ab00583364a6b9d7d
+      id: 3940443801
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Entity_Dry
+        ObjectType: 3
+        guid: ca4369a9cb34694ab00583364a6b9d7d
+      Path: Events/DGX/Play_DGX_Entity_Dry
+      maxAttenuation: 0
+      maxDuration: 2.5647743
+      minDuration: 1.8454992
     - name: Play_DGX_Player_Hurt
       guid: 2e2c9f16b7832e4aa8cea36ef36776bd
       id: 512385751
@@ -402,6 +436,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.6
       minDuration: 0.3
+    - name: Play_DGX_Player_Scream
+      guid: e709163128550445834341b9696fd94d
+      id: 1911911943
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Player_Scream
+        ObjectType: 3
+        guid: e709163128550445834341b9696fd94d
+      Path: Events/DGX/Play_DGX_Player_Scream
+      maxAttenuation: 0
+      maxDuration: 0.7639375
+      minDuration: 0.6138333
     - name: Play_DGX_Player_Wake
       guid: 4c88bb16d197d141b6030f091aedef31
       id: 800539628
@@ -494,11 +545,11 @@ MonoBehaviour:
     ParentPath: Events/SFX
     guid: ff6d7e55f3efc1439c417060aa9e0d80
     GuidInternal: 
-    m_lastTime: -8584696983537147702
+    m_lastTime: -8584696605718374739
     List:
-    - name: Play_SFX_Distorted_Chime_Stinger
+    - name: Play_SFX_Checkpoint_Distorted_Chime_Stinger
       guid: a4cbf2b0bedf0342b6f5846f6ad11fe3
-      id: 1573854218
+      id: 3303012769
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -506,13 +557,30 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 12
         guid: ff6d7e55f3efc1439c417060aa9e0d80
-      - ElementName: Play_SFX_Distorted_Chime_Stinger
+      - ElementName: Play_SFX_Checkpoint_Distorted_Chime_Stinger
         ObjectType: 3
         guid: a4cbf2b0bedf0342b6f5846f6ad11fe3
-      Path: Events/SFX/Play_SFX_Distorted_Chime_Stinger
+      Path: Events/SFX/Play_SFX_Checkpoint_Distorted_Chime_Stinger
       maxAttenuation: 0
       maxDuration: 26.4
       minDuration: 26.4
+    - name: Play_SFX_Checkpoint_String_Stinger
+      guid: e901d9011a1b7442bc8e855ff1725330
+      id: 3414352583
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: ff6d7e55f3efc1439c417060aa9e0d80
+      - ElementName: Play_SFX_Checkpoint_String_Stinger
+        ObjectType: 3
+        guid: e901d9011a1b7442bc8e855ff1725330
+      Path: Events/SFX/Play_SFX_Checkpoint_String_Stinger
+      maxAttenuation: 0
+      maxDuration: 6.6
+      minDuration: 6.6
     - name: Play_SFX_Enemy_Attack
       guid: 6a6d5476f67b6e4fbf84dbf6dd98be23
       id: 2788169225
@@ -529,6 +597,23 @@ MonoBehaviour:
       Path: Events/SFX/Play_SFX_Enemy_Attack
       maxAttenuation: 0
       maxDuration: 1.05
+      minDuration: 0.9
+    - name: Play_SFX_FS_Player
+      guid: 4ee450fae4caec4dba31f7acae07124d
+      id: 1601566421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: ff6d7e55f3efc1439c417060aa9e0d80
+      - ElementName: Play_SFX_FS_Player
+        ObjectType: 3
+        guid: 4ee450fae4caec4dba31f7acae07124d
+      Path: Events/SFX/Play_SFX_FS_Player
+      maxAttenuation: 0
+      maxDuration: 0.9
       minDuration: 0.9
     - name: Play_SFX_Resampled_Voice_Stinger
       guid: ef9a631e02155d439484d09546fb8767
@@ -547,23 +632,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 13.8
       minDuration: 13.8
-    - name: Play_SFX_String_Stinger
-      guid: e901d9011a1b7442bc8e855ff1725330
-      id: 3884316202
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: SFX
-        ObjectType: 12
-        guid: ff6d7e55f3efc1439c417060aa9e0d80
-      - ElementName: Play_SFX_String_Stinger
-        ObjectType: 3
-        guid: e901d9011a1b7442bc8e855ff1725330
-      Path: Events/SFX/Play_SFX_String_Stinger
-      maxAttenuation: 0
-      maxDuration: 6.6
-      minDuration: 6.6
     - name: Play_SFX_Swipe_Up_Stinger
       guid: 9c173c1dcfa936468aa9d1a1ac1a5261
       id: 1936094923
@@ -655,7 +723,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 09d8f54a9e1ec24d963432cbf72feb44
     GuidInternal: 
-    m_lastTime: -8584696954731429126
+    m_lastTime: -8584696624548197066
     List:
     - name: Sleeping
       guid: 6af6a8f3e400154eb87e4cd560e01394
@@ -704,6 +772,22 @@ MonoBehaviour:
         - ElementName: Awake
           ObjectType: 8
           guid: 57120438a4ce5d4ca41e1f138b979433
+      - name: Dead
+        guid: 5ff280f19fcb784680370a346971f049
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09d8f54a9e1ec24d963432cbf72feb44
+        - ElementName: Sleeping
+          ObjectType: 9
+          guid: 6af6a8f3e400154eb87e4cd560e01394
+        - ElementName: Dead
+          ObjectType: 8
+          guid: 5ff280f19fcb784680370a346971f049
       - name: None
         guid: dcfea4d9e83f494190465858a9d4ccb5
         id: 748895195
