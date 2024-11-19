@@ -156,7 +156,7 @@
                 {
                     "name": "",
                     "id": "61a8bfd7-391a-4a39-80d1-c3b2aa22406c",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/j",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -188,8 +188,30 @@
                 },
                 {
                     "name": "",
+                    "id": "cf797d66-24c3-44de-9df8-8a7525305625",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "330eae81-55b5-496c-9df6-200559717e2a",
                     "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ConsciousChange",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "06890089-3468-43fe-9ded-7baa54afa08d",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
