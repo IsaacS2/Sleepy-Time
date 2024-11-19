@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using UnityEngine;
+using UnityEngine.Video;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerStats : CharacterStats
 {
+    [SerializeField] private VideoPlayer jumpScare;
     [SerializeField] private VolumeProfile vp;
     [SerializeField] private float _maxDeathTime = 2f, _restMaxStat = 10;
 
@@ -100,6 +102,7 @@ public class PlayerStats : CharacterStats
         if (entity)
         {
             OnEntityDeath();
+            if (jumpScare) jumpScare.Play();
             CalculateDamage(_maxHealth * 2);
         }
     }

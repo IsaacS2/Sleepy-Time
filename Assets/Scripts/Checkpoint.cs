@@ -9,4 +9,9 @@ public class Checkpoint : MonoBehaviour
     //AkSoundEngine.PostEvent("Play_SFX_Checkpoint_Distorted_Chime_Stinger", gameObject);
     //AkSoundEngine.PostEvent("Play_SFX_Checkpoint_String_Stingerr", gameObject);
     //End
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        AkSoundEngine.PostEvent("Play_SFX_Checkpoint_Distorted_Chime_Stinger", gameObject);
+    }
 }
