@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,8 @@ public class Movement : MonoBehaviour
 
     private Vector2 moveDirection;
     private Rigidbody2D _rb;
+
+    public static event Action<Vector2> MovementChange = (_direction) => { };
 
     private void OnEnable()
     {
@@ -47,7 +50,7 @@ public class Movement : MonoBehaviour
         {
             // TODO: stop player-walking sound effect here
         }
-
+        MovementChange(moveDirection);
         _rb.velocity = moveDirection * moveSpeed;
     }
 
