@@ -7,7 +7,7 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] private Sprite _attackSprite;
     [SerializeField] private Rigidbody2D _wielder;
-    [SerializeField] private float _maxAttackTime;
+    [SerializeField] private float _maxAttackTime, _weaponDistance;
 
     private Sprite _originalSprite;
     private Rigidbody2D _weapon;
@@ -15,6 +15,7 @@ public class Weapon : MonoBehaviour
     private SpriteRenderer _spr;
     private Vector2 _weaponDirection;
     private float _distanceToPlayer, _attackTimer, _damage;
+    private bool canMove;
 
     private void OnEnable()
     {
@@ -22,6 +23,7 @@ public class Weapon : MonoBehaviour
         Awake.OnAwake += ActivateWeapon;
         GameplayInputManager.OnAttack += Attack;
         PlayerStats.OnLevelStart += EditDamage;
+        canMove = true;
     }
 
     private void OnDisable()
@@ -39,7 +41,7 @@ public class Weapon : MonoBehaviour
         _weapon = GetComponent<Rigidbody2D>();
         if (_spr) _originalSprite = _spr.sprite;
 
-        if (_wielder) _distanceToPlayer = Vector3.Distance(_wielder.position, transform.position);
+        if (_wielder) _distanceToPlayer = _weaponDistance;
 
         _attackTimer = _maxAttackTime;
     }
@@ -60,6 +62,7 @@ public class Weapon : MonoBehaviour
             {
                 _col.enabled = false;
                 if (_attackSprite) _spr.sprite = _originalSprite;
+                canMove = true;
             }
         }
     }
@@ -68,14 +71,14 @@ public class Weapon : MonoBehaviour
     {
         if (_wielder)
         {
-            _weaponDirection = (Camera.main.ScreenToViewportPoint(Mouse.current.position.ReadValue()) - new Vector3(0.5f, 0.5f, 0)).normalized;
+            if (canMove) _weaponDirection = (Camera.main.ScreenToViewportPoint(Mouse.current.position.ReadValue()) - new Vector3(0.5f, 0.5f, 0)).normalized;
 
             if (_weaponDirection != Vector2.zero)
             {
                 //
                 // Moving weapon
                 //
-                transform.up = _weaponDirection;
+                if (canMove) _weapon.transform.up = _weaponDirection;
                 _weapon.MovePosition(_weaponDirection * _distanceToPlayer + _wielder.position);
             }
         }
@@ -97,8 +100,9 @@ public class Weapon : MonoBehaviour
         if (_originalSprite && _spr.enabled && _col && !_col.enabled)
         {
             //
-            // Attack is now-effect
+            // Attack is now in-effect
             //
+            canMove = false;
             _col.enabled = true;
             _attackTimer = 0;
 

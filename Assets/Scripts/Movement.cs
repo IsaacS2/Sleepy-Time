@@ -12,6 +12,16 @@ public class Movement : MonoBehaviour
     private Vector2 moveDirection;
     private Rigidbody2D _rb;
 
+    private void OnEnable()
+    {
+        PlayerStats.OnEntityDeath += StopMovement;
+    }
+
+    private void OnDisable()
+    {
+        PlayerStats.OnEntityDeath -= StopMovement;
+    }
+
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -44,5 +54,10 @@ public class Movement : MonoBehaviour
     public void ChangeSpeed(float newSpeed)
     {
         moveSpeed = newSpeed;
+    }
+
+    public void StopMovement()
+    {
+        moveSpeed = 0;
     }
 }

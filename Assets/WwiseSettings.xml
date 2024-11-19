@@ -13,7 +13,7 @@
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2023.1.3.8471/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
   <WwiseProjectPath>../Sleepy-Time_WwiseProject/Sleepy-Time_WwiseProject.wproj</WwiseProjectPath>
-  <UseWaapi>true</UseWaapi>
+  <UseWaapi>false</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
   <XMLTranslatorTimeout>10</XMLTranslatorTimeout>

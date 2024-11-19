@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class Asleep : MonoBehaviour
 {
     [SerializeField] private LayerMask _asleepLayer;
+    [SerializeField] private Color _asleepBackground = Color.white;
     [SerializeField] private float _restRate, _healthIncreaseRate, _movementSpeed;
 
     private PlayerStats _player;
@@ -29,6 +30,7 @@ public class Asleep : MonoBehaviour
         // End - TJ
 
         Camera.main.cullingMask = _asleepLayer;
+        Camera.main.backgroundColor = _asleepBackground;
 
         if (_movementScript == null) _movementScript = GetComponent<Movement>();
 

@@ -74,6 +74,7 @@ public class PlayerStats : CharacterStats
         //
         if (_dead && _deathTimer >= _maxDeathTime)
         {
+            OnEntityDeath();
             // TODO: Add player dying sound effect
             //AkSoundEngine.PostEvent("Play_DGX_Player_Scream", gameObject);
             // I opted to tie this in with the entity attack as the Play_Death_Sequence event, because I wanted the entity scream to happen in full before the player scream. 
@@ -82,7 +83,7 @@ public class PlayerStats : CharacterStats
         }
     }
 
-    protected override void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
         Checkpoint checkpoint = collision.gameObject.GetComponent<Checkpoint>();
 
@@ -103,7 +104,12 @@ public class PlayerStats : CharacterStats
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    protected override void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("player touches their weapon");
+    }
+
+    protected virtual void OnCollisionStay2D(Collision2D collision)
     {
         EnemyStats enemy = collision.gameObject.GetComponent<EnemyStats>();
 
@@ -144,7 +150,7 @@ public class PlayerStats : CharacterStats
         //
         // move the player if directional keys or WASD keys are being pushed down
         //
-        if (_rb) _rb.MovePosition(_newPos);
+        if (_rb) { Debug.Log("Rigidbody found: moving to " + _newPos); _rb.position = _newPos; }
         else transform.position = _newPos;
     }
 }

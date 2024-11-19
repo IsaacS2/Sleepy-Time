@@ -77,7 +77,7 @@ public class CharacterStats : MonoBehaviour
         if (_health <= 0) _dead = true;
     }
 
-    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         Weapon weapon = collision.gameObject.GetComponent<Weapon>();
 
@@ -86,6 +86,7 @@ public class CharacterStats : MonoBehaviour
         //
         if (weapon)
         {
+            Debug.Log("Touthed by weapon");
             // Add blunt-weapon impact sound-effect
             AkSoundEngine.PostEvent("Play_SFX_Weapon_Impact", gameObject);
 

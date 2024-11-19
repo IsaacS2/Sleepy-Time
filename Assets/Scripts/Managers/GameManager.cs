@@ -64,6 +64,8 @@ public class GameManager : MonoBehaviour
 
     public void SetNewCheckpoint(Vector3 _newCheckpointPos)
     {
+        Debug.Log("new checkpoint: " + _newCheckpointPos);
+
         _checkpointPos = _newCheckpointPos;
     }
 

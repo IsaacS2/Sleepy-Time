@@ -15,8 +15,12 @@ public class EnemySensor : MonoBehaviour
         //
         // Enemy has spotted a nearby player
         //
-        if (playerStats) OnPlayerFound(playerStats);
-        AkSoundEngine.PostEvent("Play_DGX_Enemy_Aggro", gameObject);
+        if (playerStats)
+        {
+            Debug.Log("player found again");
+            OnPlayerFound(playerStats);
+            AkSoundEngine.PostEvent("Play_DGX_Enemy_Aggro", gameObject);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -27,5 +31,6 @@ public class EnemySensor : MonoBehaviour
         // Enemy has lost a player they recently spotted
         //
         if (playerStats) OnPlayerLost();
+        else { Debug.Log("not a player"); }
     }
 }
