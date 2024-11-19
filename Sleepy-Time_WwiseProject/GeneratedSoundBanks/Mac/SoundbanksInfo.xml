@@ -481,7 +481,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{EB54BE62-3B0E-A8CC-FF61-A4F5369F44A0}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{1A9ABD70-C586-0DBA-E61A-5111A03AC2D7}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -511,8 +511,22 @@
 						<MediaRef Id="1020205215"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3867386064" Name="Play_MUS_Title" DurationType="OneShot" DurationMin="1" DurationMax="1"/>
-				<Event Id="4102914192" Name="Play_MUS_Win" DurationType="OneShot" DurationMin="96" DurationMax="96"/>
+				<Event Id="3867386064" Name="Play_MUS_Title" DurationType="OneShot" DurationMin="144" DurationMax="144">
+					<MediaRefs>
+						<MediaRef Id="562036594"/>
+						<MediaRef Id="678460541"/>
+						<MediaRef Id="1002442582"/>
+						<MediaRef Id="1020205215"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4102914192" Name="Play_MUS_Win" DurationType="OneShot" DurationMin="96" DurationMax="96">
+					<MediaRefs>
+						<MediaRef Id="562036594"/>
+						<MediaRef Id="678460541"/>
+						<MediaRef Id="1002442582"/>
+						<MediaRef Id="1020205215"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{46D08C15-B5BA-303D-743E-15F0F61111A6}">
@@ -727,5 +741,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{742A76B4-8EC6-C2B8-1245-95C29A236BD7}</FileHash>
+	<FileHash>{C3B9D9E4-DA6C-B709-46EA-BFCDC919F170}</FileHash>
 </SoundBanksInfo>

@@ -515,7 +515,7 @@ MonoBehaviour:
     ParentPath: Events/MUS
     guid: 28f61aea0fbddb40bf957b3d949291ad
     GuidInternal: 
-    m_lastTime: -8584696231761229960
+    m_lastTime: -8584696150616328133
     List:
     - name: Play_MUS_Game
       guid: 9292ea5ac55349468d3fa832979cf86e
@@ -549,8 +549,8 @@ MonoBehaviour:
         guid: 50b82e5ebb24c442a329890332533bf4
       Path: Events/MUS/Play_MUS_Title
       maxAttenuation: 0
-      maxDuration: 1
-      minDuration: 1
+      maxDuration: 144
+      minDuration: 144
     - name: Play_MUS_Win
       guid: a45877cd951b2b44bfecbb574ca31b43
       id: 4102914192

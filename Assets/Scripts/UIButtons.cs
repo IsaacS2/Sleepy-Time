@@ -13,22 +13,24 @@ public class UIButtons : MonoBehaviour
 
     private void Start()
     {
-      AkSoundEngine.PostEvent("Play_AMB", gameObject);
-      AkSoundEngine.PostEvent("Play_MUS_Game", gameObject);
 
 
       if (SceneManager.GetActiveScene().buildIndex == 0) {
         AkSoundEngine.SetState("Sleeping", "Title");
+        AkSoundEngine.PostEvent("Play_AMB", gameObject);
+        AkSoundEngine.PostEvent("Play_MUS_Title", gameObject);
 
       }
 
       if (SceneManager.GetActiveScene().buildIndex == 1) {
         AkSoundEngine.SetState("Sleeping", "Awake");
+        AkSoundEngine.PostEvent("Play_MUS_Game", gameObject);
 
       }
 
       if (SceneManager.GetActiveScene().buildIndex == 2) {
         AkSoundEngine.SetState("Sleeping", "Win");
+        AkSoundEngine.PostEvent("Play_MUS_Win", gameObject); 
       }
 
     }
