@@ -7,14 +7,17 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerStats : CharacterStats
 {
+    [SerializeField] private TMP_Text _healthText;
     [SerializeField] private VideoPlayer jumpScare;
     [SerializeField] private VolumeProfile vp;
     [SerializeField] private float _maxDeathTime = 2f, _restMaxStat = 10;
 
     private Vignette _vignette;
+    private string _originalHealthText;
     protected float _restStat = 10, _deathTimer;
     protected int _checkpointIndex = 0;
 
@@ -35,6 +38,11 @@ public class PlayerStats : CharacterStats
 
     protected override void Start()
     {
+        if (_healthText)
+        {
+            _originalHealthText = _healthText.text;
+        }
+
         base.Start();
         OnLevelStart(this);
         _restStat = _restMaxStat;
@@ -70,6 +78,11 @@ public class PlayerStats : CharacterStats
     public override void CalculateDamage(float damage)
     {
         base.CalculateDamage(damage);
+
+        if (_healthText)
+        {
+            _healthText.text = _originalHealthText + _health.ToString("F2");
+        }
 
         //
         // start the countdown for resetting the scene after the player's death

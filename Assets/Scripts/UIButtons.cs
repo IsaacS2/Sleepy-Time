@@ -30,7 +30,7 @@ public class UIButtons : MonoBehaviour
 
       if (SceneManager.GetActiveScene().buildIndex == 2) {
         AkSoundEngine.SetState("Sleeping", "Win");
-        AkSoundEngine.PostEvent("Play_MUS_Win", gameObject); 
+        AkSoundEngine.PostEvent("Play_MUS_Win", gameObject);
       }
 
     }
