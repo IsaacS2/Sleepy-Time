@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	793446718	Play_SFX_UI_Splatter			\SFX\Play_SFX_UI_Splatter	
-	1374858245	Play_SFX_Weapon_Swing			\SFX\Play_SFX_Weapon_Swing	
+	1374858245	Play_SFX_Weapon_Swing			\Default Work Unit\Play_SFX_Weapon_Swing	
 	1601566421	Play_SFX_FS_Player			\SFX\Play_SFX_FS_Player	
 	1765240081	Play_SFX_Resampled_Voice_Stinger			\SFX\Play_SFX_Resampled_Voice_Stinger	
 	1936094923	Play_SFX_Swipe_Up_Stinger			\SFX\Play_SFX_Swipe_Up_Stinger	
