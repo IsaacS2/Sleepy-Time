@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        SetNewPlayerPosition(_checkpointPos);
+        if (SceneManager.GetActiveScene().buildIndex == 1) { SetNewPlayerPosition(_checkpointPos); }
     }
 
     public void GoToNextScene()
