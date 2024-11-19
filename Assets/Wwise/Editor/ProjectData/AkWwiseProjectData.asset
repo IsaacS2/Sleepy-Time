@@ -285,7 +285,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584696231761331714
+    m_lastTime: -8584696187627824736
     List: []
   - PhysicalPath: Events/DGX.wwu
     PathAndIcons:
@@ -298,7 +298,7 @@ MonoBehaviour:
     ParentPath: Events/DGX
     guid: d2ef4c84d9a4f945944b6f17002e9911
     GuidInternal: 
-    m_lastTime: -8584696204882842218
+    m_lastTime: -8584696187627954923
     List:
     - name: Play_Death_Sequence
       guid: 1b84e275d6c85a4db0d6b73af0098ba5
@@ -400,8 +400,8 @@ MonoBehaviour:
         guid: a84780099b666448a7ce8cde7d4d93ce
       Path: Events/DGX/Play_DGX_Entity
       maxAttenuation: 0
-      maxDuration: 10.045033
-      minDuration: 9.4435625
+      maxDuration: -1
+      minDuration: -1
     - name: Play_DGX_Entity_Dry
       guid: ca4369a9cb34694ab00583364a6b9d7d
       id: 3940443801
@@ -419,6 +419,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.9848241
       minDuration: 1.7662355
+    - name: Play_DGX_Player_Fall
+      guid: 15b0237105cdbf4db8e944a5ee45e7cd
+      id: 3634809319
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DGX
+        ObjectType: 12
+        guid: d2ef4c84d9a4f945944b6f17002e9911
+      - ElementName: Play_DGX_Player_Fall
+        ObjectType: 3
+        guid: 15b0237105cdbf4db8e944a5ee45e7cd
+      Path: Events/DGX/Play_DGX_Player_Fall
+      maxAttenuation: 0
+      maxDuration: 0.61660415
+      minDuration: 0.37252083
     - name: Play_DGX_Player_Hurt
       guid: 2e2c9f16b7832e4aa8cea36ef36776bd
       id: 512385751
@@ -515,8 +532,8 @@ MonoBehaviour:
         guid: 9292ea5ac55349468d3fa832979cf86e
       Path: Events/MUS/Play_MUS_Game
       maxAttenuation: 0
-      maxDuration: 108
-      minDuration: 108
+      maxDuration: 96
+      minDuration: 96
     - name: Play_MUS_Title
       guid: 50b82e5ebb24c442a329890332533bf4
       id: 3867386064
@@ -532,8 +549,8 @@ MonoBehaviour:
         guid: 50b82e5ebb24c442a329890332533bf4
       Path: Events/MUS/Play_MUS_Title
       maxAttenuation: 0
-      maxDuration: 144
-      minDuration: 144
+      maxDuration: 1
+      minDuration: 1
     - name: Play_MUS_Win
       guid: a45877cd951b2b44bfecbb574ca31b43
       id: 4102914192
@@ -757,7 +774,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 09d8f54a9e1ec24d963432cbf72feb44
     GuidInternal: 
-    m_lastTime: -8584696624548197066
+    m_lastTime: -8584696172147904591
     List:
     - name: Sleeping
       guid: 6af6a8f3e400154eb87e4cd560e01394
@@ -838,6 +855,38 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: dcfea4d9e83f494190465858a9d4ccb5
+      - name: Title
+        guid: d310d705b145884cac3f72dc390d55a8
+        id: 3705726509
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09d8f54a9e1ec24d963432cbf72feb44
+        - ElementName: Sleeping
+          ObjectType: 9
+          guid: 6af6a8f3e400154eb87e4cd560e01394
+        - ElementName: Title
+          ObjectType: 8
+          guid: d310d705b145884cac3f72dc390d55a8
+      - name: Win
+        guid: 3b0882fe50d05b44b022f6f360b06f32
+        id: 979765101
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09d8f54a9e1ec24d963432cbf72feb44
+        - ElementName: Sleeping
+          ObjectType: 9
+          guid: 6af6a8f3e400154eb87e4cd560e01394
+        - ElementName: Win
+          ObjectType: 8
+          guid: 3b0882fe50d05b44b022f6f360b06f32
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -869,9 +918,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584697983758050912
     List: []
-  ExpandedFileSystemItemIds: 05000000060000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000140000001b0000001c0000001e0000001f000000220000002300000015050000
-  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000140000001b0000001c0000001e0000001f000000220000002300000015050000
+  ExpandedFileSystemItemIds: 0200000005000000060000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000014000000180000001b0000001c0000001e0000001f000000220000002300000015050000
+  ExpandedWaapiItemIds: 0200000005000000060000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000014000000180000001b0000001c0000001e0000001f000000220000002300000015050000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

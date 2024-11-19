@@ -347,6 +347,8 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SFX_FS_Player" ID="{5C97BB96-5742-4155-A2D7-8CB1E976461A}" ShortID="711597744">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>

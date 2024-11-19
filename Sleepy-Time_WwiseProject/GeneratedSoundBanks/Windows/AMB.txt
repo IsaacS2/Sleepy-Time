@@ -9,8 +9,10 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	Sleeping			
+	979765101	Win	Sleeping			
 	1151176110	Awake	Sleeping			
 	2044049779	Dead	Sleeping			
+	3705726509	Title	Sleeping			
 	3778954319	Asleep	Sleeping			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

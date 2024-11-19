@@ -54,6 +54,8 @@ namespace AK
                 static const AkUniqueID AWAKE = 1151176110U;
                 static const AkUniqueID DEAD = 2044049779U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TITLE = 3705726509U;
+                static const AkUniqueID WIN = 979765101U;
             } // namespace STATE
         } // namespace SLEEPING
 

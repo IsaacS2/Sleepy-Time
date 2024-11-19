@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{4353285A-24F4-7B1B-8D92-1C0E0CA38E41}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{0DA5D687-0D36-7540-BFE9-E87E9251F971}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -188,7 +188,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{FA2736A0-D108-2166-F932-300EB42F9B26}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{97C409C2-3CB7-FFD4-A192-170E74F97868}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -220,17 +220,9 @@
 					<ShortName>Player_Wake\Player_Wake-001.wav</ShortName>
 					<CachePath>SFX/Player_Wake/Player_Wake-001_8E324C96.wem</CachePath>
 				</File>
-				<File Id="257322730" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Scream\Player_Scream-001.wav</ShortName>
-					<CachePath>SFX/Player_Scream/Player_Scream-001_8E324C96.wem</CachePath>
-				</File>
 				<File Id="268468825" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-004_8E324C96.wem</CachePath>
-				</File>
-				<File Id="292337563" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Wake\Player_Wake-007.wav</ShortName>
-					<CachePath>SFX/Player_Wake/Player_Wake-007_8E324C96.wem</CachePath>
 				</File>
 				<File Id="317984438" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Scream\Player_Scream-007.wav</ShortName>
@@ -358,6 +350,7 @@
 					<Plugin Id="701863527" Name="Inside_My_Head" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1110677034" Name="Underwater_Echoes" LibName="Wwise Stereo Delay" LibId="8847363"/>
 					<Plugin Id="1590660382" Name="Nearly_Forever" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="2265839006" Name="Not_A_Yellow_Submarine" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 			</Plugins>
@@ -427,13 +420,16 @@
 						<MediaRef Id="805343949"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3634809319" Name="Play_DGX_Player_Fall" DurationType="OneShot" DurationMin="0.37252083" DurationMax="0.719375">
+				<Event Id="3634809319" Name="Play_DGX_Player_Fall" DurationType="OneShot" DurationMin="0.37252083" DurationMax="0.61660415">
 					<MediaRefs>
-						<MediaRef Id="257322730"/>
-						<MediaRef Id="292337563"/>
 						<MediaRef Id="345222127"/>
 						<MediaRef Id="860868299"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2265839006"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="512385751" Name="Play_DGX_Player_Hurt" DurationType="OneShot" DurationMin="0.3" DurationMax="0.6">
 					<MediaRefs>
@@ -485,7 +481,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{35C69602-1E48-05B4-D1D1-139632E03F8C}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{EB54BE62-3B0E-A8CC-FF61-A4F5369F44A0}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -507,25 +503,19 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3188041860" Name="Play_MUS_Game" DurationType="OneShot" DurationMin="108" DurationMax="108">
+				<Event Id="3188041860" Name="Play_MUS_Game" DurationType="OneShot" DurationMin="96" DurationMax="96">
 					<MediaRefs>
 						<MediaRef Id="562036594"/>
 						<MediaRef Id="678460541"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3867386064" Name="Play_MUS_Title" DurationType="OneShot" DurationMin="144" DurationMax="144">
-					<MediaRefs>
 						<MediaRef Id="1002442582"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4102914192" Name="Play_MUS_Win" DurationType="OneShot" DurationMin="96" DurationMax="96">
-					<MediaRefs>
 						<MediaRef Id="1020205215"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3867386064" Name="Play_MUS_Title" DurationType="OneShot" DurationMin="1" DurationMax="1"/>
+				<Event Id="4102914192" Name="Play_MUS_Win" DurationType="OneShot" DurationMin="96" DurationMax="96"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{D5C92D1F-FAF0-5B05-1810-8B8E6D73C9BF}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{46D08C15-B5BA-303D-743E-15F0F61111A6}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -678,7 +668,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CB70DC57-73FB-4AC9-ECB4-A129047462E9}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2FE71F9D-3C35-6BE5-42D5-0ECE067C826C}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -727,13 +717,15 @@
 				<StateGroup Id="1313188810" Name="Sleeping">
 					<States>
 						<State Id="748895195" Name="None"/>
+						<State Id="979765101" Name="Win"/>
 						<State Id="1151176110" Name="Awake"/>
 						<State Id="2044049779" Name="Dead"/>
+						<State Id="3705726509" Name="Title"/>
 						<State Id="3778954319" Name="Asleep"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{620653F0-43A3-F48B-FA3C-528C4D1696B4}</FileHash>
+	<FileHash>{BFB147F7-B80E-CF43-106A-96AB54819E79}</FileHash>
 </SoundBanksInfo>
