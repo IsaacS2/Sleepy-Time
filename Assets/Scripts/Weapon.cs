@@ -107,6 +107,7 @@ public class Weapon : MonoBehaviour
             _attackTimer = 0;
 
             // TODO: Add swinging weapon sound-effect
+            AkSoundEngine.PostEvent("Play_SFX_Weapon_Swing", gameObject);
 
             if (_attackSprite) _spr.sprite = _attackSprite;
         }

@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID PLAY_DGX_ENEMY_INJURED = 4287381608U;
         static const AkUniqueID PLAY_DGX_ENTITY = 1819158867U;
         static const AkUniqueID PLAY_DGX_ENTITY_DRY = 3940443801U;
+        static const AkUniqueID PLAY_DGX_PLAYER_FALL = 3634809319U;
         static const AkUniqueID PLAY_DGX_PLAYER_HURT = 512385751U;
         static const AkUniqueID PLAY_DGX_PLAYER_SCREAM = 1911911943U;
         static const AkUniqueID PLAY_DGX_PLAYER_SNORING = 1950652224U;
@@ -29,6 +30,7 @@ namespace AK
         static const AkUniqueID PLAY_DGX_SPIRIT_INJURED = 1459153067U;
         static const AkUniqueID PLAY_MUS_GAME = 3188041860U;
         static const AkUniqueID PLAY_MUS_TITLE = 3867386064U;
+        static const AkUniqueID PLAY_MUS_WIN = 4102914192U;
         static const AkUniqueID PLAY_SFX_CHECKPOINT_DISTORTED_CHIME_STINGER = 3303012769U;
         static const AkUniqueID PLAY_SFX_CHECKPOINT_STRING_STINGER = 3414352583U;
         static const AkUniqueID PLAY_SFX_ENEMY_ATTACK = 2788169225U;
@@ -37,6 +39,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_SWIPE_UP_STINGER = 1936094923U;
         static const AkUniqueID PLAY_SFX_UI_SPLATTER = 793446718U;
         static const AkUniqueID PLAY_SFX_WEAPON_IMPACT = 2499893359U;
+        static const AkUniqueID PLAY_SFX_WEAPON_SWING = 1374858245U;
     } // namespace EVENTS
 
     namespace STATES

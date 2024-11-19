@@ -103,6 +103,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{0FFA228D-800C-423B-AD41-CC3F0DCD5465}" ShortID="1341811">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_DGX_Player_Snoring" ID="{96A77793-FDAC-48D6-A7B3-5E31BECAE9C5}">

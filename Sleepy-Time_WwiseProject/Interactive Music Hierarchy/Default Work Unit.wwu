@@ -323,6 +323,92 @@
 						</ObjectList>
 					</ObjectLists>
 				</MusicSegment>
+				<MusicSegment Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{26C3DFC7-C4E0-4DCD-8D52-AF2CE1BCF739}" ShortID="515792802">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="96000"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{EF541C98-8407-407E-8A85-6271FAB14F88}" ShortID="839589410">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{E81BC35F-E11F-4871-B546-31425138B262}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{005B8FFE-3307-4AF6-A8B8-D10DA8FAC9AF}">
+									<Language>SFX</Language>
+									<AudioFile>Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1020205215"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{0241FAF1-DF8F-433A-B03F-7BA0E8D8BCA1}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{BD3B3B40-8E49-4D6B-9680-5C10CA94136F}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{005B8FFE-3307-4AF6-A8B8-D10DA8FAC9AF}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{53A62D9F-E4DE-4942-B867-6042A6723874}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{45B352DD-E0C9-4880-B0C2-2E64C90933AE}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="96000"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
