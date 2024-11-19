@@ -9,15 +9,17 @@ public class Checkpoint : MonoBehaviour
     //TODO
     //Checkpoint Choices, or use both, one for checkpoint, one for level clear
     //AkSoundEngine.PostEvent("Play_SFX_Checkpoint_Distorted_Chime_Stinger", gameObject);
-    //AkSoundEngine.PostEvent("Play_SFX_Checkpoint_String_Stingerr", gameObject);
+    //AkSoundEngine.PostEvent("Play_SFX_Checkpoint_String_Stinger", gameObject);
     //End
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        AkSoundEngine.PostEvent("Play_SFX_Checkpoint_Distorted_Chime_Stinger", gameObject);
+        AkSoundEngine.PostEvent("Play_SFX_Checkpoint_String_Stinger", gameObject);
 
         if (end)
         {
+            AkSoundEngine.PostEvent("Play_SFX_Checkpoint_Distorted_Chime_Stinger", gameObject);
+
             if (SceneManager.GetActiveScene().buildIndex + 1 >= SceneManager.sceneCountInBuildSettings)
             {
                 SceneManager.LoadScene(0);
