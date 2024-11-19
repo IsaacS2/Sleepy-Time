@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{0C6EC3A3-B824-D906-BAA1-621046E87B19}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{4353285A-24F4-7B1B-8D92-1C0E0CA38E41}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -24,6 +24,10 @@
 				<File Id="31191500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-002.wav</ShortName>
 					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-002_8E324C96.wem</CachePath>
+				</File>
+				<File Id="40861138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Swing\_Weapon_Swing-002.wav</ShortName>
+					<CachePath>SFX/Weapon_Swing/_Weapon_Swing-002_8E324C96.wem</CachePath>
 				</File>
 				<File Id="51743689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_FS_Player\_SFX_FS_Player-002.wav</ShortName>
@@ -77,6 +81,10 @@
 					<ShortName>Weapon_Impact\_Weapon_Impact-001.wav</ShortName>
 					<CachePath>SFX/Weapon_Impact/_Weapon_Impact-001_8E324C96.wem</CachePath>
 				</File>
+				<File Id="594607657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Swing\_Weapon_Swing-001.wav</ShortName>
+					<CachePath>SFX/Weapon_Swing/_Weapon_Swing-001_8E324C96.wem</CachePath>
+				</File>
 				<File Id="599667693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</ShortName>
 					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_8E324C96.wem</CachePath>
@@ -105,6 +113,14 @@
 					<ShortName>Blood_Spatter\_Blood_Spatter-005.wav</ShortName>
 					<CachePath>SFX/Blood_Spatter/_Blood_Spatter-005_8E324C96.wem</CachePath>
 				</File>
+				<File Id="1025661476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Swing\_Weapon_Swing-004.wav</ShortName>
+					<CachePath>SFX/Weapon_Swing/_Weapon_Swing-004_8E324C96.wem</CachePath>
+				</File>
+				<File Id="1037889738" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Swing\_Weapon_Swing-003.wav</ShortName>
+					<CachePath>SFX/Weapon_Swing/_Weapon_Swing-003_8E324C96.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="3303012769" Name="Play_SFX_Checkpoint_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="26.4" DurationMax="26.4">
@@ -117,14 +133,14 @@
 						<MediaRef Id="665366938"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2788169225" Name="Play_SFX_Enemy_Attack" DurationType="OneShot" DurationMin="0.9" DurationMax="1.05">
+				<Event Id="2788169225" Name="Play_SFX_Enemy_Attack" DurationType="OneShot" DurationMin="0.8489963" DurationMax="1.113079">
 					<MediaRefs>
 						<MediaRef Id="245042377"/>
 						<MediaRef Id="385218377"/>
 						<MediaRef Id="572287534"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1601566421" Name="Play_SFX_FS_Player" DurationType="OneShot" DurationMin="0.9" DurationMax="0.9">
+				<Event Id="1601566421" Name="Play_SFX_FS_Player" DurationType="OneShot" DurationMin="0.789401" DurationMax="0.9968835">
 					<MediaRefs>
 						<MediaRef Id="471141"/>
 						<MediaRef Id="51743689"/>
@@ -160,6 +176,14 @@
 						<MediaRef Id="2395609"/>
 						<MediaRef Id="198589439"/>
 						<MediaRef Id="589159237"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1374858245" Name="Play_SFX_Weapon_Swing" DurationType="OneShot" DurationMin="0.24081817" DurationMax="0.6742557">
+					<MediaRefs>
+						<MediaRef Id="40861138"/>
+						<MediaRef Id="594607657"/>
+						<MediaRef Id="1025661476"/>
+						<MediaRef Id="1037889738"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -446,7 +470,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{C565969D-18F7-DA07-A5EC-7463A279A003}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{35C69602-1E48-05B4-D1D1-139632E03F8C}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -668,5 +692,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{777BDAE7-4608-0097-5992-7564A31F5910}</FileHash>
+	<FileHash>{59EF0122-C65B-CFE2-20B7-769ACFA9A47E}</FileHash>
 </SoundBanksInfo>

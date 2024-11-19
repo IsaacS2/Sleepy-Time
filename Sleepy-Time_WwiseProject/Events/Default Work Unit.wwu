@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Weapon_Swing" ID="{16E9325D-9BFB-4F48-B646-FE2A2C9F4D63}">
+					<ChildrenList>
+						<Action Name="" ID="{95CF87A7-2F6C-46E3-9DBC-07587465513E}" ShortID="130851902">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapon_Swing" ID="{E8B87DFA-89B4-4EBE-A144-9E4411F62A8E}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

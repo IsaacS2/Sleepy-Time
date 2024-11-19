@@ -238,10 +238,34 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SFX_Enemy_Attack" ID="{508BD175-65D2-4D3F-9B94-FE96C1913571}" ShortID="460870658">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1C32814B-82D7-41D2-9B70-B228F87142B4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="101"/>
+													<Property Name="Min" Type="Real64" Value="-101"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-9</Value>
 									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3AD40F0E-2CEB-468E-B239-7E0A8CA0322F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -328,6 +352,19 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C1D8F8DD-AC5C-40F4-BD96-83BC045FF849}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-177"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -337,6 +374,17 @@
 									<ValueList>
 										<Value>-14</Value>
 									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0AF9869D-73E0-4EB2-9F3A-1DDC081D2B2B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -522,6 +570,147 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="_SFX_FS_Player-008" ID="{6475632A-A200-465B-B322-4B3B2779E145}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Weapon_Swing" ID="{E8B87DFA-89B4-4EBE-A144-9E4411F62A8E}" ShortID="224383227">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>15</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2A1F826A-E886-4C92-962F-95C75AAC9D5A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="278"/>
+													<Property Name="Min" Type="Real64" Value="-202"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-26</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{843A7ACD-7EE3-499D-8057-E66D6809B639}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Weapon_Swing-001" ID="{273CEEFA-24E8-4102-B025-3B5825C2B5F1}" ShortID="42233763">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Swing-001" ID="{7DF3C5E9-C299-431D-87EC-6E5760913C94}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Swing\_Weapon_Swing-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="594607657"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Swing-001" ID="{7DF3C5E9-C299-431D-87EC-6E5760913C94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Swing-002" ID="{398B2E91-B987-4C8D-8080-E0F9A946F8BD}" ShortID="369529062">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Swing-002" ID="{63B5596D-5E4B-4296-A75B-151E614AC6D0}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Swing\_Weapon_Swing-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="40861138"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Swing-002" ID="{63B5596D-5E4B-4296-A75B-151E614AC6D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Swing-003" ID="{27FC4BB1-216C-401D-9F22-4421C2EF6E6F}" ShortID="91350664">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Swing-003" ID="{AB19CD77-36C8-484C-BF0A-82F4953A4EBF}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Swing\_Weapon_Swing-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1037889738"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Swing-003" ID="{AB19CD77-36C8-484C-BF0A-82F4953A4EBF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Weapon_Swing-004" ID="{16D1DD83-E683-46BF-82FF-A09DED2FDE7F}" ShortID="216696529">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="_Weapon_Swing-004" ID="{11402798-72CA-40B8-9710-D3E98E3A6740}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Swing\_Weapon_Swing-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1025661476"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="_Weapon_Swing-004" ID="{11402798-72CA-40B8-9710-D3E98E3A6740}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

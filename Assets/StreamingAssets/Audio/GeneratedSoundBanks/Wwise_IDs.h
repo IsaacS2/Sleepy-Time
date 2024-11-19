@@ -38,6 +38,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_SWIPE_UP_STINGER = 1936094923U;
         static const AkUniqueID PLAY_SFX_UI_SPLATTER = 793446718U;
         static const AkUniqueID PLAY_SFX_WEAPON_IMPACT = 2499893359U;
+        static const AkUniqueID PLAY_SFX_WEAPON_SWING = 1374858245U;
     } // namespace EVENTS
 
     namespace STATES
