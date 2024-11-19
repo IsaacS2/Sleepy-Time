@@ -1068,64 +1068,6 @@
 										<ActiveSource Name="Player_Wake-001" ID="{2C1D3D03-B0F1-461C-9C8D-00662B8FBDE2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="DGX_Player_Wake-002" ID="{B3E37C2F-974D-484D-B4AD-ED39AD4764B0}" ShortID="839528877">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Wake-002" ID="{AA8DEA4C-1909-4F61-BBC1-446862EB1A5D}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Wake\Player_Wake-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="114106278"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Wake-002" ID="{AA8DEA4C-1909-4F61-BBC1-446862EB1A5D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Wake-003" ID="{C54C01E6-7563-442C-BC52-495270CA7EBB}" ShortID="805127760">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Wake-003" ID="{49068417-774F-4470-BA22-5AC54B11C9FF}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Wake\Player_Wake-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="834033836"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Wake-003" ID="{49068417-774F-4470-BA22-5AC54B11C9FF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="DGX_Player_Wake-004" ID="{75D50E5F-44E6-46D2-AEF1-FFAC8155B381}" ShortID="719499276">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1192,93 +1134,6 @@
 										<ActiveSource Name="Player_Wake-006" ID="{F23C8195-2EF4-4098-A076-CB958AE45894}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="DGX_Player_Wake-007" ID="{67CCF1CE-6149-474B-905E-6EF60AD494BE}" ShortID="622434334">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Wake-007" ID="{6C3E47FF-0CA7-408E-9506-0C296BE97E21}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Wake\Player_Wake-007.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="292337563"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Wake-007" ID="{6C3E47FF-0CA7-408E-9506-0C296BE97E21}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Wake-008" ID="{EDA200F3-5CF5-4125-BBB1-25645B7DA1FD}" ShortID="934793428">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Wake-008" ID="{046BA90F-7A07-4018-9299-91321CE02E66}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Wake\Player_Wake-008.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="345222127"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Wake-008" ID="{046BA90F-7A07-4018-9299-91321CE02E66}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Scream-003" ID="{01FC7952-86A4-417B-B905-4CACCFFF488E}" ShortID="820389073">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Scream-003" ID="{2941EBAE-D7B4-40E4-BD1F-A990BC4FD72D}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Scream\Player_Scream-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="938235534"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Scream-003" ID="{2941EBAE-D7B4-40E4-BD1F-A990BC4FD72D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="DGX_Player_Scream" ID="{16A9957C-5F18-4DEB-84AC-6C449BE2F722}" ShortID="386798605">
@@ -1299,64 +1154,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="DGX_Player_Scream-001" ID="{48E93096-8616-439D-B1D6-FC21B9A1F46F}" ShortID="781754265">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Scream-001" ID="{9EBA4AF7-0827-48F1-B5FC-9FE09984A1BD}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Scream\Player_Scream-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="257322730"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Scream-001" ID="{9EBA4AF7-0827-48F1-B5FC-9FE09984A1BD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Scream-002" ID="{85EA0708-E5BD-4397-B229-C1506264A00E}" ShortID="500872874">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Scream-002" ID="{D1E6F029-B63E-46AB-A61F-A9E74742A1D2}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Scream\Player_Scream-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="110438871"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Scream-002" ID="{D1E6F029-B63E-46AB-A61F-A9E74742A1D2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="DGX_Player_Scream-004" ID="{D06D048B-B427-4628-9F5E-EBFC4F5B7707}" ShortID="901598575">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1377,35 +1174,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Player_Scream-004" ID="{5A6C0995-082E-4FF8-B238-F101E23BEB01}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="DGX_Player_Scream-005" ID="{31F8681D-3221-4FAA-B565-345A110E373C}" ShortID="376897619">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Player_Scream-005" ID="{6A1F0A63-F611-491D-8044-ACD64D1BB47C}">
-											<Language>SFX</Language>
-											<AudioFile>Player_Scream\Player_Scream-005.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="860868299"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Player_Scream-005" ID="{6A1F0A63-F611-491D-8044-ACD64D1BB47C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Player_Scream-006" ID="{DA74B99E-7EF9-4395-B82E-348E1BE39E68}" ShortID="741481473">
@@ -1490,6 +1258,234 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DGX_Player_Fall" ID="{68D3D44D-2CE1-453C-8CDB-5A72C9B2F1C8}" ShortID="49196694">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DGX_Player_Wake-002" ID="{B3E37C2F-974D-484D-B4AD-ED39AD4764B0}" ShortID="839528877">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-002" ID="{AA8DEA4C-1909-4F61-BBC1-446862EB1A5D}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114106278"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-002" ID="{AA8DEA4C-1909-4F61-BBC1-446862EB1A5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-003" ID="{01FC7952-86A4-417B-B905-4CACCFFF488E}" ShortID="820389073">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-40</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-003" ID="{2941EBAE-D7B4-40E4-BD1F-A990BC4FD72D}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="938235534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-003" ID="{2941EBAE-D7B4-40E4-BD1F-A990BC4FD72D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-001" ID="{48E93096-8616-439D-B1D6-FC21B9A1F46F}" ShortID="781754265">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-001" ID="{9EBA4AF7-0827-48F1-B5FC-9FE09984A1BD}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="257322730"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-001" ID="{9EBA4AF7-0827-48F1-B5FC-9FE09984A1BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-002" ID="{85EA0708-E5BD-4397-B229-C1506264A00E}" ShortID="500872874">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-002" ID="{D1E6F029-B63E-46AB-A61F-A9E74742A1D2}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="110438871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-002" ID="{D1E6F029-B63E-46AB-A61F-A9E74742A1D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Scream-005" ID="{31F8681D-3221-4FAA-B565-345A110E373C}" ShortID="376897619">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Scream-005" ID="{6A1F0A63-F611-491D-8044-ACD64D1BB47C}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Scream\Player_Scream-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="860868299"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Scream-005" ID="{6A1F0A63-F611-491D-8044-ACD64D1BB47C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-003" ID="{C54C01E6-7563-442C-BC52-495270CA7EBB}" ShortID="805127760">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-003" ID="{49068417-774F-4470-BA22-5AC54B11C9FF}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="834033836"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-003" ID="{49068417-774F-4470-BA22-5AC54B11C9FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-007" ID="{67CCF1CE-6149-474B-905E-6EF60AD494BE}" ShortID="622434334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-007" ID="{6C3E47FF-0CA7-408E-9506-0C296BE97E21}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="292337563"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-007" ID="{6C3E47FF-0CA7-408E-9506-0C296BE97E21}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DGX_Player_Wake-008" ID="{EDA200F3-5CF5-4125-BBB1-25645B7DA1FD}" ShortID="934793428">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player_Wake-008" ID="{046BA90F-7A07-4018-9299-91321CE02E66}">
+											<Language>SFX</Language>
+											<AudioFile>Player_Wake\Player_Wake-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345222127"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player_Wake-008" ID="{046BA90F-7A07-4018-9299-91321CE02E66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>

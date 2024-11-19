@@ -188,7 +188,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{1F4018DC-B972-A48F-BAAA-ED87D3C9DA56}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{FA2736A0-D108-2166-F932-300EB42F9B26}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -220,9 +220,17 @@
 					<ShortName>Player_Wake\Player_Wake-001.wav</ShortName>
 					<CachePath>SFX/Player_Wake/Player_Wake-001_8E324C96.wem</CachePath>
 				</File>
+				<File Id="257322730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Scream\Player_Scream-001.wav</ShortName>
+					<CachePath>SFX/Player_Scream/Player_Scream-001_8E324C96.wem</CachePath>
+				</File>
 				<File Id="268468825" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-004.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-004_8E324C96.wem</CachePath>
+				</File>
+				<File Id="292337563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Wake\Player_Wake-007.wav</ShortName>
+					<CachePath>SFX/Player_Wake/Player_Wake-007_8E324C96.wem</CachePath>
 				</File>
 				<File Id="317984438" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Scream\Player_Scream-007.wav</ShortName>
@@ -231,6 +239,10 @@
 				<File Id="330312693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-002.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-002_12A74340.wem</CachePath>
+				</File>
+				<File Id="345222127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Wake\Player_Wake-008.wav</ShortName>
+					<CachePath>SFX/Player_Wake/Player_Wake-008_8E324C96.wem</CachePath>
 				</File>
 				<File Id="411590725" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Hurt\Player_Hurt-002.wav</ShortName>
@@ -315,6 +327,10 @@
 				<File Id="805343949" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Entity_Dry\Entity_Dry-002.wav</ShortName>
 					<CachePath>SFX/Entity_Dry/Entity_Dry-002_D0371894.wem</CachePath>
+				</File>
+				<File Id="860868299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Scream\Player_Scream-005.wav</ShortName>
+					<CachePath>SFX/Player_Scream/Player_Scream-005_8E324C96.wem</CachePath>
 				</File>
 				<File Id="871314606" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</ShortName>
@@ -409,6 +425,14 @@
 				<Event Id="3940443801" Name="Play_DGX_Entity_Dry" DurationType="OneShot" DurationMin="1.7662355" DurationMax="1.9848241">
 					<MediaRefs>
 						<MediaRef Id="805343949"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3634809319" Name="Play_DGX_Player_Fall" DurationType="OneShot" DurationMin="0.37252083" DurationMax="0.719375">
+					<MediaRefs>
+						<MediaRef Id="257322730"/>
+						<MediaRef Id="292337563"/>
+						<MediaRef Id="345222127"/>
+						<MediaRef Id="860868299"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="512385751" Name="Play_DGX_Player_Hurt" DurationType="OneShot" DurationMin="0.3" DurationMax="0.6">
@@ -711,5 +735,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{552E61C1-FE57-54AD-1B80-2562D5008367}</FileHash>
+	<FileHash>{620653F0-43A3-F48B-FA3C-528C4D1696B4}</FileHash>
 </SoundBanksInfo>

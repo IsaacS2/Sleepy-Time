@@ -221,7 +221,7 @@ MonoBehaviour:
     ParentPath: Events/AMB
     guid: ca9055d0ea1b23499130fa3737a8b12c
     GuidInternal: 
-    m_lastTime: -8584696978135118090
+    m_lastTime: -8584696204882893574
     List:
     - name: Play_AMB
       guid: be9627fabf4ae342b667c624cc2f6c30
@@ -285,7 +285,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584696608458552232
+    m_lastTime: -8584696231761331714
     List: []
   - PhysicalPath: Events/DGX.wwu
     PathAndIcons:
@@ -298,7 +298,7 @@ MonoBehaviour:
     ParentPath: Events/DGX
     guid: d2ef4c84d9a4f945944b6f17002e9911
     GuidInternal: 
-    m_lastTime: -8584696616725077242
+    m_lastTime: -8584696204882842218
     List:
     - name: Play_Death_Sequence
       guid: 1b84e275d6c85a4db0d6b73af0098ba5
@@ -315,8 +315,8 @@ MonoBehaviour:
         guid: 1b84e275d6c85a4db0d6b73af0098ba5
       Path: Events/DGX/Play_Death_Sequence
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.7639375
+      minDuration: 0.6138333
     - name: Play_DGX_Child_Barks
       guid: faa5e2d3c4a7d0499baf9425a603734c
       id: 2579943048
@@ -417,8 +417,8 @@ MonoBehaviour:
         guid: ca4369a9cb34694ab00583364a6b9d7d
       Path: Events/DGX/Play_DGX_Entity_Dry
       maxAttenuation: 0
-      maxDuration: 2.5647743
-      minDuration: 1.8454992
+      maxDuration: 1.9848241
+      minDuration: 1.7662355
     - name: Play_DGX_Player_Hurt
       guid: 2e2c9f16b7832e4aa8cea36ef36776bd
       id: 512385751
@@ -498,7 +498,7 @@ MonoBehaviour:
     ParentPath: Events/MUS
     guid: 28f61aea0fbddb40bf957b3d949291ad
     GuidInternal: 
-    m_lastTime: -8584697102085129911
+    m_lastTime: -8584696231761229960
     List:
     - name: Play_MUS_Game
       guid: 9292ea5ac55349468d3fa832979cf86e
@@ -534,6 +534,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 144
       minDuration: 144
+    - name: Play_MUS_Win
+      guid: a45877cd951b2b44bfecbb574ca31b43
+      id: 4102914192
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MUS
+        ObjectType: 12
+        guid: 28f61aea0fbddb40bf957b3d949291ad
+      - ElementName: Play_MUS_Win
+        ObjectType: 3
+        guid: a45877cd951b2b44bfecbb574ca31b43
+      Path: Events/MUS/Play_MUS_Win
+      maxAttenuation: 0
+      maxDuration: 96
+      minDuration: 96
   - PhysicalPath: Events/SFX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -545,7 +562,7 @@ MonoBehaviour:
     ParentPath: Events/SFX
     guid: ff6d7e55f3efc1439c417060aa9e0d80
     GuidInternal: 
-    m_lastTime: -8584696605718374739
+    m_lastTime: -8584696231761280960
     List:
     - name: Play_SFX_Checkpoint_Distorted_Chime_Stinger
       guid: a4cbf2b0bedf0342b6f5846f6ad11fe3
@@ -596,8 +613,8 @@ MonoBehaviour:
         guid: 6a6d5476f67b6e4fbf84dbf6dd98be23
       Path: Events/SFX/Play_SFX_Enemy_Attack
       maxAttenuation: 0
-      maxDuration: 1.05
-      minDuration: 0.9
+      maxDuration: 1.113079
+      minDuration: 0.8489963
     - name: Play_SFX_FS_Player
       guid: 4ee450fae4caec4dba31f7acae07124d
       id: 1601566421
@@ -613,8 +630,8 @@ MonoBehaviour:
         guid: 4ee450fae4caec4dba31f7acae07124d
       Path: Events/SFX/Play_SFX_FS_Player
       maxAttenuation: 0
-      maxDuration: 0.9
-      minDuration: 0.9
+      maxDuration: 0.9968835
+      minDuration: 0.789401
     - name: Play_SFX_Resampled_Voice_Stinger
       guid: ef9a631e02155d439484d09546fb8767
       id: 1765240081
@@ -683,6 +700,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.5208104
       minDuration: 0.26313367
+    - name: Play_SFX_Weapon_Swing
+      guid: 5d32e916fb9b484fb646fe2a2c9f4d63
+      id: 1374858245
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: ff6d7e55f3efc1439c417060aa9e0d80
+      - ElementName: Play_SFX_Weapon_Swing
+        ObjectType: 3
+        guid: 5d32e916fb9b484fb646fe2a2c9f4d63
+      Path: Events/SFX/Play_SFX_Weapon_Swing
+      maxAttenuation: 0
+      maxDuration: 0.6742557
+      minDuration: 0.24081817
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -839,5 +873,5 @@ MonoBehaviour:
   ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000140000001b0000001c0000001e0000001f000000220000002300000015050000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

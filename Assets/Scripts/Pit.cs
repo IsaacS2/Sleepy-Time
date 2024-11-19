@@ -11,7 +11,7 @@ public class Pit : MonoBehaviour
         {
             //
             // TODO: Insert falling sound-effect
-            //
+            AkSoundEngine.PostEvent("Play_DGX_Player_Fall", gameObject);
             Debug.Log("Player falls");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
