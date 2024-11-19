@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="Play_MUS_Win" ID="{CD7758A4-1B95-442B-BFEC-BB574CA31B43}">
-					<ChildrenList>
-						<Action Name="" ID="{CA588716-9F00-4CAA-987B-0B8BB5A22735}" ShortID="906743315">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{26C3DFC7-C4E0-4DCD-8D52-AF2CE1BCF739}" WorkUnitID="{63699913-D499-4D6D-89A4-922131D92401}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Weapon_Swing" ID="{16E9325D-9BFB-4F48-B646-FE2A2C9F4D63}">
-					<ChildrenList>
-						<Action Name="" ID="{95CF87A7-2F6C-46E3-9DBC-07587465513E}" ShortID="130851902">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Weapon_Swing" ID="{E8B87DFA-89B4-4EBE-A144-9E4411F62A8E}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C2E7AD86-4105-44FF-9DCD-2E514EFD5B61}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{4353285A-24F4-7B1B-8D92-1C0E0CA38E41}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -188,7 +188,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{2542D067-894B-565C-D081-380EFDD45147}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{4C8B1424-C241-063A-9BB7-F0E7B3B971CF}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -470,7 +470,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{C565969D-18F7-DA07-A5EC-7463A279A003}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{35C69602-1E48-05B4-D1D1-139632E03F8C}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -692,5 +692,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{22C03B85-C134-2C20-4BF9-6290040BF708}</FileHash>
+	<FileHash>{0914A164-FDD4-E7AB-F6E7-B1DA2B8CFDE7}</FileHash>
 </SoundBanksInfo>

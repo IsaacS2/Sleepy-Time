@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MUS_Win" ID="{CD7758A4-1B95-442B-BFEC-BB574CA31B43}">
+					<ChildrenList>
+						<Action Name="" ID="{CA588716-9F00-4CAA-987B-0B8BB5A22735}" ShortID="906743315">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{26C3DFC7-C4E0-4DCD-8D52-AF2CE1BCF739}" WorkUnitID="{63699913-D499-4D6D-89A4-922131D92401}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
