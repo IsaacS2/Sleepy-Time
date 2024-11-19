@@ -7,14 +7,17 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerStats : CharacterStats
 {
+    [SerializeField] private TMP_Text _healthText;
     [SerializeField] private VideoPlayer jumpScare;
     [SerializeField] private VolumeProfile vp;
     [SerializeField] private float _maxDeathTime = 2f, _restMaxStat = 10;
 
     private Vignette _vignette;
+    private string _originalHealthText;
     protected float _restStat = 10, _deathTimer;
     protected int _checkpointIndex = 0;
 
@@ -35,6 +38,11 @@ public class PlayerStats : CharacterStats
 
     protected override void Start()
     {
+        if (_healthText)
+        {
+            _originalHealthText = _healthText.text;
+        }
+
         base.Start();
         OnLevelStart(this);
         _restStat = _restMaxStat;
@@ -82,6 +90,11 @@ public class PlayerStats : CharacterStats
             // I opted to tie this in with the entity attack as the Play_Death_Sequence event, because I wanted the entity scream to happen in full before the player scream. 
 
             _deathTimer = 0;
+
+            if (_healthText)
+            {
+                _healthText.text = _originalHealthText + _health.ToString("F2");
+            }
         }
     }
 

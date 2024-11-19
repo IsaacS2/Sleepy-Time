@@ -46,6 +46,10 @@ public class EnemyStats : CharacterStats
                 Vector3 targetDirection = (_player.position - _rb.transform.position).normalized;
 
                 _rb.velocity = targetDirection * _movementSpeed * Time.fixedDeltaTime;
+
+                SpriteRenderer _sprRend = GetComponent<SpriteRenderer>();
+                if (_rb.velocity.x < 0 && _sprRend) _sprRend.flipX = true;
+                else if (_sprRend) _sprRend.flipX = false;
             }
         }
     }
