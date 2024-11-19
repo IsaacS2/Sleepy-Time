@@ -79,6 +79,11 @@ public class PlayerStats : CharacterStats
     {
         base.CalculateDamage(damage);
 
+        if (_healthText)
+        {
+            _healthText.text = _originalHealthText + _health.ToString("F2");
+        }
+
         //
         // start the countdown for resetting the scene after the player's death
         //
@@ -90,11 +95,6 @@ public class PlayerStats : CharacterStats
             // I opted to tie this in with the entity attack as the Play_Death_Sequence event, because I wanted the entity scream to happen in full before the player scream. 
 
             _deathTimer = 0;
-
-            if (_healthText)
-            {
-                _healthText.text = _originalHealthText + _health.ToString("F2");
-            }
         }
     }
 

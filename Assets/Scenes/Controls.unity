@@ -6796,7 +6796,7 @@ Transform:
   m_GameObject: {fileID: 1408486161}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.11, y: 10.37, z: 0}
+  m_LocalPosition: {x: -5.11, y: 9.1, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7057,7 +7057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health:'
+  m_text: 'Health: 100'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7662,15 +7662,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5384079717170841905, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: _asleepBackground.b
-      value: 0.74981666
+      value: 0.21707067
       objectReference: {fileID: 0}
     - target: {fileID: 5384079717170841905, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: _asleepBackground.g
-      value: 0.17924517
+      value: 0.01066014
       objectReference: {fileID: 0}
     - target: {fileID: 5384079717170841905, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: _asleepBackground.r
-      value: 1
+      value: 0.30817598
       objectReference: {fileID: 0}
     - target: {fileID: 5384079717170841905, guid: 4af73d05b61f0a94aa3c631fd3371d5a, type: 3}
       propertyPath: _asleepLayer.m_Bits
