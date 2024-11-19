@@ -1979,6 +1979,335 @@
 						</CustomStateList>
 					</StateInfo>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" ShortID="877192625">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>41</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0F413F7B-0AD5-499D-938D-99AAEE94D134}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="177"/>
+											<Property Name="Min" Type="Real64" Value="-152"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-22</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+								<Conversion Name="Default Conversion Settings (Custom)" ID="{AB5344D8-6AF2-4A03-8C54-E5832E6CACC0}">
+									<PropertyList>
+										<Property Name="Channels" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">4</Value>
+												<Value Platform="Mac">4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="LRMix" Type="Real64">
+											<ValueList>
+												<Value Platform="Windows">0</Value>
+												<Value Platform="Mac">0</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSampleRate" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">0</Value>
+												<Value Platform="Mac">0</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MinSampleRate" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">0</Value>
+												<Value Platform="Mac">0</Value>
+											</ValueList>
+										</Property>
+										<Property Name="SampleRate" Type="int32">
+											<ValueList>
+												<Value Platform="Windows">44100</Value>
+												<Value Platform="Mac">44100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ConversionPluginInfoList>
+										<ConversionPluginInfo Platform="Windows">
+											<ConversionPlugin Name="" ID="{AC111268-ED3B-421E-9DF5-E152E072A880}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+										</ConversionPluginInfo>
+										<ConversionPluginInfo Platform="Mac">
+											<ConversionPlugin Name="" ID="{0DCECD95-B72F-4C25-9AD3-24FED2248E70}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+										</ConversionPluginInfo>
+									</ConversionPluginInfoList>
+								</Conversion>
+							</Custom>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="DGX" ID="{6E351C00-FAD3-4D93-881C-52F6EFE56F10}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Entity_Barks-001" ID="{55AB99D0-B17D-4DF2-9218-5417FF3A2547}" ShortID="65628113">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Entity_Barks-001" ID="{AF5734AE-E14F-4A07-AA5E-39065E5E7491}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="10.0450331125828"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.0450331125828"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Barks\Entity\Entity_Barks-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="701098869"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Entity_Barks-001" ID="{AF5734AE-E14F-4A07-AA5E-39065E5E7491}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Entity_Barks-002" ID="{FBF11112-BFBA-4DB6-B5F6-832AF6DD6393}" ShortID="323556823">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Entity_Barks-002" ID="{A6E97E59-FE9C-429A-9F5A-D7D4E1D9EEFC}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="7.69521823017156"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.377952755905512"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.96143296657453"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Barks\Entity\Entity_Barks-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1035737766"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Entity_Barks-002" ID="{A6E97E59-FE9C-429A-9F5A-D7D4E1D9EEFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Entity_Barks-003" ID="{38E17C78-0280-4D01-A189-2C9301EB6DEC}" ShortID="936390002">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Entity_Barks-003" ID="{D8E6CF20-C329-4EDA-A7B6-2915348D6566}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="7.55780361891849"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.529133858267717"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.1348907545497"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Barks\Entity\Entity_Barks-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="723883399"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Entity_Barks-003" ID="{D8E6CF20-C329-4EDA-A7B6-2915348D6566}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Entity_Barks-004" ID="{76791A2D-8705-4C66-96D6-B8F2E389A41F}" ShortID="665669021">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Entity_Barks-004" ID="{625CA9C2-5244-4F38-ABB4-9EC7EB1234B7}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="9.4435626010325"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.415748031496063"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.85931063252856"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Barks\Entity\Entity_Barks-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="728877307"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Entity_Barks-004" ID="{625CA9C2-5244-4F38-ABB4-9EC7EB1234B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Entity_Barks-005" ID="{8FA7B9DD-7652-432E-AFF6-E566C7E221FE}" ShortID="296165585">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Entity_Barks-005" ID="{A6B5EF5E-8059-45B7-A44F-5B29952DE1F6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="8.05039370078741"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.377952755905512"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.0177504302028"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Barks\Entity\Entity_Barks-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="417103303"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Entity_Barks-005" ID="{A6B5EF5E-8059-45B7-A44F-5B29952DE1F6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{1A7485A1-A770-4E8B-A455-8C252720066F}"/>
+						<Position Name="" ID="{548E3FB2-54B0-4BB6-A243-AB93BEAFD04A}">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="DGX_Entity_Barks_Path" ID="{D6CF52FC-2E56-4FD8-A460-292F2E0EC9A5}">
+									<PointList>
+										<Point>
+											<XPos>7.1066</XPos>
+											<YPos>48.30509</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="DGX_Entity_Barks_Path_01" ID="{1CFDD5C9-292C-4E90-B447-2780942262E7}">
+									<PointList>
+										<Point>
+											<XPos>-34.51777</XPos>
+											<YPos>-12.71186</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="DGX_Entity_Barks_Path_02" ID="{BCA1C5DA-F659-40D9-9C5F-4C1E9577EB00}">
+									<PointList>
+										<Point>
+											<XPos>-55.32995</XPos>
+											<YPos>67.51412</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="DGX_Entity_Barks_Path_03" ID="{9F1E4DDC-4E79-4E49-A3B2-DE60DB1A9144}">
+									<PointList>
+										<Point>
+											<XPos>30.45685</XPos>
+											<YPos>-7.06215</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="DGX_Entity_Barks_Path_04" ID="{88B72FD0-91D4-4D76-B818-ED8E472D9627}">
+									<PointList>
+										<Point>
+											<XPos>22.33503</XPos>
+											<YPos>-37.00565</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="DGX_Entity_Barks_Path_05" ID="{0CE9180D-9B16-47B2-A640-4D49F77AE5DC}">
+									<PointList>
+										<Point>
+											<XPos>-89.3401</XPos>
+											<YPos>51.12994</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Sleeping" ID="{F3A8F66A-00E4-4E15-B87E-4CD560E01394}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+								<CustomState Name="" ID="{C27661F1-FD95-401B-8090-65ECB3AD081A}" ShortID="306203685">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+								<CustomState Name="" ID="{81583C3A-F828-491A-9F21-E201353E8B16}" ShortID="415780949">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+								<CustomState Name="" ID="{A5E48DDE-8088-46F7-BD5B-F5D49855A540}" ShortID="460129729"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

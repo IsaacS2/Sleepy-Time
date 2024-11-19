@@ -188,7 +188,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{4C8B1424-C241-063A-9BB7-F0E7B3B971CF}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{4BE07984-1940-E09C-24C4-CAE65A7F675B}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -238,7 +238,7 @@
 				</File>
 				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-005_E23AA47E.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-005_31725EC6.wem</CachePath>
 				</File>
 				<File Id="457297709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-003.wav</ShortName>
@@ -264,10 +264,6 @@
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-005.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-005_8E324C96.wem</CachePath>
 				</File>
-				<File Id="665902365" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Entity_Dry\Entity_Dry-005.wav</ShortName>
-					<CachePath>SFX/Entity_Dry/Entity_Dry-005_F60F6308.wem</CachePath>
-				</File>
 				<File Id="682624289" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injury\Enemy_Aggro\Enemy_Aggro_Enemy_Injury-001.wav</ShortName>
 					<CachePath>SFX/Enemy_Injury/Enemy_Aggro/Enemy_Aggro_Enemy_Injury-001_8E324C96.wem</CachePath>
@@ -278,7 +274,7 @@
 				</File>
 				<File Id="701098869" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-001.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-001_F2C3F408.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-001_B9C5C1B0.wem</CachePath>
 				</File>
 				<File Id="705908460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Hurt\Player_Hurt-001.wav</ShortName>
@@ -290,7 +286,7 @@
 				</File>
 				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-003_86A395EF.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-003_3A5595C7.wem</CachePath>
 				</File>
 				<File Id="724165326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spirit_Injured\Spirit_Injured-003.wav</ShortName>
@@ -298,7 +294,7 @@
 				</File>
 				<File Id="728877307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-004.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-004_BDD76F9B.wem</CachePath>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-004_3438C943.wem</CachePath>
 				</File>
 				<File Id="733756162" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Hurt\Player_Hurt-003.wav</ShortName>
@@ -328,17 +324,9 @@
 					<ShortName>Player_Scream\Player_Scream-004.wav</ShortName>
 					<CachePath>SFX/Player_Scream/Player_Scream-004_8E324C96.wem</CachePath>
 				</File>
-				<File Id="966806026" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Entity_Dry\Entity_Dry-001.wav</ShortName>
-					<CachePath>SFX/Entity_Dry/Entity_Dry-001_B9110AB0.wem</CachePath>
-				</File>
 				<File Id="1000006349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Hurt\Player_Hurt-004.wav</ShortName>
 					<CachePath>SFX/Player_Hurt/Player_Hurt-004_8E324C96.wem</CachePath>
-				</File>
-				<File Id="1015312305" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Entity_Dry\Entity_Dry-003.wav</ShortName>
-					<CachePath>SFX/Entity_Dry/Entity_Dry-003_1538BEC7.wem</CachePath>
 				</File>
 				<File Id="1016419192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Scream\Player_Scream-006.wav</ShortName>
@@ -347,10 +335,6 @@
 				<File Id="1019154521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-001.wav</ShortName>
 					<CachePath>SFX/Barks/Child/Child_Barks-001_7755C55F.wem</CachePath>
-				</File>
-				<File Id="1035737766" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Barks\Entity\Entity_Barks-002.wav</ShortName>
-					<CachePath>SFX/Barks/Entity/Entity_Barks-002_51ADECA6.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -362,9 +346,20 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="4163297412" Name="Play_Death_Sequence" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="4163297412" Name="Play_Death_Sequence" DurationType="OneShot" DurationMin="0.6138333" DurationMax="0.7639375">
+					<MediaRefs>
+						<MediaRef Id="317984438"/>
+						<MediaRef Id="922279835"/>
+						<MediaRef Id="1016419192"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+							<PluginRef Id="1110677034"/>
+							<PluginRef Id="1590660382"/>
+						</ShareSets>
+					</PluginRefs>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1911911943" Name="Play_DGX_Player_Scream"/>
 						<ActionPostEventEntry Id="3940443801" Name="Play_DGX_Entity_Dry"/>
 					</ActionPostEvent>
 				</Event>
@@ -403,21 +398,17 @@
 						<MediaRef Id="871314606"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="OneShot" DurationMin="9.4435625" DurationMax="10.045033">
+				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="417103303"/>
 						<MediaRef Id="701098869"/>
 						<MediaRef Id="723883399"/>
 						<MediaRef Id="728877307"/>
-						<MediaRef Id="1035737766"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3940443801" Name="Play_DGX_Entity_Dry" DurationType="OneShot" DurationMin="1.8454992" DurationMax="2.5647743">
+				<Event Id="3940443801" Name="Play_DGX_Entity_Dry" DurationType="OneShot" DurationMin="1.7662355" DurationMax="1.9848241">
 					<MediaRefs>
-						<MediaRef Id="665902365"/>
 						<MediaRef Id="805343949"/>
-						<MediaRef Id="966806026"/>
-						<MediaRef Id="1015312305"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="512385751" Name="Play_DGX_Player_Hurt" DurationType="OneShot" DurationMin="0.3" DurationMax="0.6">
@@ -510,7 +501,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{4374B46A-2224-D006-BA82-CD19C8FB53AC}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{0CF2A896-150B-D57F-763B-B8EE1C4EDBB7}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -558,6 +549,10 @@
 					<ShortName>AMB_Sleep_Low_Static_Glitch.wav</ShortName>
 					<CachePath>SFX/AMB_Sleep_Low_Static_Glitch_3B7822A8.wem</CachePath>
 				</File>
+				<File Id="417103303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-005.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-005_31725EC6.wem</CachePath>
+				</File>
 				<File Id="426201924" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Snoring\Player_Snoring-003.wav</ShortName>
 					<CachePath>SFX/Player_Snoring/Player_Snoring-003_8E324C96.wem</CachePath>
@@ -574,9 +569,21 @@
 					<ShortName>AMB_AMB_Sleep_Test.wav</ShortName>
 					<CachePath>SFX/AMB_AMB_Sleep_Test_B032A71E.wem</CachePath>
 				</File>
+				<File Id="701098869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-001.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-001_B9C5C1B0.wem</CachePath>
+				</File>
 				<File Id="703104942" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Snoring\Player_Snoring-002.wav</ShortName>
 					<CachePath>SFX/Player_Snoring/Player_Snoring-002_8E324C96.wem</CachePath>
+				</File>
+				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-003_3A5595C7.wem</CachePath>
+				</File>
+				<File Id="728877307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barks\Entity\Entity_Barks-004.wav</ShortName>
+					<CachePath>SFX/Barks/Entity/Entity_Barks-004_3438C943.wem</CachePath>
 				</File>
 				<File Id="742855847" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Snoring\Player_Snoring-004.wav</ShortName>
@@ -606,8 +613,12 @@
 						<MediaRef Id="371143502"/>
 						<MediaRef Id="386134812"/>
 						<MediaRef Id="389628936"/>
+						<MediaRef Id="417103303"/>
 						<MediaRef Id="428379815"/>
 						<MediaRef Id="562086378"/>
+						<MediaRef Id="701098869"/>
+						<MediaRef Id="723883399"/>
+						<MediaRef Id="728877307"/>
 						<MediaRef Id="817228792"/>
 						<MediaRef Id="1032124457"/>
 					</MediaRefs>
@@ -618,6 +629,14 @@
 				<Event Id="768061573" Name="Play_AMB_Sleep_Test" DurationType="OneShot" DurationMin="28.8" DurationMax="28.8">
 					<MediaRefs>
 						<MediaRef Id="636364065"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1819158867" Name="Play_DGX_Entity" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="417103303"/>
+						<MediaRef Id="701098869"/>
+						<MediaRef Id="723883399"/>
+						<MediaRef Id="728877307"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1950652224" Name="Play_DGX_Player_Snoring" DurationType="Infinite">
@@ -692,5 +711,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{95B8DA76-BBA7-157A-F01D-F05F51AE607C}</FileHash>
+	<FileHash>{03B4BDAF-83EF-45DA-CBE6-9E1343548E5D}</FileHash>
 </SoundBanksInfo>

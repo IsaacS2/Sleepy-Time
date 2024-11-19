@@ -129,157 +129,6 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" ShortID="877192625">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Entity_Barks-001" ID="{55AB99D0-B17D-4DF2-9218-5417FF3A2547}" ShortID="65628113">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Entity_Barks-001" ID="{AF5734AE-E14F-4A07-AA5E-39065E5E7491}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="10.0450331125828"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="10.0450331125828"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Barks\Entity\Entity_Barks-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="701098869"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Entity_Barks-001" ID="{AF5734AE-E14F-4A07-AA5E-39065E5E7491}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Entity_Barks-002" ID="{FBF11112-BFBA-4DB6-B5F6-832AF6DD6393}" ShortID="323556823">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Entity_Barks-002" ID="{A6E97E59-FE9C-429A-9F5A-D7D4E1D9EEFC}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="7.69521823017156"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.377952755905512"/>
-												<Property Name="TrimEnd" Type="Real64" Value="9.96143296657453"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Barks\Entity\Entity_Barks-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1035737766"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Entity_Barks-002" ID="{A6E97E59-FE9C-429A-9F5A-D7D4E1D9EEFC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Entity_Barks-003" ID="{38E17C78-0280-4D01-A189-2C9301EB6DEC}" ShortID="936390002">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Entity_Barks-003" ID="{D8E6CF20-C329-4EDA-A7B6-2915348D6566}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="7.55780361891849"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.529133858267717"/>
-												<Property Name="TrimEnd" Type="Real64" Value="10.1348907545497"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Barks\Entity\Entity_Barks-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="723883399"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Entity_Barks-003" ID="{D8E6CF20-C329-4EDA-A7B6-2915348D6566}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Entity_Barks-004" ID="{76791A2D-8705-4C66-96D6-B8F2E389A41F}" ShortID="665669021">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Entity_Barks-004" ID="{625CA9C2-5244-4F38-ABB4-9EC7EB1234B7}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="9.4435626010325"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.415748031496063"/>
-												<Property Name="TrimEnd" Type="Real64" Value="9.85931063252856"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Barks\Entity\Entity_Barks-004.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="728877307"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Entity_Barks-004" ID="{625CA9C2-5244-4F38-ABB4-9EC7EB1234B7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Entity_Barks-005" ID="{8FA7B9DD-7652-432E-AFF6-E566C7E221FE}" ShortID="296165585">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Entity_Barks-005" ID="{A6B5EF5E-8059-45B7-A44F-5B29952DE1F6}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="8.05039370078741"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.377952755905512"/>
-												<Property Name="TrimEnd" Type="Real64" Value="10.0177504302028"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Barks\Entity\Entity_Barks-005.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="417103303"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Entity_Barks-005" ID="{A6B5EF5E-8059-45B7-A44F-5B29952DE1F6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="DGX_Enemy_Injured" ID="{5C133488-D88A-4CEE-B675-A959E50C6A76}" ShortID="609085830">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
@@ -834,6 +683,34 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="DGX_Entity_Dry" ID="{53F3E2A1-7C41-4E39-A3FB-FFB55869498E}" ShortID="378165176">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A37B9277-20B1-4F5B-A54D-C7932ACE8027}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-126"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{737250B9-4EDE-433B-BB27-0D050BADF29B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -844,6 +721,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="DGX_Entity_Dry-001" ID="{B08CC8EE-F5DC-4186-995B-F9F1EDE5332F}" ShortID="446781281">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -901,6 +785,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Entity_Dry-003" ID="{3F020A54-8206-4EAF-A236-342A4BBBD199}" ShortID="412066336">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -965,6 +856,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="DGX_Entity_Dry-005" ID="{C2DDC5B4-4B72-49C8-A1AF-2F9CBA48A6EC}" ShortID="825583273">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>

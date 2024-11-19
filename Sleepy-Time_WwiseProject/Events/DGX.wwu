@@ -19,7 +19,7 @@
 						<Action Name="" ID="{DACD26C3-85D0-405F-81B1-052770C0C465}" ShortID="319512283">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+									<ObjectRef Name="DGX_Entity_Barks" ID="{049D47E4-1BB7-4058-AFFD-0B943DEE30BE}" WorkUnitID="{73801848-5175-4F56-9BE1-3DA5551A5C2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -125,6 +125,7 @@
 						<Action Name="" ID="{C207D3DD-F14B-4F6F-8ED2-AEAB436A86B4}" ShortID="166295207">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -135,6 +136,7 @@
 						<Action Name="" ID="{F3EB1F82-5A91-43D6-81BE-BA0358A3E55C}" ShortID="18433550">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
 								<Property Name="Inclusion" Type="bool">
 									<ValueList>
 										<Value>False</Value>
@@ -151,10 +153,25 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
 								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Play_DGX_Player_Scream" ID="{311609E7-5528-4504-8343-41B9696FD94D}" WorkUnitID="{844CEFD2-A4D9-45F9-944B-6F17002E9911}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{92FD3943-79C5-4506-BEB3-3B41E8EBDEED}" ShortID="475294306">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Player_Scream" ID="{16A9957C-5F18-4DEB-84AC-6C449BE2F722}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

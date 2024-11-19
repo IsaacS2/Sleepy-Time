@@ -75,5 +75,6 @@ public class Entity : MonoBehaviour
         // Entity stops or stars moving towards player, depending on the boolean value
         //
         _stop = _stopEntity;
+        AkSoundEngine.PostEvent("Play_DGX_Entity", gameObject);
     }
 }
