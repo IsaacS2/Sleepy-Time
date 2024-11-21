@@ -46,6 +46,24 @@
 							<Time>0</Time>
 							<IsShared>false</IsShared>
 						</Transition>
+						<Transition>
+							<StartState Name="Title" ID="{05D710D3-45B1-4C88-AC3F-72DC390D55A8}"/>
+							<EndState Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Asleep" ID="{AC2B56DA-74ED-4DF4-A608-03B83779C950}"/>
+							<EndState Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Awake" ID="{38041257-CEA4-4C5D-A41E-1F138B979433}"/>
+							<EndState Name="Dead" ID="{F180F25F-CB9F-4678-8037-0A346971F049}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
 					</TransitionList>
 				</StateGroup>
 			</ChildrenList>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{307089E3-9DA2-A1DF-92E2-AF41DCCAFF52}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{DD93AC53-E96A-F272-4266-D80B8DF07F53}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -87,7 +87,7 @@
 				</File>
 				<File Id="599667693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</ShortName>
-					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_ADB3B524.wem</CachePath>
+					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_820B6B32.wem</CachePath>
 				</File>
 				<File Id="665366938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\String_Sting\Stingers_String_Sting.wav</ShortName>
@@ -99,11 +99,11 @@
 				</File>
 				<File Id="775532303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</ShortName>
-					<CachePath>SFX/Stingers/Resampled_Voice/Stingers_Resampled_Voice_8E324C96.wem</CachePath>
+					<CachePath>SFX/Stingers/Resampled_Voice/Stingers_Resampled_Voice_F1DAB516.wem</CachePath>
 				</File>
 				<File Id="821796859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</ShortName>
-					<CachePath>SFX/Stingers/Swipe_Up/Stingers_Swipe_Up_8E324C96.wem</CachePath>
+					<CachePath>SFX/Stingers/Swipe_Up/Stingers_Swipe_Up_69F74E95.wem</CachePath>
 				</File>
 				<File Id="957313629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-003.wav</ShortName>
@@ -122,21 +122,35 @@
 					<CachePath>SFX/Weapon_Swing/_Weapon_Swing-003_8E324C96.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1203617187" Name="Machine_Gun_Hangar" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="800539628" Name="Play_DGX_Player_Wake" DurationType="OneShot" DurationMin="6.9" DurationMax="6.9">
 					<MediaRefs>
 						<MediaRef Id="665366938"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="3303012769" Name="Play_SFX_Checkpoint_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="7.5354333" DurationMax="7.5354333">
+				<Event Id="3303012769" Name="Play_SFX_Checkpoint_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="20.11181" DurationMax="20.11181">
 					<MediaRefs>
 						<MediaRef Id="599667693"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3414352583" Name="Play_SFX_Checkpoint_String_Stinger" DurationType="OneShot" DurationMin="6.6" DurationMax="6.6">
 					<MediaRefs>
 						<MediaRef Id="665366938"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2788169225" Name="Play_SFX_Enemy_Attack" DurationType="OneShot" DurationMin="0.8489963" DurationMax="1.113079">
 					<MediaRefs>
@@ -157,24 +171,39 @@
 						<MediaRef Id="753331897"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1765240081" Name="Play_SFX_Resampled_Voice_Stinger" DurationType="OneShot" DurationMin="13.8" DurationMax="13.8">
+				<Event Id="1765240081" Name="Play_SFX_Resampled_Voice_Stinger" DurationType="OneShot" DurationMin="12.333071" DurationMax="12.333071">
 					<MediaRefs>
 						<MediaRef Id="775532303"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="1936094923" Name="Play_SFX_Swipe_Up_Stinger" DurationType="OneShot" DurationMin="11.4" DurationMax="11.4">
+				<Event Id="1936094923" Name="Play_SFX_Swipe_Up_Stinger" DurationType="OneShot" DurationMin="2.2440944" DurationMax="2.2440944">
 					<MediaRefs>
 						<MediaRef Id="821796859"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1203617187"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="793446718" Name="Play_SFX_UI_Splatter" DurationType="OneShot" DurationMin="0.6" DurationMax="1.35">
+				<Event Id="793446718" Name="Play_SFX_UI_Splatter" DurationType="OneShot" DurationMin="20.61181" DurationMax="20.61181">
 					<MediaRefs>
 						<MediaRef Id="31191500"/>
 						<MediaRef Id="321683485"/>
 						<MediaRef Id="423826708"/>
+						<MediaRef Id="599667693"/>
 						<MediaRef Id="957313629"/>
 						<MediaRef Id="972321335"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2499893359" Name="Play_SFX_Weapon_Impact" DurationType="OneShot" DurationMin="0.26313367" DurationMax="0.5208104">
 					<MediaRefs>
@@ -193,7 +222,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{94E83134-F06E-B59C-AF09-7EAD0EDCABF2}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{FA0057C3-CD02-73ED-78F0-14DA325437FF}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -470,6 +499,9 @@
 						<MediaRef Id="463093217"/>
 						<MediaRef Id="665366938"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1459153067" Name="Play_DGX_Spirit_Injured" DurationType="OneShot" DurationMin="2.3014166" DurationMax="2.5032916">
 					<MediaRefs>
@@ -531,7 +563,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{46D08C15-B5BA-303D-743E-15F0F61111A6}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{82711C83-961A-014E-FC8C-19CA2AAAC816}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -684,7 +716,7 @@
 				<GameParameter Id="2455975320" Name="Drowsiness"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2FE71F9D-3C35-6BE5-42D5-0ECE067C826C}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AAA2A1B1-7754-B513-BD44-1B48F878E59F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -743,5 +775,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{40FAFD69-6593-8975-7AC7-58C6E5143546}</FileHash>
+	<FileHash>{813F1D7A-093D-4606-17FF-194E9DAB5040}</FileHash>
 </SoundBanksInfo>

@@ -11,10 +11,14 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="SFX" ID="{CE8B78E8-F241-4D19-903E-C6657E30693F}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="AUX_Verb" ID="{835F955B-EAAF-4A84-98C0-0AAD9CFC1F9F}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="SFX_Distorted_Chime_Stinger" ID="{C28487C0-D117-4616-8F2B-B0FF8362A6D6}" ShortID="799610250">
 							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-18</Value>
@@ -28,13 +32,16 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
 								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="AUX_Verb" ID="{835F955B-EAAF-4A84-98C0-0AAD9CFC1F9F}" WorkUnitID="{E2748DED-0B75-4D69-83BF-57CE993A34FF}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="7.53543307086614"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="14.8629921259843"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="7.53543307086614"/>
+										<Property Name="TrimEnd" Type="Real64" Value="20.1118110236221"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</AudioFile>
@@ -58,6 +65,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Stingers_Resampled_Voice" ID="{558FA32A-6055-474D-BE74-3FEF3A73EEFC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.43976377952756"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.46692913385827"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</AudioFile>
 									<MediaIDList>
@@ -99,6 +111,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_Swipe_Up_Stinger" ID="{E51C0F50-FF28-4565-AD1A-426E6381C11B}" ShortID="48384973">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-2400</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A8C7ED7-642C-402F-B06E-9BAC8D570528}"/>
@@ -109,6 +134,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.448818897637795"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.561023622047257"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.336614173228346"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.897637795275604"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</AudioFile>
 									<MediaIDList>
@@ -116,6 +148,21 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E07D4DB2-27F3-4334-9962-636FF50327EF}" ShortID="104875679">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Stingers_Swipe_Up" ID="{DC83B260-025A-4E12-A3BD-75FA1C15949C}" Platform="Linked"/>
 							</ActiveSourceList>
