@@ -17,7 +17,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -31,6 +31,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Stingers_Distorted_Chime" ID="{1456CD18-7AAC-4BC9-935B-F39D962738D6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="7.53543307086614"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.53543307086614"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</AudioFile>
 									<MediaIDList>

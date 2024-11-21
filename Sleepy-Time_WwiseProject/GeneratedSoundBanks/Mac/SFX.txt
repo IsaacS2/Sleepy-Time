@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	793446718	Play_SFX_UI_Splatter			\SFX\Play_SFX_UI_Splatter	
+	800539628	Play_DGX_Player_Wake			\DGX\Play_DGX_Player_Wake	
 	1374858245	Play_SFX_Weapon_Swing			\SFX\Play_SFX_Weapon_Swing	
 	1601566421	Play_SFX_FS_Player			\SFX\Play_SFX_FS_Player	
 	1765240081	Play_SFX_Resampled_Voice_Stinger			\SFX\Play_SFX_Resampled_Voice_Stinger	
@@ -28,7 +29,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	572287534	DGX_Enemy_Attack-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injury\Enemy_Attack\Enemy_Attack_Enemy_Injury-003_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Enemy_Attack\DGX_Enemy_Attack-003		12414
 	589159237	Weapon_Impact-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Weapon_Impact\_Weapon_Impact-001_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_Weapon_Impact\Weapon_Impact-001		4971
 	594607657	Weapon_Swing-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Weapon_Swing\_Weapon_Swing-001_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\Weapon_Swing\Weapon_Swing-001		4112
-	599667693	SFX_Distorted_Chime_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\Distorted_Chime\Stingers_Distorted_Chime_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_Distorted_Chime_Stinger		202997
+	599667693	SFX_Distorted_Chime_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\Distorted_Chime\Stingers_Distorted_Chime_ADB3B524.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_Distorted_Chime_Stinger		97114
 	665366938	SFX_String_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\String_Sting\Stingers_String_Sting_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_String_Stinger		76249
 	753331897	SFX_FS_Player-006	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\SFX_FS_Player\_SFX_FS_Player-006_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Gameplay\SFX_FS_Player\SFX_FS_Player-006		8772
 	775532303	SFX_Resampled_Voice_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\Resampled_Voice\Stingers_Resampled_Voice_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_Resampled_Voice_Stinger		116083

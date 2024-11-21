@@ -90,9 +90,26 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{71E4E22A-A9A7-40F8-9C36-CC79F6CCD3D5}" ShortID="969736685">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4A2F13EE-92BA-4254-96CE-2E66BCB53215}" ShortID="357157376">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_String_Stinger" ID="{78141FAD-F2EC-4195-BE07-191C0DE69610}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

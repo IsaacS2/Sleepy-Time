@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{0DA5D687-0D36-7540-BFE9-E87E9251F971}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{307089E3-9DA2-A1DF-92E2-AF41DCCAFF52}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -87,7 +87,7 @@
 				</File>
 				<File Id="599667693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</ShortName>
-					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_8E324C96.wem</CachePath>
+					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_ADB3B524.wem</CachePath>
 				</File>
 				<File Id="665366938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\String_Sting\Stingers_String_Sting.wav</ShortName>
@@ -123,7 +123,12 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3303012769" Name="Play_SFX_Checkpoint_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="26.4" DurationMax="26.4">
+				<Event Id="800539628" Name="Play_DGX_Player_Wake" DurationType="OneShot" DurationMin="6.9" DurationMax="6.9">
+					<MediaRefs>
+						<MediaRef Id="665366938"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3303012769" Name="Play_SFX_Checkpoint_Distorted_Chime_Stinger" DurationType="OneShot" DurationMin="7.5354333" DurationMax="7.5354333">
 					<MediaRefs>
 						<MediaRef Id="599667693"/>
 					</MediaRefs>
@@ -188,7 +193,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{97C409C2-3CB7-FFD4-A192-170E74F97868}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{94E83134-F06E-B59C-AF09-7EAD0EDCABF2}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -267,6 +272,10 @@
 				<File Id="665232857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injured_Natural\Enemy_Injured_Natural-005.wav</ShortName>
 					<CachePath>SFX/Enemy_Injured_Natural/Enemy_Injured_Natural-005_8E324C96.wem</CachePath>
+				</File>
+				<File Id="665366938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stingers\String_Sting\Stingers_String_Sting.wav</ShortName>
+					<CachePath>SFX/Stingers/String_Sting/Stingers_String_Sting_8E324C96.wem</CachePath>
 				</File>
 				<File Id="682624289" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Injury\Enemy_Aggro\Enemy_Aggro_Enemy_Injury-001.wav</ShortName>
@@ -453,21 +462,14 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="800539628" Name="Play_DGX_Player_Wake" DurationType="OneShot" DurationMin="1.5589792" DurationMax="1.8131875">
+				<Event Id="800539628" Name="Play_DGX_Player_Wake" DurationType="OneShot" DurationMin="6.9" DurationMax="6.9">
 					<MediaRefs>
 						<MediaRef Id="31217012"/>
 						<MediaRef Id="173244936"/>
 						<MediaRef Id="189442506"/>
 						<MediaRef Id="463093217"/>
-						<MediaRef Id="716638564"/>
-						<MediaRef Id="770230295"/>
-						<MediaRef Id="1019154521"/>
+						<MediaRef Id="665366938"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3164629247"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 				<Event Id="1459153067" Name="Play_DGX_Spirit_Injured" DurationType="OneShot" DurationMin="2.3014166" DurationMax="2.5032916">
 					<MediaRefs>
@@ -481,7 +483,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{1A9ABD70-C586-0DBA-E61A-5111A03AC2D7}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{7816A464-1636-5461-91FA-3FF3A41CBBF5}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -741,5 +743,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6C41A121-722B-096A-B491-BD454F5E3175}</FileHash>
+	<FileHash>{40FAFD69-6593-8975-7AC7-58C6E5143546}</FileHash>
 </SoundBanksInfo>
