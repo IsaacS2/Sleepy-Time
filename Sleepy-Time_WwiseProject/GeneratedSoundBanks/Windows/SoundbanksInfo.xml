@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{DD93AC53-E96A-F272-4266-D80B8DF07F53}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{ECDE39D9-4EF1-2954-C74C-0A2C54904500}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -87,7 +87,7 @@
 				</File>
 				<File Id="599667693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Distorted_Chime\Stingers_Distorted_Chime.wav</ShortName>
-					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_820B6B32.wem</CachePath>
+					<CachePath>SFX/Stingers/Distorted_Chime/Stingers_Distorted_Chime_E06A25BB.wem</CachePath>
 				</File>
 				<File Id="665366938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\String_Sting\Stingers_String_Sting.wav</ShortName>
@@ -99,11 +99,11 @@
 				</File>
 				<File Id="775532303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Resampled_Voice\Stingers_Resampled_Voice.wav</ShortName>
-					<CachePath>SFX/Stingers/Resampled_Voice/Stingers_Resampled_Voice_F1DAB516.wem</CachePath>
+					<CachePath>SFX/Stingers/Resampled_Voice/Stingers_Resampled_Voice_7C9C2D06.wem</CachePath>
 				</File>
 				<File Id="821796859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stingers\Swipe_Up\Stingers_Swipe_Up.wav</ShortName>
-					<CachePath>SFX/Stingers/Swipe_Up/Stingers_Swipe_Up_69F74E95.wem</CachePath>
+					<CachePath>SFX/Stingers/Swipe_Up/Stingers_Swipe_Up_793016EC.wem</CachePath>
 				</File>
 				<File Id="957313629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Blood_Spatter\_Blood_Spatter-003.wav</ShortName>
@@ -179,7 +179,7 @@
 						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1936094923" Name="Play_SFX_Swipe_Up_Stinger" DurationType="OneShot" DurationMin="2.2440944" DurationMax="2.2440944">
+				<Event Id="1936094923" Name="Play_SFX_Swipe_Up_Stinger" DurationType="OneShot" DurationMin="0.1402559" DurationMax="0.1402559">
 					<MediaRefs>
 						<MediaRef Id="821796859"/>
 					</MediaRefs>
@@ -775,5 +775,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{813F1D7A-093D-4606-17FF-194E9DAB5040}</FileHash>
+	<FileHash>{D53B84D8-850E-4602-F43D-FB70A322F37C}</FileHash>
 </SoundBanksInfo>

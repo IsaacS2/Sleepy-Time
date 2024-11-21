@@ -681,8 +681,8 @@ MonoBehaviour:
         guid: 9c173c1dcfa936468aa9d1a1ac1a5261
       Path: Events/SFX/Play_SFX_Swipe_Up_Stinger
       maxAttenuation: 0
-      maxDuration: 2.2440944
-      minDuration: 2.2440944
+      maxDuration: 0.1402559
+      minDuration: 0.1402559
     - name: Play_SFX_UI_Splatter
       guid: a21af1763d907249b990f5679993ce45
       id: 793446718

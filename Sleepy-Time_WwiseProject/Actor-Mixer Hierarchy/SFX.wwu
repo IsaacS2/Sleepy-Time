@@ -115,7 +115,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-2400</Value>
+										<Value>2400</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
