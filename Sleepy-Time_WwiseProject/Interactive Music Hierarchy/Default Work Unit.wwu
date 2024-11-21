@@ -6,7 +6,18 @@
 				<MusicSegment Name="MUS_Game" ID="{D0CB024D-FBA2-45D5-B55C-E30CD8A95202}" ShortID="957414455">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="153750"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="80"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -395,7 +406,18 @@
 				<MusicSegment Name="MUS_Title" ID="{7FD9049F-8AD7-4B1D-963F-16AC0CBF20F9}" ShortID="1005452716">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="167633.663260973"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="80"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -596,7 +618,18 @@
 				<MusicSegment Name="Marigold_Siesta_Win_Screen_4I_24B_4P_80BPM" ID="{26C3DFC7-C4E0-4DCD-8D52-AF2CE1BCF739}" ShortID="515792802">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="103556.129032258"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="80"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

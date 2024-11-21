@@ -515,7 +515,7 @@ MonoBehaviour:
     ParentPath: Events/MUS
     guid: 28f61aea0fbddb40bf957b3d949291ad
     GuidInternal: 
-    m_lastTime: -8584696150616328133
+    m_lastTime: -8584693782866609214
     List:
     - name: Play_MUS_Game
       guid: 9292ea5ac55349468d3fa832979cf86e
@@ -681,8 +681,8 @@ MonoBehaviour:
         guid: 9c173c1dcfa936468aa9d1a1ac1a5261
       Path: Events/SFX/Play_SFX_Swipe_Up_Stinger
       maxAttenuation: 0
-      maxDuration: 0.1402559
-      minDuration: 0.1402559
+      maxDuration: 0.17671137
+      minDuration: 0.17671137
     - name: Play_SFX_UI_Splatter
       guid: a21af1763d907249b990f5679993ce45
       id: 793446718
