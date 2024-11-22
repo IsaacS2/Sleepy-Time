@@ -12,6 +12,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{96952386-95B4-4BAB-BC3D-55BF1D2935DC}" ShortID="445379665">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Distorted_Chime_Stinger" ID="{C28487C0-D117-4616-8F2B-B0FF8362A6D6}" WorkUnitID="{81552E3F-1B1F-4D95-92D1-FC0DECA6A8C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SFX_Weapon_Impact" ID="{BC8C6485-8159-4EC5-BD27-F2261912E9D4}">

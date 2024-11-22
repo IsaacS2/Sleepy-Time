@@ -17,14 +17,20 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	Sleeping			
+	979765101	Win	Sleeping			
 	1151176110	Awake	Sleeping			
 	2044049779	Dead	Sleeping			
+	3705726509	Title	Sleeping			
 	3778954319	Asleep	Sleeping			
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	963039587	Falling			\Default Work Unit\Falling	
 
 Effect plug-ins	ID	Name	Type				Notes
 	701863527	Inside_My_Head	Wwise RoomVerb			
 	1110677034	Underwater_Echoes	Wwise Stereo Delay			
 	1590660382	Nearly_Forever	Wwise Delay			
+	2265839006	Not_A_Yellow_Submarine	Wwise RoomVerb			
 	3164629247	Holy	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -35,9 +41,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	123826953	DGX_Spirit_Injured-006	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Spirit_Injured\Spirit_Injured-006_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Spirit_Injured\DGX_Spirit_Injured-006		26843
 	173244936	DGX_Player_Wake-005	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Wake\Player_Wake-005_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Wake\DGX_Player_Wake-005		3279
 	189442506	DGX_Player_Wake-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Wake\Player_Wake-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Wake\DGX_Player_Wake-001		5333
-	257322730	DGX_Player_Scream-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Scream\Player_Scream-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Fall\DGX_Player_Scream-001		7904
 	268468825	DGX_Enemy_Injured_Natural-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injured_Natural\Enemy_Injured_Natural-004_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Enemy_Death\DGX_Enemy_Injured_Natural-004		12222
-	292337563	DGX_Player_Wake-007	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Wake\Player_Wake-007_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Fall\DGX_Player_Wake-007		4481
 	317984438	DGX_Player_Scream-007	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Scream\Player_Scream-007_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Scream\DGX_Player_Scream-007		7432
 	330312693	DGX_Enemy_Injured_Natural-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injured_Natural\Enemy_Injured_Natural-002_12A74340.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Enemy_Injured\DGX_Enemy_Injured_Natural-002		5179
 	345222127	DGX_Player_Wake-008	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Wake\Player_Wake-008_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Fall\DGX_Player_Wake-008		4621
@@ -49,6 +53,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	627388253	DGX_Spirit_Injured-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Spirit_Injured\Spirit_Injured-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Spirit_Injured\DGX_Spirit_Injured-001		18821
 	635210349	DGX_Spirit_Injured-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Spirit_Injured\Spirit_Injured-002_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Spirit_Injured\DGX_Spirit_Injured-002		18874
 	665232857	DGX_Enemy_Injured_Natural-005	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injured_Natural\Enemy_Injured_Natural-005_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Enemy_Injured\DGX_Enemy_Injured_Natural-005		7030
+	665366938	SFX_String_Stinger	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Stingers\String_Sting\Stingers_String_Sting_8E324C96.wem		\Actor-Mixer Hierarchy\SFX\Stingers\SFX_String_Stinger		76249
 	682624289	DGX_Enemy_Aggro-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injury\Enemy_Aggro\Enemy_Aggro_Enemy_Injury-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Enemy_Aggro\DGX_Enemy_Aggro-001		8504
 	686595063	DGX_Enemy_Aggro-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injury\Enemy_Aggro\Enemy_Aggro_Enemy_Injury-002_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Enemy_Aggro\DGX_Enemy_Aggro-002		6350
 	701098869	Entity_Barks-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-001_B9C5C1B0.wem		\Actor-Mixer Hierarchy\AMB\DGX_Entity_Barks\Entity_Barks-001		125547
