@@ -48,6 +48,9 @@ public class GameManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (SceneManager.GetActiveScene().buildIndex == 1) { SetNewPlayerPosition(_checkpointPos); }
+        else {
+            _checkpointPos = Vector3.zero;
+        }
     }
 
     public void GoToNextScene()

@@ -56,7 +56,7 @@ public class EnemyStats : CharacterStats
     public override void CalculateDamage(float damage)
     {
         // TODO: Add enemy grunting/hurt sound effect
-        AkSoundEngine.PostEvent("Play_DGX_Enemy_Injured", gameObject);
+        if (damage > 0 && !_invincible) AkSoundEngine.PostEvent("Play_DGX_Enemy_Injured", gameObject);
 
         base.CalculateDamage(damage);
 

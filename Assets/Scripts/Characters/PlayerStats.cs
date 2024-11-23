@@ -12,6 +12,7 @@ using TMPro;
 public class PlayerStats : CharacterStats
 {
     [SerializeField] private TMP_Text _healthText;
+    [SerializeField] private RawImage _JumpscareImage;
     [SerializeField] private VideoPlayer jumpScare;
     [SerializeField] private VolumeProfile vp;
     [SerializeField] private float _maxDeathTime = 2f, _restMaxStat = 10;
@@ -41,6 +42,7 @@ public class PlayerStats : CharacterStats
         if (_healthText)
         {
             _originalHealthText = _healthText.text;
+            _healthText.text = _originalHealthText + _health.ToString("F2");
         }
 
         base.Start();
@@ -112,11 +114,13 @@ public class PlayerStats : CharacterStats
         //
         // player will be killed by the entity
         //
-        if (entity)
+        if (entity && _deathTimer >= _maxDeathTime)
         {
             OnEntityDeath();
+            _deathTimer = 0;
+            if (_JumpscareImage) _JumpscareImage.enabled = true;
             if (jumpScare) jumpScare.Play();
-            CalculateDamage(_maxHealth * 2);
+            _dead = true;
         }
     }
 
@@ -132,7 +136,7 @@ public class PlayerStats : CharacterStats
         //
         // player will take damage from the regular enemy
         //
-        if (enemy)
+        if (enemy && !_invincible)
         {
             // TODO: Add player's grunting/hurt sound effect
             AkSoundEngine.PostEvent("Play_DGX_Player_Hurt", gameObject);
