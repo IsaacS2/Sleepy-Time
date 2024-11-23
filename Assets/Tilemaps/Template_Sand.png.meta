@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 151
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Template_Sand_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 352
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb07ba4146542544ae05624b83fae80
+      internalID: -343486747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 352
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a39c8abb2bc704f8271e816dd5fda0
+      internalID: 1244047458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 352
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b6893a2796fd14bb40a05131ed98fb
+      internalID: 2124411239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 199
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc754b985b5b5447b26d35ce4f45898
+      internalID: 2133742997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 46
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a80f35fb689014994b6c6f89cf48b4
+      internalID: 1378030453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 46
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d231a3fc5dec54dad08ab11df0bcf3
+      internalID: 2032853575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 47
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9d3989e5a882246aacd6c2037fae66
+      internalID: -821826092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 199
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c10aee656c23c4b9c1e3e311fcf0ba
+      internalID: 1200941560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 352
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bfc4efa975f444fb221bc0009e087d
+      internalID: 1426723776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_9
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 199
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32237f4ff6a13514280a080aad4ddfbf
+      internalID: -1583361320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_10
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 46
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a6e34403c544c44a9dc5ae0f059864
+      internalID: -785510106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_11
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 46
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e882d685aa16c498caeccd3453bd74
+      internalID: -1862873450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_12
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 46
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5255d4c42e6beae4cb6b4080d42e4073
+      internalID: 1302609682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 199
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5329d51b5e7fe4996a6424536467da
+      internalID: -202767944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_14
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 199
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427a9beabdac644b8359188263e6548
+      internalID: -1643083001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_15
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 352
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101d9fc0e3bff9e44baa3e606e847998
+      internalID: 1927834273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_16
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 352
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40aceb4e829e7d4eacd975283255788
+      internalID: -1997102237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_Sand_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 199
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1628188121224ca49b39ce20d222927c
+      internalID: -1183110673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +497,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Template_Sand_0: -343486747
+      Template_Sand_1: 1244047458
+      Template_Sand_10: -785510106
+      Template_Sand_11: -1862873450
+      Template_Sand_12: 1302609682
+      Template_Sand_13: -202767944
+      Template_Sand_14: -1643083001
+      Template_Sand_15: 1927834273
+      Template_Sand_16: -1997102237
+      Template_Sand_17: 565572001
+      Template_Sand_18: 1699949397
+      Template_Sand_19: 1801428216
+      Template_Sand_2: 2124411239
+      Template_Sand_20: 52819481
+      Template_Sand_21: -2037319099
+      Template_Sand_22: 864317125
+      Template_Sand_23: -1955976932
+      Template_Sand_24: 681677660
+      Template_Sand_25: 139114682
+      Template_Sand_26: -185409860
+      Template_Sand_27: -1861604156
+      Template_Sand_28: -1183110673
+      Template_Sand_3: 2133742997
+      Template_Sand_4: 1378030453
+      Template_Sand_5: 2032853575
+      Template_Sand_6: -821826092
+      Template_Sand_7: 1200941560
+      Template_Sand_8: 1426723776
+      Template_Sand_9: -1583361320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

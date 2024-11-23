@@ -34,7 +34,6 @@ public class EnemyStats : CharacterStats
     {
         if (_player != null)
         {
-            Debug.Log("transform pos: " + _player.position);
             float distance = Vector3.Distance(_player.position, _rb.transform.position);
 
             if (distance >= _minDistanceToPlayer)

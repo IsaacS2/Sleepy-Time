@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 10e4835c048c7740b4dd8e4f17fba75c
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: 10e4835c048c7740b4dd8e4f17fba75c
     GuidInternal: 
-    m_lastTime: -8584697983758044653
+    m_lastTime: -8584697879114606177
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: ed8d74e2750b694d83bf57ce993a34ff
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ed8d74e2750b694d83bf57ce993a34ff
     GuidInternal: 
-    m_lastTime: -8584697013456182843
+    m_lastTime: -8584696502214776475
     List:
     - name: AMB
       guid: 5c4a423e4af48844a3e1f889c235f9d8
@@ -56,7 +56,7 @@ MonoBehaviour:
       - ElementName: AMB
         ObjectType: 2
         guid: 5c4a423e4af48844a3e1f889c235f9d8
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/AMB
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AMB
     - name: AUX_Verb
       guid: 5b955f83afea844a98c00aad9cfc1f9f
       id: 1952219607
@@ -73,7 +73,7 @@ MonoBehaviour:
       - ElementName: AUX_Verb
         ObjectType: 1
         guid: 5b955f83afea844a98c00aad9cfc1f9f
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/AUX_Verb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AUX_Verb
     - name: DGX
       guid: 001c356ed3fa934d881c52f6efe56f10
       id: 412430282
@@ -90,7 +90,7 @@ MonoBehaviour:
       - ElementName: DGX
         ObjectType: 2
         guid: 001c356ed3fa934d881c52f6efe56f10
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/DGX
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DGX
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -104,7 +104,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
     - name: MUS
       guid: 8d5c4239df7e544ea3c9fbd6a0a08d27
       id: 712897226
@@ -121,7 +121,7 @@ MonoBehaviour:
       - ElementName: MUS
         ObjectType: 2
         guid: 8d5c4239df7e544ea3c9fbd6a0a08d27
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/MUS
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUS
     - name: SFX
       guid: e8788bce41f2194d903ec6657e30693f
       id: 393239870
@@ -138,9 +138,9 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: e8788bce41f2194d903ec6657e30693f
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -148,10 +148,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 7b8dbbb29337174490f7828906f58f2f
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: 7b8dbbb29337174490f7828906f58f2f
     GuidInternal: 
-    m_lastTime: -8584697063424864493
+    m_lastTime: -8584696502186843822
     List:
     - name: AMB
       guid: 6bdae8a09843fd4899c87a39e2a2d06a
@@ -166,7 +166,7 @@ MonoBehaviour:
       - ElementName: AMB
         ObjectType: 7
         guid: 6bdae8a09843fd4899c87a39e2a2d06a
-      Path: SoundBanks/Default Work Unit/AMB
+      Path: SoundBanks\Default Work Unit\AMB
     - name: DGX
       guid: f35966033bb74248b3f4cad31a75a3bc
       id: 412430282
@@ -180,7 +180,7 @@ MonoBehaviour:
       - ElementName: DGX
         ObjectType: 7
         guid: f35966033bb74248b3f4cad31a75a3bc
-      Path: SoundBanks/Default Work Unit/DGX
+      Path: SoundBanks\Default Work Unit\DGX
     - name: MUS
       guid: c2ed9ee8e05aec4ea1049a1a11ffaa4d
       id: 712897226
@@ -194,7 +194,7 @@ MonoBehaviour:
       - ElementName: MUS
         ObjectType: 7
         guid: c2ed9ee8e05aec4ea1049a1a11ffaa4d
-      Path: SoundBanks/Default Work Unit/MUS
+      Path: SoundBanks\Default Work Unit\MUS
     - name: SFX
       guid: 7839118b3390d245ade9ffda14d367f8
       id: 393239870
@@ -208,9 +208,9 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 7
         guid: 7839118b3390d245ade9ffda14d367f8
-      Path: SoundBanks/Default Work Unit/SFX
+      Path: SoundBanks\Default Work Unit\SFX
   EventWwu:
-  - PhysicalPath: Events/AMB.wwu
+  - PhysicalPath: Events\AMB.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -218,10 +218,10 @@ MonoBehaviour:
     - ElementName: AMB
       ObjectType: 12
       guid: ca9055d0ea1b23499130fa3737a8b12c
-    ParentPath: Events/AMB
+    ParentPath: Events\AMB
     guid: ca9055d0ea1b23499130fa3737a8b12c
     GuidInternal: 
-    m_lastTime: -8584696204882893574
+    m_lastTime: -8584696156281918364
     List:
     - name: Play_AMB
       guid: be9627fabf4ae342b667c624cc2f6c30
@@ -236,7 +236,7 @@ MonoBehaviour:
       - ElementName: Play_AMB
         ObjectType: 3
         guid: be9627fabf4ae342b667c624cc2f6c30
-      Path: Events/AMB/Play_AMB
+      Path: Events\AMB\Play_AMB
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -253,7 +253,7 @@ MonoBehaviour:
       - ElementName: Play_AMB_Sleep_Test
         ObjectType: 3
         guid: 3a83e94827fa144baf611d163441b4eb
-      Path: Events/AMB/Play_AMB_Sleep_Test
+      Path: Events\AMB\Play_AMB_Sleep_Test
       maxAttenuation: 0
       maxDuration: 28.8
       minDuration: 28.8
@@ -270,11 +270,11 @@ MonoBehaviour:
       - ElementName: Play_DGX_Player_Snoring
         ObjectType: 3
         guid: 9377a796acfdd648a7b35e31becae9c5
-      Path: Events/AMB/Play_DGX_Player_Snoring
+      Path: Events\AMB\Play_DGX_Player_Snoring
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -282,12 +282,12 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 3cad9d4fa80834498a9d4e786e3b01ac
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: 3cad9d4fa80834498a9d4e786e3b01ac
     GuidInternal: 
-    m_lastTime: -8584696187627824736
+    m_lastTime: -8584697879116974128
     List: []
-  - PhysicalPath: Events/DGX.wwu
+  - PhysicalPath: Events\DGX.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -295,10 +295,10 @@ MonoBehaviour:
     - ElementName: DGX
       ObjectType: 12
       guid: d2ef4c84d9a4f945944b6f17002e9911
-    ParentPath: Events/DGX
+    ParentPath: Events\DGX
     guid: d2ef4c84d9a4f945944b6f17002e9911
     GuidInternal: 
-    m_lastTime: -8584693803056568351
+    m_lastTime: -8584693677008322163
     List:
     - name: Play_Death_Sequence
       guid: 1b84e275d6c85a4db0d6b73af0098ba5
@@ -313,7 +313,7 @@ MonoBehaviour:
       - ElementName: Play_Death_Sequence
         ObjectType: 3
         guid: 1b84e275d6c85a4db0d6b73af0098ba5
-      Path: Events/DGX/Play_Death_Sequence
+      Path: Events\DGX\Play_Death_Sequence
       maxAttenuation: 0
       maxDuration: 0.7639375
       minDuration: 0.6138333
@@ -330,7 +330,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Child_Barks
         ObjectType: 3
         guid: faa5e2d3c4a7d0499baf9425a603734c
-      Path: Events/DGX/Play_DGX_Child_Barks
+      Path: Events\DGX\Play_DGX_Child_Barks
       maxAttenuation: 0
       maxDuration: 1.8131875
       minDuration: 1.5589792
@@ -347,7 +347,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Enemy_Aggro
         ObjectType: 3
         guid: 502e6ae8239a6c4f8a78a9e242cedd9e
-      Path: Events/DGX/Play_DGX_Enemy_Aggro
+      Path: Events\DGX\Play_DGX_Enemy_Aggro
       maxAttenuation: 0
       maxDuration: 0.5043379
       minDuration: 0.30577335
@@ -364,7 +364,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Enemy_Death
         ObjectType: 3
         guid: ace1dc17c26fab429c7b1773c07801b9
-      Path: Events/DGX/Play_DGX_Enemy_Death
+      Path: Events\DGX\Play_DGX_Enemy_Death
       maxAttenuation: 0
       maxDuration: 1.4090288
       minDuration: 0.62019587
@@ -381,7 +381,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Enemy_Injured
         ObjectType: 3
         guid: 981e643d1d0e924298550202bd4d0292
-      Path: Events/DGX/Play_DGX_Enemy_Injured
+      Path: Events\DGX\Play_DGX_Enemy_Injured
       maxAttenuation: 0
       maxDuration: 0.52838576
       minDuration: 0.27244353
@@ -398,7 +398,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Entity
         ObjectType: 3
         guid: a84780099b666448a7ce8cde7d4d93ce
-      Path: Events/DGX/Play_DGX_Entity
+      Path: Events\DGX\Play_DGX_Entity
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -415,7 +415,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Entity_Dry
         ObjectType: 3
         guid: ca4369a9cb34694ab00583364a6b9d7d
-      Path: Events/DGX/Play_DGX_Entity_Dry
+      Path: Events\DGX\Play_DGX_Entity_Dry
       maxAttenuation: 0
       maxDuration: 1.9848241
       minDuration: 1.7662355
@@ -432,7 +432,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Player_Fall
         ObjectType: 3
         guid: 15b0237105cdbf4db8e944a5ee45e7cd
-      Path: Events/DGX/Play_DGX_Player_Fall
+      Path: Events\DGX\Play_DGX_Player_Fall
       maxAttenuation: 0
       maxDuration: 0.61660415
       minDuration: 0.37252083
@@ -449,7 +449,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Player_Hurt
         ObjectType: 3
         guid: 2e2c9f16b7832e4aa8cea36ef36776bd
-      Path: Events/DGX/Play_DGX_Player_Hurt
+      Path: Events\DGX\Play_DGX_Player_Hurt
       maxAttenuation: 0
       maxDuration: 0.6
       minDuration: 0.3
@@ -466,7 +466,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Player_Scream
         ObjectType: 3
         guid: e709163128550445834341b9696fd94d
-      Path: Events/DGX/Play_DGX_Player_Scream
+      Path: Events\DGX\Play_DGX_Player_Scream
       maxAttenuation: 0
       maxDuration: 0.7639375
       minDuration: 0.6138333
@@ -483,7 +483,7 @@ MonoBehaviour:
       - ElementName: Play_DGX_Player_Wake
         ObjectType: 3
         guid: 4c88bb16d197d141b6030f091aedef31
-      Path: Events/DGX/Play_DGX_Player_Wake
+      Path: Events\DGX\Play_DGX_Player_Wake
       maxAttenuation: 0
       maxDuration: 6.9
       minDuration: 6.9
@@ -500,11 +500,11 @@ MonoBehaviour:
       - ElementName: Play_DGX_Spirit_Injured
         ObjectType: 3
         guid: b38e070042b34d4aa46a3e8f8b13547d
-      Path: Events/DGX/Play_DGX_Spirit_Injured
+      Path: Events\DGX\Play_DGX_Spirit_Injured
       maxAttenuation: 0
       maxDuration: 2.5032916
       minDuration: 2.3014166
-  - PhysicalPath: Events/MUS.wwu
+  - PhysicalPath: Events\MUS.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -512,10 +512,10 @@ MonoBehaviour:
     - ElementName: MUS
       ObjectType: 12
       guid: 28f61aea0fbddb40bf957b3d949291ad
-    ParentPath: Events/MUS
+    ParentPath: Events\MUS
     guid: 28f61aea0fbddb40bf957b3d949291ad
     GuidInternal: 
-    m_lastTime: -8584693782866609214
+    m_lastTime: -8584693677008311935
     List:
     - name: Play_MUS_Game
       guid: 9292ea5ac55349468d3fa832979cf86e
@@ -530,7 +530,7 @@ MonoBehaviour:
       - ElementName: Play_MUS_Game
         ObjectType: 3
         guid: 9292ea5ac55349468d3fa832979cf86e
-      Path: Events/MUS/Play_MUS_Game
+      Path: Events\MUS\Play_MUS_Game
       maxAttenuation: 0
       maxDuration: 96
       minDuration: 96
@@ -547,7 +547,7 @@ MonoBehaviour:
       - ElementName: Play_MUS_Title
         ObjectType: 3
         guid: 50b82e5ebb24c442a329890332533bf4
-      Path: Events/MUS/Play_MUS_Title
+      Path: Events\MUS\Play_MUS_Title
       maxAttenuation: 0
       maxDuration: 144
       minDuration: 144
@@ -564,11 +564,11 @@ MonoBehaviour:
       - ElementName: Play_MUS_Win
         ObjectType: 3
         guid: a45877cd951b2b44bfecbb574ca31b43
-      Path: Events/MUS/Play_MUS_Win
+      Path: Events\MUS\Play_MUS_Win
       maxAttenuation: 0
       maxDuration: 96
       minDuration: 96
-  - PhysicalPath: Events/SFX.wwu
+  - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -576,10 +576,10 @@ MonoBehaviour:
     - ElementName: SFX
       ObjectType: 12
       guid: ff6d7e55f3efc1439c417060aa9e0d80
-    ParentPath: Events/SFX
+    ParentPath: Events\SFX
     guid: ff6d7e55f3efc1439c417060aa9e0d80
     GuidInternal: 
-    m_lastTime: -8584693789808553347
+    m_lastTime: -8584693677008298405
     List:
     - name: Play_SFX_Checkpoint_Distorted_Chime_Stinger
       guid: a4cbf2b0bedf0342b6f5846f6ad11fe3
@@ -594,7 +594,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_Checkpoint_Distorted_Chime_Stinger
         ObjectType: 3
         guid: a4cbf2b0bedf0342b6f5846f6ad11fe3
-      Path: Events/SFX/Play_SFX_Checkpoint_Distorted_Chime_Stinger
+      Path: Events\SFX\Play_SFX_Checkpoint_Distorted_Chime_Stinger
       maxAttenuation: 0
       maxDuration: 20.11181
       minDuration: 20.11181
@@ -611,7 +611,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_Checkpoint_String_Stinger
         ObjectType: 3
         guid: e901d9011a1b7442bc8e855ff1725330
-      Path: Events/SFX/Play_SFX_Checkpoint_String_Stinger
+      Path: Events\SFX\Play_SFX_Checkpoint_String_Stinger
       maxAttenuation: 0
       maxDuration: 6.6
       minDuration: 6.6
@@ -628,7 +628,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_Enemy_Attack
         ObjectType: 3
         guid: 6a6d5476f67b6e4fbf84dbf6dd98be23
-      Path: Events/SFX/Play_SFX_Enemy_Attack
+      Path: Events\SFX\Play_SFX_Enemy_Attack
       maxAttenuation: 0
       maxDuration: 1.113079
       minDuration: 0.8489963
@@ -645,7 +645,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_FS_Player
         ObjectType: 3
         guid: 4ee450fae4caec4dba31f7acae07124d
-      Path: Events/SFX/Play_SFX_FS_Player
+      Path: Events\SFX\Play_SFX_FS_Player
       maxAttenuation: 0
       maxDuration: 0.9968835
       minDuration: 0.789401
@@ -662,7 +662,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_Resampled_Voice_Stinger
         ObjectType: 3
         guid: ef9a631e02155d439484d09546fb8767
-      Path: Events/SFX/Play_SFX_Resampled_Voice_Stinger
+      Path: Events\SFX\Play_SFX_Resampled_Voice_Stinger
       maxAttenuation: 0
       maxDuration: 12.333071
       minDuration: 12.333071
@@ -679,7 +679,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_Swipe_Up_Stinger
         ObjectType: 3
         guid: 9c173c1dcfa936468aa9d1a1ac1a5261
-      Path: Events/SFX/Play_SFX_Swipe_Up_Stinger
+      Path: Events\SFX\Play_SFX_Swipe_Up_Stinger
       maxAttenuation: 0
       maxDuration: 0.17671137
       minDuration: 0.17671137
@@ -696,7 +696,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_UI_Splatter
         ObjectType: 3
         guid: a21af1763d907249b990f5679993ce45
-      Path: Events/SFX/Play_SFX_UI_Splatter
+      Path: Events\SFX\Play_SFX_UI_Splatter
       maxAttenuation: 0
       maxDuration: 20.61181
       minDuration: 20.61181
@@ -713,7 +713,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_Weapon_Impact
         ObjectType: 3
         guid: 85648cbc5981c54ebd27f2261912e9d4
-      Path: Events/SFX/Play_SFX_Weapon_Impact
+      Path: Events\SFX\Play_SFX_Weapon_Impact
       maxAttenuation: 0
       maxDuration: 0.5208104
       minDuration: 0.26313367
@@ -730,12 +730,12 @@ MonoBehaviour:
       - ElementName: Play_SFX_Weapon_Swing
         ObjectType: 3
         guid: 5d32e916fb9b484fb646fe2a2c9f4d63
-      Path: Events/SFX/Play_SFX_Weapon_Swing
+      Path: Events\SFX\Play_SFX_Weapon_Swing
       maxAttenuation: 0
       maxDuration: 0.6742557
       minDuration: 0.24081817
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -743,10 +743,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 17c0e76606f39d43b310b2b3ce61ddf2
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: 17c0e76606f39d43b310b2b3ce61ddf2
     GuidInternal: 
-    m_lastTime: -8584697464436484330
+    m_lastTime: -8584697444389521284
     List:
     - name: Drowsiness
       guid: 595ca2feedb8b645836fc03164666517
@@ -761,9 +761,9 @@ MonoBehaviour:
       - ElementName: Drowsiness
         ObjectType: 13
         guid: 595ca2feedb8b645836fc03164666517
-      Path: Game Parameters/Default Work Unit/Drowsiness
+      Path: Game Parameters\Default Work Unit\Drowsiness
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -771,10 +771,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 09d8f54a9e1ec24d963432cbf72feb44
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: 09d8f54a9e1ec24d963432cbf72feb44
     GuidInternal: 
-    m_lastTime: -8584693794313473875
+    m_lastTime: -8584693677006766827
     List:
     - name: Sleeping
       guid: 6af6a8f3e400154eb87e4cd560e01394
@@ -789,7 +789,7 @@ MonoBehaviour:
       - ElementName: Sleeping
         ObjectType: 9
         guid: 6af6a8f3e400154eb87e4cd560e01394
-      Path: States/Default Work Unit/Sleeping
+      Path: States\Default Work Unit\Sleeping
       values:
       - name: Asleep
         guid: da562baced74f44da60803b83779c950
@@ -891,7 +891,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -899,13 +899,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 3c98d7717945c74c9f77554d1449fd1c
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: 3c98d7717945c74c9f77554d1449fd1c
     GuidInternal: 
-    m_lastTime: -8584697983758057027
+    m_lastTime: -8584697879114606177
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -913,10 +913,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f9ce9552cd91b54d9c8456e7f8a46ff3
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: f9ce9552cd91b54d9c8456e7f8a46ff3
     GuidInternal: 
-    m_lastTime: -8584697983758050912
+    m_lastTime: -8584697879114606177
     List: []
   ExpandedFileSystemItemIds: 0200000005000000060000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000014000000180000001b0000001c0000001e0000001f000000220000002300000015050000
   ExpandedWaapiItemIds: 0200000005000000060000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000014000000180000001b0000001c0000001e0000001f000000220000002300000015050000
