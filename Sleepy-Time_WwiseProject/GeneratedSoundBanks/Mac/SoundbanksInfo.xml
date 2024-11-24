@@ -222,7 +222,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{FA0057C3-CD02-73ED-78F0-14DA325437FF}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{B7B4CD2B-5F73-199D-9B66-A811BCCAA080}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -410,7 +410,7 @@
 						<ActionPostEventEntry Id="3940443801" Name="Play_DGX_Entity_Dry"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2579943048" Name="Play_DGX_Child_Barks" DurationType="OneShot" DurationMin="1.5589792" DurationMax="1.8131875">
+				<Event Id="2579943048" Name="Play_DGX_Child_Barks" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.5589792" DurationMax="1.8131875">
 					<MediaRefs>
 						<MediaRef Id="716638564"/>
 						<MediaRef Id="770230295"/>
@@ -422,14 +422,14 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3614410221" Name="Play_DGX_Enemy_Aggro" DurationType="OneShot" DurationMin="0.30577335" DurationMax="0.5043379">
+				<Event Id="3614410221" Name="Play_DGX_Enemy_Aggro" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.30577335" DurationMax="0.5043379">
 					<MediaRefs>
 						<MediaRef Id="106226177"/>
 						<MediaRef Id="682624289"/>
 						<MediaRef Id="686595063"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3733121397" Name="Play_DGX_Enemy_Death" DurationType="OneShot" DurationMin="0.62019587" DurationMax="1.4090288">
+				<Event Id="3733121397" Name="Play_DGX_Enemy_Death" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.62019587" DurationMax="1.4090288">
 					<MediaRefs>
 						<MediaRef Id="55358900"/>
 						<MediaRef Id="268468825"/>
@@ -437,7 +437,7 @@
 						<MediaRef Id="802858964"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4287381608" Name="Play_DGX_Enemy_Injured" DurationType="OneShot" DurationMin="0.27244353" DurationMax="0.52838576">
+				<Event Id="4287381608" Name="Play_DGX_Enemy_Injured" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.27244353" DurationMax="0.52838576">
 					<MediaRefs>
 						<MediaRef Id="101526326"/>
 						<MediaRef Id="330312693"/>
@@ -503,7 +503,7 @@
 						<AuxBusRef Id="1952219607" Name="AUX_Verb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1459153067" Name="Play_DGX_Spirit_Injured" DurationType="OneShot" DurationMin="2.3014166" DurationMax="2.5032916">
+				<Event Id="1459153067" Name="Play_DGX_Spirit_Injured" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.3014166" DurationMax="2.5032916">
 					<MediaRefs>
 						<MediaRef Id="123826953"/>
 						<MediaRef Id="605729879"/>
@@ -775,5 +775,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{081A0AF2-2A71-E890-C188-A08891237CA3}</FileHash>
+	<FileHash>{0B3A22E5-EB5D-1D2B-6E2D-6EBC2403ED73}</FileHash>
 </SoundBanksInfo>
