@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1911911943	Play_DGX_Player_Scream			\DGX\Play_DGX_Player_Scream	
 	3188041860	Play_MUS_Game			\MUS\Play_MUS_Game	
 	3867386064	Play_MUS_Title			\MUS\Play_MUS_Title	
 	4102914192	Play_MUS_Win			\MUS\Play_MUS_Win	

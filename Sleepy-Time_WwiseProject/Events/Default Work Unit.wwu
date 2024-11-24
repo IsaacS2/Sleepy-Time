@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4F9DAD3C-08A8-4934-8A9D-4E786E3B01AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_Pit" ID="{FE8D4418-08EC-4A46-BB92-60D017D7C2A5}">
+					<ChildrenList>
+						<Action Name="" ID="{EFB05B73-01D9-4016-AB70-949086E1572C}" ShortID="266204807">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" WorkUnitID="{5CE96159-5AB6-4E50-A742-4B92F23EEB1C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

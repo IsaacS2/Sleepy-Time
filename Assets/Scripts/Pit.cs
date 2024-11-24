@@ -4,7 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Pit : MonoBehaviour
-{
+{   private void start()
+    {
+        AkSoundEngine.PostEvent("Play_SFX_Pit,", gameObject);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<PlayerStats>())

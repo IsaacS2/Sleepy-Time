@@ -22,6 +22,8 @@
 						<RandomSequenceContainer Name="DGX_Child_Barks" ID="{93AA7614-956F-4970-BE7D-0D675548126F}" ShortID="144265456">
 							<PropertyList>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -44,9 +46,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="Child_Barks-001" ID="{4154C786-DA03-4342-88DF-F314BBDAD348}">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.228433070866142"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.168110099337748"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.303387672244095"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Child\Child_Barks-001.wav</AudioFile>
@@ -71,9 +74,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="Child_Barks-002" ID="{80885FFF-4035-4FBA-A55E-4C6AC1F2B5FF}">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.209055118110236"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.464900662251656"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.304724409448819"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Child\Child_Barks-002.wav</AudioFile>
@@ -98,9 +102,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="Child_Barks-003" ID="{AF8F63EE-6DC9-475F-AF29-3126C027C794}">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.444984210958005"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.521380449779249"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.11661655183727"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Barks\Child\Child_Barks-003.wav</AudioFile>

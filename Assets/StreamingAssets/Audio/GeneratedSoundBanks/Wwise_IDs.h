@@ -35,6 +35,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_CHECKPOINT_STRING_STINGER = 3414352583U;
         static const AkUniqueID PLAY_SFX_ENEMY_ATTACK = 2788169225U;
         static const AkUniqueID PLAY_SFX_FS_PLAYER = 1601566421U;
+        static const AkUniqueID PLAY_SFX_PIT = 1372800969U;
         static const AkUniqueID PLAY_SFX_RESAMPLED_VOICE_STINGER = 1765240081U;
         static const AkUniqueID PLAY_SFX_SWIPE_UP_STINGER = 1936094923U;
         static const AkUniqueID PLAY_SFX_UI_SPLATTER = 793446718U;

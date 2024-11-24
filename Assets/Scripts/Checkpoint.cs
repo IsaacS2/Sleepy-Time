@@ -20,7 +20,7 @@ public class Checkpoint : MonoBehaviour
 
         if (end)
         {
-            AkSoundEngine.PostEvent("Play_DGX_Child_Barks", gameObject);
+            //AkSoundEngine.PostEvent("Play_DGX_Child_Barks", gameObject);
 
             if (SceneManager.GetActiveScene().buildIndex + 1 >= SceneManager.sceneCountInBuildSettings)
             {

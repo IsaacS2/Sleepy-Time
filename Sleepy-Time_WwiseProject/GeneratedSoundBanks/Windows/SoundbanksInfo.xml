@@ -222,7 +222,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{B7B4CD2B-5F73-199D-9B66-A811BCCAA080}">
+		<SoundBank Id="412430282" Type="User" Language="SFX" Hash="{096B19E3-02F7-E318-EBA8-5235238B94D3}">
 			<ShortName>DGX</ShortName>
 			<Path>DGX.bnk</Path>
 			<Media>
@@ -324,7 +324,7 @@
 				</File>
 				<File Id="716638564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-002.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-002_8795FD19.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-002_B09223EF.wem</CachePath>
 				</File>
 				<File Id="723883399" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Entity\Entity_Barks-003.wav</ShortName>
@@ -344,7 +344,7 @@
 				</File>
 				<File Id="770230295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-003.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-003_D65FBC25.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-003_D56F37C8.wem</CachePath>
 				</File>
 				<File Id="801129690" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spirit_Injured\Spirit_Injured-004.wav</ShortName>
@@ -380,7 +380,7 @@
 				</File>
 				<File Id="1019154521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Barks\Child\Child_Barks-001.wav</ShortName>
-					<CachePath>SFX/Barks/Child/Child_Barks-001_7755C55F.wem</CachePath>
+					<CachePath>SFX/Barks/Child/Child_Barks-001_C8156EB4.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -410,7 +410,7 @@
 						<ActionPostEventEntry Id="3940443801" Name="Play_DGX_Entity_Dry"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2579943048" Name="Play_DGX_Child_Barks" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.5589792" DurationMax="1.8131875">
+				<Event Id="2579943048" Name="Play_DGX_Child_Barks" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="716638564"/>
 						<MediaRef Id="770230295"/>
@@ -513,9 +513,21 @@
 						<MediaRef Id="801129690"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1372800969" Name="Play_SFX_Pit" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="716638564"/>
+						<MediaRef Id="770230295"/>
+						<MediaRef Id="1019154521"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{EF100A4E-E3C8-4B54-9819-B9E8930CF124}">
+		<SoundBank Id="712897226" Type="User" Language="SFX" Hash="{C58888E2-75AD-2B83-5DC9-2731FA5BBD04}">
 			<ShortName>MUS</ShortName>
 			<Path>MUS.bnk</Path>
 			<Media>
@@ -537,6 +549,12 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1911911943" Name="Play_DGX_Player_Scream" DurationType="OneShot" DurationMin="0.6138333" DurationMax="0.7639375">
+					<MediaRefs>
+						<MediaRef Id="562036594"/>
+						<MediaRef Id="678460541"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3188041860" Name="Play_MUS_Game" DurationType="OneShot" DurationMin="96" DurationMax="96">
 					<MediaRefs>
 						<MediaRef Id="562036594"/>
@@ -775,5 +793,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C27A18DF-0ED7-F588-CCA8-7EE71715B206}</FileHash>
+	<FileHash>{FC3FD494-7D20-5BFB-DB64-CB0B8FAB19F9}</FileHash>
 </SoundBanksInfo>

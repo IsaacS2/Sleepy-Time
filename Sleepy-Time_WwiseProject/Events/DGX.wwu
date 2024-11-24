@@ -124,6 +124,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{05CD0741-EFF0-435A-AF89-521475D863AC}" ShortID="841653227">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_Game" ID="{D0CB024D-FBA2-45D5-B55C-E30CD8A95202}" WorkUnitID="{63699913-D499-4D6D-89A4-922131D92401}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_DGX_Entity_Dry" ID="{A96943CA-34CB-4A69-B005-83364A6B9D7D}">

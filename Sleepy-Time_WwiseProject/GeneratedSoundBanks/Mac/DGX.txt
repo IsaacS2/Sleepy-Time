@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	512385751	Play_DGX_Player_Hurt			\DGX\Play_DGX_Player_Hurt	
 	800539628	Play_DGX_Player_Wake			\DGX\Play_DGX_Player_Wake	
+	1372800969	Play_SFX_Pit			\Default Work Unit\Play_SFX_Pit	
 	1459153067	Play_DGX_Spirit_Injured			\DGX\Play_DGX_Spirit_Injured	
 	1819158867	Play_DGX_Entity			\DGX\Play_DGX_Entity	
 	1911911943	Play_DGX_Player_Scream			\DGX\Play_DGX_Player_Scream	
@@ -58,12 +59,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	686595063	DGX_Enemy_Aggro-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injury\Enemy_Aggro\Enemy_Aggro_Enemy_Injury-002_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Enemy_Aggro\DGX_Enemy_Aggro-002		6350
 	701098869	Entity_Barks-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-001_B9C5C1B0.wem		\Actor-Mixer Hierarchy\AMB\DGX_Entity_Barks\Entity_Barks-001		125547
 	705908460	DGX_Player_Hurt-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Hurt\Player_Hurt-001_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Hurt\DGX_Player_Hurt-001		3417
-	716638564	Child_Barks-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-002_8795FD19.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-002		24661
+	716638564	Child_Barks-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-002_B09223EF.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-002		22177
 	723883399	Entity_Barks-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-003_3A5595C7.wem		\Actor-Mixer Hierarchy\AMB\DGX_Entity_Barks\Entity_Barks-003		120073
 	724165326	DGX_Spirit_Injured-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Spirit_Injured\Spirit_Injured-003_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Spirit_Injured\DGX_Spirit_Injured-003		21209
 	728877307	Entity_Barks-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Entity\Entity_Barks-004_3438C943.wem		\Actor-Mixer Hierarchy\AMB\DGX_Entity_Barks\Entity_Barks-004		118373
 	733756162	DGX_Player_Hurt-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Hurt\Player_Hurt-003_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Hurt\DGX_Player_Hurt-003		4500
-	770230295	Child_Barks-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-003_D65FBC25.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-003		22718
+	770230295	Child_Barks-003	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-003_D56F37C8.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-003		21390
 	801129690	DGX_Spirit_Injured-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Spirit_Injured\Spirit_Injured-004_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Spirit_Injured\DGX_Spirit_Injured-004		23313
 	802858964	DGX_Enemy_Injured_Natural-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Enemy_Injured_Natural\Enemy_Injured_Natural-002_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Enemy_Death\DGX_Enemy_Injured_Natural-002		9484
 	805343949	DGX_Entity_Dry-002	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Entity_Dry\Entity_Dry-002_D0371894.wem		\Actor-Mixer Hierarchy\DGX\Entity\DGX_Entity_Dry\DGX_Entity_Dry-002		22484
@@ -72,5 +73,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	922279835	DGX_Player_Scream-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Scream\Player_Scream-004_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Scream\DGX_Player_Scream-004		8117
 	1000006349	DGX_Player_Hurt-004	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Hurt\Player_Hurt-004_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Hurt\DGX_Player_Hurt-004		5091
 	1016419192	DGX_Player_Scream-006	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Player_Scream\Player_Scream-006_8E324C96.wem		\Actor-Mixer Hierarchy\DGX\Player\DGX_Player_Scream\DGX_Player_Scream-006		8854
-	1019154521	Child_Barks-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-001_7755C55F.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-001		25349
+	1019154521	Child_Barks-001	Y:\Documents\GitHub\Sleepy-Time\Sleepy-Time_WwiseProject\.cache\Mac\SFX\Barks\Child\Child_Barks-001_C8156EB4.wem		\Actor-Mixer Hierarchy\DGX\Enemies\DGX_Child_Barks\Child_Barks-001		22428
 
